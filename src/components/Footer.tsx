@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div className="footer-brand">
-          <Image src="/images/logo.webp" alt="УЗМ Завод" width={128} height={75} />
+          <Image src="/images/logo.webp" alt="УЗМ Завод" width={126} height={74} />
           <p>Уральский завод металлоконструкций</p>
         </div>
         <div>

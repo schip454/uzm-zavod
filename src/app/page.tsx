@@ -19,7 +19,7 @@ export default function Home() {
               <Link href="/catalog" className="button button-ghost">Перейти в каталог <span aria-hidden>→</span></Link>
             </div>
           </div>
-          <div className="hero-index"><span>01 / 03</span><i /><span>ПРОИЗВОДСТВО И ПОСТАВКА</span></div>
+          <div className="hero-index"><span>01</span><i /><span>ПРОИЗВОДСТВО И ПОСТАВКА</span></div>
         </div>
       </section>
 

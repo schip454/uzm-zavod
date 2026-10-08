@@ -103,7 +103,7 @@ svg{display:block}
 .cta-inner p{color:#d3cac1;font-size:16px;margin:0}
 .site-footer{background:#211d1a;color:#fff;padding:64px 0 24px}
 .footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:38px}
-.footer-brand img{width:126px;height:auto;object-fit:contain}
+.footer-brand img{object-fit:contain}
 .footer-brand p{color:#b6ada5;font-size:13px;line-height:1.45;max-width:170px;margin:15px 0}
 .footer-label{font-size:11px;text-transform:uppercase;letter-spacing:.13em;font-weight:800;color:#a69a90;margin:3px 0 20px}
 .footer-grid>div:not(:first-child)>a:not(.button),.footer-grid>div>span{display:block;font-size:13px;line-height:1.55;margin-bottom:11px}
