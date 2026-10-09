@@ -11,7 +11,7 @@ svg{display:block}
 .container{width:min(calc(100% - 80px),var(--max));margin-inline:auto}
 .eyebrow{display:inline-block;color:var(--orange);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
 .eyebrow.light{color:#ff8958}
-.button{display:inline-flex;align-items:center;justify-content:space-between;gap:36px;min-height:52px;padding:0 21px;border:1px solid transparent;font-size:13px;font-weight:800;letter-spacing:.01em;white-space:nowrap;transition:background .2s,color .2s,border-color .2s,transform .2s}
+.button{display:inline-flex;align-items:center;justify-content:space-between;gap:36px;min-height:52px;padding:0 23px;border:1px solid transparent;border-radius:999px;font-size:13px;font-weight:800;letter-spacing:.01em;white-space:nowrap;transition:background .2s,color .2s,border-color .2s,transform .2s}
 .button:hover{transform:translateY(-2px)}
 .button span,.text-link b{font-size:19px;font-weight:400;line-height:1}
 .button-primary{background:var(--orange);color:#fff}
@@ -192,8 +192,13 @@ svg{display:block}
 .quote-form input:not([type=checkbox]):not([type=file]),.quote-form textarea{width:100%;border:1px solid #d9d5d0;background:#faf9f7;outline:0;padding:13px 14px;min-height:45px;color:var(--ink);border-radius:0;font-size:13px;font-weight:400}
 .quote-form input:focus,.quote-form textarea:focus{border-color:var(--orange)}
 .quote-form textarea{resize:vertical}
-.quote-form .file-input{padding:15px;border:1px dashed #d0c8bf;background:#faf9f7;gap:12px}
-.quote-form input[type=file]{font-size:12px;font-weight:400}
+.quote-form .file-input{padding:16px;border:1px solid #d0c8bf;background:#faf9f7;gap:12px;position:relative;cursor:pointer}
+.quote-form .file-picker{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.quote-form .file-picker-action{display:inline-flex;align-items:center;justify-content:space-between;gap:22px;border:1px solid #9f9186;border-radius:999px;padding:10px 16px;font-size:12px;font-weight:800;transition:background .2s,color .2s}
+.quote-form .file-picker-action b{font-size:16px;font-weight:500;line-height:1}
+.quote-form .file-input:hover .file-picker-action,.quote-form .file-input:focus-within .file-picker-action{background:var(--ink);color:#fff}
+.quote-form .file-picker-name{font-size:11px;font-weight:500;color:var(--muted);overflow-wrap:anywhere}
+.quote-form input[type=file].file-native{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}
 .quote-form .consent{display:flex;flex-direction:row;align-items:flex-start;gap:10px;color:#716b65;font-size:11px;font-weight:400;line-height:1.4}
 .consent input{accent-color:var(--orange);margin:1px 0 0}
 .quote-form .consent span{color:inherit!important}.quote-form .consent a{text-decoration:underline;text-underline-offset:2px}

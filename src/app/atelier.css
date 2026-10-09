@@ -15,10 +15,10 @@
 .site-header-home .header-request{min-height:44px;background:var(--orange);font-size:12px}
 .atelier-hero{background:#f5f2ec}
 .atelier-hero-grid{min-height:450px;display:grid;grid-template-columns:minmax(0,1.8fr) minmax(280px,.72fr);gap:60px;align-items:end;padding-top:60px;padding-bottom:58px}
-.atelier-hero-title h1{font-family:"Roboto Condensed Variable","Arial Narrow",sans-serif;font-size:clamp(80px,10.2vw,156px);font-weight:650;line-height:.78;letter-spacing:-.075em;margin:27px 0 0}
+.atelier-hero-title h1{font-family:"Commissioner Variable","Arial Narrow",sans-serif;font-size:clamp(80px,10.2vw,156px);font-weight:650;line-height:.78;letter-spacing:-.075em;margin:27px 0 0}
 .atelier-hero-title h1 em{color:var(--a-orange)}
 .atelier-hero-side{display:flex;flex-direction:column;align-items:flex-start;padding-bottom:2px}
-.atelier-mini-index{font-family:"Roboto Condensed Variable",sans-serif;font-size:19px;font-weight:700;letter-spacing:.09em;color:#a9a09a;margin-bottom:28px}
+.atelier-mini-index{font-family:"Commissioner Variable",sans-serif;font-size:19px;font-weight:700;letter-spacing:.09em;color:#a9a09a;margin-bottom:28px}
 .atelier-hero-side p{font-size:18px;line-height:1.45;font-weight:500;margin-bottom:27px;max-width:340px}
 .atelier-hero-actions{width:100%;display:flex;flex-direction:column;align-items:stretch;gap:17px}
 .atelier-primary-link{background:var(--a-orange);color:#fff;min-height:62px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;font-size:14px;font-weight:800;transition:background .2s}
@@ -33,27 +33,27 @@
 .atelier-hero-photo-inner{height:100%;position:relative;display:flex;flex-direction:column;justify-content:space-between;color:#fff}
 .atelier-photo-top{display:flex;justify-content:space-between;align-items:center;padding-top:30px;font-size:10px;letter-spacing:.18em;font-weight:800}
 .atelier-photo-bottom{display:flex;align-items:end;gap:50px;min-height:235px;padding-bottom:36px;border-bottom:1px solid #ffffff88}
-.atelier-photo-monogram{font-family:"Roboto Condensed Variable",sans-serif;font-size:clamp(170px,26vw,425px);font-weight:900;letter-spacing:-.095em;line-height:.64;color:transparent;-webkit-text-stroke:2px #fff;opacity:.95;white-space:nowrap;margin-right:auto}
+.atelier-photo-monogram{font-family:"Commissioner Variable",sans-serif;font-size:clamp(170px,26vw,425px);font-weight:900;letter-spacing:-.095em;line-height:.64;color:transparent;-webkit-text-stroke:2px #fff;opacity:.95;white-space:nowrap;margin-right:auto}
 .atelier-photo-caption{font-size:13px;font-weight:800;line-height:1.5;letter-spacing:.01em;white-space:nowrap}
 .atelier-photo-down{width:58px;height:58px;border:1px solid #fff;border-radius:50%;display:grid;place-items:center;font-size:25px;flex:none;transition:background .2s,color .2s}
 .atelier-photo-down:hover{background:#fff;color:var(--a-ink)}
 .atelier-running-line{height:62px;background:var(--a-orange);color:#fff;overflow:hidden;display:flex;align-items:center;white-space:nowrap}
-.atelier-running-line>div{font-family:"Roboto Condensed Variable",sans-serif;font-size:23px;font-weight:700;letter-spacing:.07em;word-spacing:.1em;min-width:max-content;animation:atelier-ticker 26s linear infinite}
+.atelier-running-line>div{font-family:"Commissioner Variable",sans-serif;font-size:23px;font-weight:700;letter-spacing:.07em;word-spacing:.1em;min-width:max-content;animation:atelier-ticker 26s linear infinite}
 .atelier-running-line b{font-size:14px;padding:0 28px;vertical-align:middle}
 @keyframes atelier-ticker{to{transform:translateX(-22%)}}
 @keyframes atelier-photo-pan{to{transform:scale(1.045)}}
 .atelier-directions{padding:125px 0 145px}
 .atelier-section-heading{display:grid;grid-template-columns:1fr 2fr 1fr;align-items:end;gap:30px;margin-bottom:54px}
 .atelier-section-heading .atelier-kicker{align-self:start;padding-top:11px}
-.atelier-section-heading h2,.atelier-catalog h2,.atelier-request h2{font-family:"Roboto Condensed Variable",sans-serif;font-size:clamp(68px,7.7vw,116px);font-weight:650;letter-spacing:-.05em;line-height:.88;margin:0}
+.atelier-section-heading h2,.atelier-catalog h2,.atelier-request h2{font-family:"Commissioner Variable",sans-serif;font-size:clamp(68px,7.7vw,116px);font-weight:650;letter-spacing:-.05em;line-height:.88;margin:0}
 .atelier-section-heading h2 span,.atelier-catalog h2 span{color:var(--a-orange)}
 .atelier-section-heading>p{font-size:14px;line-height:1.55;color:#645b56;margin:0 0 4px}
 .atelier-direction-stage{display:grid;grid-template-columns:1fr 1fr;min-height:570px;border-top:1px solid #bcb4ac;border-bottom:1px solid #bcb4ac}
 .atelier-direction-list{display:flex;flex-direction:column;padding-right:45px}
 .atelier-direction-list>a{min-height:228px;border-bottom:1px solid #bcb4ac;display:grid;grid-template-columns:45px 1fr 42px;gap:16px;align-items:center;transition:color .2s,padding-left .2s}
 .atelier-direction-list>a:hover,.atelier-direction-list>a.is-active{color:var(--a-orange);padding-left:8px}
-.atelier-direction-number{align-self:start;padding-top:45px;font-family:"Roboto Condensed Variable",sans-serif;font-size:18px;font-weight:700}
-.atelier-direction-main strong{display:block;font-family:"Roboto Condensed Variable",sans-serif;font-size:clamp(42px,4.2vw,65px);line-height:.96;font-weight:650;letter-spacing:-.045em}
+.atelier-direction-number{align-self:start;padding-top:45px;font-family:"Commissioner Variable",sans-serif;font-size:18px;font-weight:700}
+.atelier-direction-main strong{display:block;font-family:"Commissioner Variable",sans-serif;font-size:clamp(42px,4.2vw,65px);line-height:.96;font-weight:650;letter-spacing:-.045em}
 .atelier-direction-main small{display:block;font-size:13px;line-height:1.45;margin-top:22px;max-width:340px;color:#69605a}
 .atelier-direction-arrow{font-size:28px;font-weight:400;align-self:start;padding-top:38px}
 .atelier-direction-footer{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:32px 0;margin-top:auto;font-size:11px;font-weight:700;color:#716861}
@@ -67,12 +67,12 @@
 .atelier-pole-drawing{position:absolute;inset:4% 12%;width:76%;height:92%;color:#f3e9dc}
 .atelier-direction-visual-top,.atelier-direction-visual-bottom{position:absolute;z-index:2;left:28px;right:28px;display:flex;justify-content:space-between;align-items:center}
 .atelier-direction-visual-top{top:28px;font-size:10px;font-weight:800;letter-spacing:.16em}
-.atelier-direction-visual-bottom{bottom:28px;border-top:1px solid #ffffff99;padding-top:17px;font-family:"Roboto Condensed Variable",sans-serif;font-size:34px;font-weight:700;letter-spacing:-.02em}
+.atelier-direction-visual-bottom{bottom:28px;border-top:1px solid #ffffff99;padding-top:17px;font-family:"Commissioner Variable",sans-serif;font-size:34px;font-weight:700;letter-spacing:-.02em}
 .atelier-direction-visual-bottom b{font-family:"Manrope Variable",sans-serif;font-size:26px;font-weight:400}
 .atelier-object{background:#ded8cf;padding-top:105px}
 .atelier-object-head{display:grid;grid-template-columns:1fr 2fr 1fr;align-items:end;gap:30px;padding-bottom:55px}
 .atelier-object-head .atelier-kicker{align-self:start;padding-top:12px}
-.atelier-object h2{font-family:"Roboto Condensed Variable",sans-serif;font-size:clamp(85px,9vw,140px);font-weight:650;line-height:.82;letter-spacing:-.055em;margin:0}
+.atelier-object h2{font-family:"Commissioner Variable",sans-serif;font-size:clamp(85px,9vw,140px);font-weight:650;line-height:.82;letter-spacing:-.055em;margin:0}
 .atelier-object-head p{font-size:15px;line-height:1.55;margin:0 0 5px;color:#5f554d}
 .atelier-object-photo{height:clamp(550px,73vw,900px);position:relative;background:#605c57;overflow:hidden}
 .atelier-object-photo img{object-fit:cover;object-position:center 53%;filter:saturate(.88) contrast(1.05)}
@@ -83,7 +83,7 @@
 .atelier-process-image img{object-fit:cover;object-position:center}
 .atelier-process-copy{padding:72px clamp(35px,5vw,90px) 42px;display:flex;align-items:flex-start;flex-direction:column}
 .atelier-process-copy .atelier-kicker i{background:#ff6838}
-.atelier-process h2{font-family:"Roboto Condensed Variable",sans-serif;font-weight:620;font-size:clamp(75px,7vw,115px);line-height:.86;letter-spacing:-.055em;margin:72px 0 35px}
+.atelier-process h2{font-family:"Commissioner Variable",sans-serif;font-weight:620;font-size:clamp(75px,7vw,115px);line-height:.86;letter-spacing:-.055em;margin:72px 0 35px}
 .atelier-process h2 em{color:#fa6534}
 .atelier-process-copy p{font-size:16px;line-height:1.55;color:#e0d5cf;max-width:360px;margin-bottom:32px}
 .atelier-white-link{font-size:14px;font-weight:800;display:flex;align-items:center;gap:60px;border-bottom:1px solid #fff;padding-bottom:11px}
@@ -98,8 +98,8 @@
 .atelier-catalog-list a{display:grid;grid-template-columns:1fr 2.5fr 1.2fr 45px;gap:22px;align-items:center;min-height:122px;border-top:1px solid #bcb4ac;transition:padding .25s,background .25s}
 .atelier-catalog-list a:last-child{border-bottom:1px solid #bcb4ac}
 .atelier-catalog-list a:hover{padding-inline:17px;background:#ebe5dc}
-.atelier-catalog-list span{font-family:"Roboto Condensed Variable",sans-serif;font-size:19px;color:var(--a-orange);font-weight:700}
-.atelier-catalog-list strong{font-family:"Roboto Condensed Variable",sans-serif;font-size:clamp(32px,3.4vw,53px);font-weight:650;letter-spacing:-.035em}
+.atelier-catalog-list span{font-family:"Commissioner Variable",sans-serif;font-size:19px;color:var(--a-orange);font-weight:700}
+.atelier-catalog-list strong{font-family:"Commissioner Variable",sans-serif;font-size:clamp(32px,3.4vw,53px);font-weight:650;letter-spacing:-.035em}
 .atelier-catalog-list small{font-size:12px;line-height:1.4;color:#766d67}
 .atelier-catalog-list b{font-size:25px;font-weight:400}
 .atelier-catalog-foot{display:flex;justify-content:space-between;padding-top:25px;font-size:12px;font-weight:800}
@@ -112,7 +112,7 @@
 .atelier-request-intro>p{font-size:19px;line-height:1.5;max-width:390px;color:#e5dbd6}
 .atelier-request-detail{border-top:1px solid #786860;padding-top:20px;margin-top:110px;display:flex;flex-direction:column;gap:10px}
 .atelier-request-detail span{font-size:11px;color:#b5a59b}
-.atelier-request-detail a{font-family:"Roboto Condensed Variable",sans-serif;font-size:34px;font-weight:600}
+.atelier-request-detail a{font-family:"Commissioner Variable",sans-serif;font-size:34px;font-weight:600}
 .atelier-request-panel{background:#f5f2ec;color:var(--a-ink);padding:39px}
 .atelier-request-panel-top{border-bottom:1px solid #bcb4ac;padding-bottom:24px;display:flex;justify-content:space-between;font-size:10px;font-weight:800;letter-spacing:.13em;margin-bottom:32px}
 .atelier-request-panel .quote-form input:not([type=checkbox]):not([type=file]),.atelier-request-panel .quote-form textarea{background:transparent;border:0;border-bottom:1px solid #bcb4ac;padding-left:0}
@@ -123,6 +123,40 @@
 @media(max-width:1180px){.atelier-page .container{width:min(calc(100% - 64px),1460px)}.site-header-home .brand{min-width:205px}.site-header-home .brand img{width:73px}.site-header-home .brand-caption{font-size:9px}.site-header-home .main-nav{gap:12px}.site-header-home .main-nav a:not(.button){font-size:11px}.atelier-hero-grid{gap:30px}.atelier-direction-list{padding-right:22px}.atelier-direction-main strong{font-size:48px}}
 @media(max-width:900px){.site-header-home .main-nav{top:88px}.atelier-hero-grid{grid-template-columns:1fr;gap:32px;padding-top:55px;padding-bottom:45px}.atelier-hero-title h1{font-size:clamp(80px,14vw,120px)}.atelier-hero-side{max-width:600px}.atelier-hero-actions{flex-direction:row}.atelier-hero-actions>*{min-width:220px}.atelier-section-heading{grid-template-columns:1fr 1fr}.atelier-section-heading .atelier-kicker{grid-column:1/-1}.atelier-section-heading h2{font-size:74px}.atelier-direction-stage{grid-template-columns:1fr}.atelier-direction-visual{min-height:510px}.atelier-direction-list{padding-right:0}.atelier-direction-list>a{min-height:175px}.atelier-direction-footer{min-height:80px}.atelier-object-head{grid-template-columns:1fr 1fr}.atelier-object-head .atelier-kicker{grid-column:1/-1}.atelier-object-photo{height:650px}.atelier-process{grid-template-columns:1fr}.atelier-process-image{min-height:530px}.atelier-process-copy{min-height:500px}.atelier-process h2{margin-top:45px}.atelier-catalog-head{grid-template-columns:1fr}.atelier-request-grid{grid-template-columns:1fr;gap:0}.atelier-request-detail{margin-top:45px}.atelier-request-panel{margin-top:45px}}
 @media(max-width:650px){.atelier-page .container{width:calc(100% - 36px)}.site-header-home .main-header{height:72px}.site-header-home .brand img{width:70px;height:50px}.site-header-home .brand-caption{font-size:9px}.site-header-home .main-nav{top:72px}.atelier-kicker{font-size:9px;gap:8px}.atelier-hero-grid{padding-top:42px;padding-bottom:35px;gap:28px}.atelier-hero-title h1{font-size:clamp(62px,16vw,92px);line-height:.83;margin-top:24px;letter-spacing:-.07em}.atelier-mini-index{display:none}.atelier-hero-side p{font-size:15px;margin-bottom:22px}.atelier-hero-actions{flex-direction:column;gap:12px}.atelier-hero-actions>*{min-width:0}.atelier-primary-link{min-height:55px}.atelier-hero-photo{height:550px}.atelier-hero-photo>img{object-position:62% center}.atelier-photo-top{font-size:8px;padding-top:22px}.atelier-photo-top span:last-child{display:none}.atelier-photo-bottom{gap:15px;min-height:140px;padding-bottom:25px}.atelier-photo-monogram{font-size:clamp(130px,41vw,230px);-webkit-text-stroke:1.4px #fff;line-height:.72}.atelier-photo-caption{display:none}.atelier-photo-down{width:43px;height:43px;font-size:21px}.atelier-running-line{height:50px}.atelier-running-line>div{font-size:18px}.atelier-running-line b{padding:0 16px}.atelier-directions{padding:85px 0 90px}.atelier-section-heading{display:block;margin-bottom:30px}.atelier-section-heading h2{font-size:clamp(65px,16vw,95px);margin:24px 0}.atelier-section-heading>p{max-width:320px}.atelier-direction-list>a{min-height:155px;grid-template-columns:32px 1fr 25px;gap:8px}.atelier-direction-number{padding-top:27px;font-size:14px}.atelier-direction-main strong{font-size:clamp(33px,9.5vw,49px)}.atelier-direction-main small{font-size:11px;margin-top:13px}.atelier-direction-arrow{font-size:22px;padding-top:25px}.atelier-direction-footer{font-size:10px;align-items:flex-start}.atelier-direction-footer>span{max-width:130px}.atelier-direction-visual{min-height:370px}.atelier-direction-visual-top,.atelier-direction-visual-bottom{left:18px;right:18px}.atelier-direction-visual-bottom{font-size:27px}.atelier-process-image{min-height:390px}.atelier-process-copy{min-height:490px;padding:48px 25px 28px}.atelier-process h2{font-size:clamp(75px,18vw,110px)}.atelier-process-copy p{font-size:14px}.atelier-catalog{padding:90px 0}.atelier-catalog-head{margin-bottom:38px}.atelier-catalog-head>div{display:block}.atelier-catalog h2{font-size:clamp(75px,18vw,105px);margin:21px 0}.atelier-catalog-head p{max-width:330px}.atelier-catalog-list a{min-height:90px;grid-template-columns:30px 1fr 24px;gap:10px}.atelier-catalog-list strong{font-size:clamp(27px,8vw,38px)}.atelier-catalog-list small{display:none}.atelier-catalog-foot{font-size:11px}.atelier-request{padding:90px 0}.atelier-request-intro h2{font-size:clamp(85px,22vw,130px);margin:35px 0 25px}.atelier-request-intro>p{font-size:16px}.atelier-request-detail a{font-size:30px}.atelier-request-panel{padding:22px;margin-top:40px}.atelier-request-panel .form-grid{grid-template-columns:1fr}.atelier-request-panel-top{font-size:8px}}
-@media(prefers-reduced-motion:reduce){.atelier-running-line>div,.atelier-hero-photo>img{animation:none}}
+@media(prefers-reduced-motion:reduce){.atelier-running-track,.atelier-hero-photo>img{animation:none}}
 @media(max-width:650px){.atelier-direction-main strong{overflow-wrap:normal}.atelier-request-intro h2{font-size:clamp(62px,17.5vw,78px)}.atelier-request-panel .form-actions{align-items:stretch}.atelier-request-panel .form-actions .button{width:100%}}
 @media(max-width:650px){.atelier-object{padding-top:75px}.atelier-object-head{display:block;padding-bottom:30px}.atelier-object h2{font-size:clamp(80px,20vw,105px);margin:22px 0}.atelier-object-head p{font-size:13px;max-width:290px}.atelier-object-photo{height:510px}.atelier-object-photo img{object-position:45% center}.atelier-object-photo-caption{font-size:8px;gap:10px}}
+
+/* Refined type, controls and section labels */
+.site-header-home .brand img{mix-blend-mode:multiply}
+.atelier-kicker{font-size:11px;letter-spacing:.045em;text-transform:none;font-weight:750;border-top:1px solid var(--a-orange);padding-top:10px;width:max-content;justify-self:start}
+.atelier-kicker i{display:none}
+.atelier-section-heading .atelier-kicker,.atelier-object-head .atelier-kicker{padding-top:10px}
+.atelier-hero-title h1{font-size:clamp(76px,9.2vw,134px);font-weight:720;line-height:.9;letter-spacing:-.07em}
+.atelier-mini-index{font-size:14px;letter-spacing:0;text-transform:none;font-weight:700;color:#756b64}
+.atelier-primary-link,.site-header-home .header-request{border-radius:999px;padding-inline:25px}
+.atelier-primary-link{min-height:60px}
+.atelier-running-line{height:58px}
+.atelier-running-line>.atelier-running-track{display:flex;width:max-content;animation:atelier-ticker-seamless 31s linear infinite}
+.atelier-running-set{display:flex;align-items:center;flex:none;white-space:nowrap}
+.atelier-running-set span{display:inline-flex;align-items:center;gap:42px;margin-right:42px;font-family:"Commissioner Variable",sans-serif;font-size:20px;font-weight:650;letter-spacing:-.02em}
+.atelier-running-set span:after{content:"";width:24px;height:1px;background:#ffffffa8}
+@keyframes atelier-ticker-seamless{to{transform:translateX(-50%)}}
+.atelier-section-heading h2{font-size:clamp(55px,6.1vw,92px);line-height:.96;letter-spacing:-.055em}
+.atelier-direction-list>a{grid-template-columns:1fr 38px;gap:14px}
+.atelier-direction-main strong{font-size:clamp(37px,3.6vw,56px);font-weight:650;letter-spacing:-.05em}
+.atelier-direction-number{display:none}
+.atelier-direction-visual.is-lighting{background:#4e6477}
+.atelier-direction-visual.is-lighting>img{object-position:46% center}
+.atelier-object h2{font-size:clamp(70px,8vw,122px);line-height:.94}
+.atelier-process h2{font-size:clamp(70px,6.6vw,102px);line-height:.96}
+.atelier-catalog h2{font-size:clamp(76px,8.3vw,126px);line-height:.91}
+.atelier-catalog-head .atelier-kicker{align-self:start}
+.atelier-catalog-list strong{font-size:clamp(28px,2.85vw,44px)}
+.atelier-catalog-list a{grid-template-columns:minmax(0,2.5fr) minmax(0,1.2fr) 45px}
+.atelier-request-intro h2{font-size:clamp(75px,8.5vw,130px);line-height:.94}
+.atelier-request-panel-top{letter-spacing:.015em;text-transform:none;font-size:13px}
+.atelier-request-panel .file-input{background:#eee8df;border-color:#c5bbb0}
+.atelier-request-panel .form-actions .button{min-width:255px;justify-content:space-between;gap:42px}
+@media(max-width:900px){.atelier-hero-title h1{font-size:clamp(74px,11vw,106px)}.atelier-section-heading h2{font-size:65px}.atelier-direction-list>a{grid-template-columns:1fr 34px}.atelier-direction-main strong{font-size:46px}.atelier-request-intro h2{font-size:100px}}
+@media(max-width:650px){.atelier-kicker{font-size:10px}.atelier-hero-title h1{font-size:clamp(48px,14vw,71px);line-height:.96;letter-spacing:-.065em}.atelier-running-line{height:49px}.atelier-running-set span{font-size:16px;gap:27px;margin-right:27px}.atelier-running-set span:after{width:16px}.atelier-section-heading h2{font-size:clamp(42px,12vw,54px)}.atelier-direction-list>a{grid-template-columns:1fr 27px}.atelier-direction-main strong{font-size:clamp(28px,8vw,38px)}.atelier-direction-visual-bottom{font-size:clamp(19px,6vw,25px);letter-spacing:-.045em}.atelier-object h2{font-size:clamp(63px,17vw,82px)}.atelier-process h2{font-size:clamp(67px,17vw,89px)}.atelier-catalog h2{font-size:clamp(69px,17vw,86px)}.atelier-catalog-list a{grid-template-columns:1fr 24px}.atelier-catalog-list strong{font-size:clamp(25px,7vw,35px)}.atelier-request-intro h2{font-size:clamp(56px,14vw,78px)}.atelier-request-panel .form-actions .button{min-width:0}}

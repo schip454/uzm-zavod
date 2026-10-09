@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import "@fontsource-variable/manrope";
-import "@fontsource-variable/roboto-condensed";
+import "@fontsource-variable/commissioner";
 import "./globals.css";
 import "./internal-refresh.css";
 

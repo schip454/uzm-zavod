@@ -1,10 +1,11 @@
-.page-title-row h1,.category-hero h1,.product-info h1,.request-intro h1,.not-found h1,.section-heading h2,.catalog-list-item strong,.model-card-body strong{font-family:"Roboto Condensed Variable","Arial Narrow",sans-serif;font-weight:650}
+.page-title-row h1,.category-hero h1,.product-info h1,.request-intro h1,.not-found h1,.section-heading h2,.catalog-list-item strong,.model-card-body strong{font-family:"Commissioner Variable","Arial Narrow",sans-serif;font-weight:650}
 .page-title-row h1,.category-hero h1,.request-intro h1{letter-spacing:-.055em}
 .catalog-list-item strong{font-size:clamp(25px,2.4vw,37px);line-height:1}
 .catalog-list-item{min-height:108px}
 .category-hero{background:#f5f2ec}
 .category-hero-grid{min-height:420px}
-.category-hero h1{font-size:clamp(66px,7.8vw,112px);line-height:.92}
+.category-hero-grid>div:first-child{min-width:0}
+.category-hero h1{font-size:clamp(59px,6.1vw,90px);line-height:.98;overflow-wrap:normal}
 .category-hero-art{background:#332720}
 .category-hero-art svg{color:#f5e8da;height:98%;width:98%}
 .category-hero-art img{filter:contrast(1.08) saturate(.8)}

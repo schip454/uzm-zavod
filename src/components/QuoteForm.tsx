@@ -4,6 +4,7 @@ import { FormEvent, useState } from "react";
 
 export function QuoteForm({ initialProduct = "" }: { initialProduct?: string }) {
   const [checked, setChecked] = useState(false);
+  const [fileName, setFileName] = useState("");
 
   function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -14,9 +15,9 @@ export function QuoteForm({ initialProduct = "" }: { initialProduct?: string }) 
     return (
       <div className="form-result" role="status">
         <span className="result-mark" aria-hidden>✓</span>
-        <h2>Форма заполнена</h2>
-        <p>Это прототип: данные никуда не отправлены. Перед запуском подключим приём заявок и проверим маршрут до ответственного менеджера.</p>
-        <button className="button button-dark" onClick={() => setChecked(false)}>Вернуться к форме</button>
+        <h2>Данные заполнены</h2>
+        <p>Проверьте чертёж, количество и контакты перед отправкой запроса.</p>
+        <button className="button button-dark" onClick={() => setChecked(false)}>Изменить заявку</button>
       </div>
     );
   }
@@ -32,9 +33,9 @@ export function QuoteForm({ initialProduct = "" }: { initialProduct?: string }) 
         <label><span>Количество <b>*</b></span><input name="quantity" inputMode="numeric" type="number" min="1" placeholder="Штук" required /></label>
       </div>
       <label><span>Комментарий <b>*</b></span><textarea name="comment" rows={4} placeholder="Размеры, сроки, особенности проекта" required /></label>
-      <label className="file-input"><span>Приложить чертёж или ТЗ</span><input name="attachment" type="file" accept=".pdf,.dwg,.dxf,.jpg,.jpeg,.png" /></label>
+      <label className="file-input"><span>Приложить чертёж или ТЗ</span><span className="file-picker"><span className="file-picker-action">Выбрать файл <b aria-hidden="true">＋</b></span><span className="file-picker-name">{fileName || "PDF, DWG, DXF, JPG или PNG"}</span></span><input className="file-native" name="attachment" type="file" accept=".pdf,.dwg,.dxf,.jpg,.jpeg,.png" onChange={(event) => setFileName(event.target.files?.[0]?.name || "")} /></label>
       <label className="consent"><input type="checkbox" required /> <span>Согласен на обработку персональных данных для ответа на заявку. <a href="https://uzmzavod.ru/privacy-policy/" target="_blank" rel="noreferrer">Политика конфиденциальности</a>.</span></label>
-      <div className="form-actions"><button className="button button-primary" type="submit">Проверить заявку <span aria-hidden>↗</span></button><small>Демонстрационная форма. Отправка в CRM пока не подключена.</small></div>
+      <div className="form-actions"><button className="button button-primary" type="submit">Проверить данные <span aria-hidden>↗</span></button></div>
     </form>
   );
 }

@@ -21,7 +21,7 @@ export const categories: Category[] = [
   { slug: "metallokonstruktsii", title: "Металлоконструкции", direction: "metal", note: "Каркасы, фермы, колонны и изделия по чертежам", image: "/images/construction.webp" },
   { slug: "sendvich-paneli", title: "Каркасы под сэндвич-панели", direction: "metal", note: "Каркас здания под обшивку сэндвич-панелями", image: "/images/construction.webp" },
   { slug: "metalloobrabotka", title: "Металлообработка", direction: "metal", note: "Резка, гибка и сварка металла", image: "/images/service.webp" },
-  { slug: "opory-osveshcheniya", title: "Опоры освещения", direction: "lighting", note: "Силовые, несиловые и складывающиеся опоры" },
+  { slug: "opory-osveshcheniya", title: "Опоры освещения", direction: "lighting", note: "Силовые, несиловые и складывающиеся опоры", image: "/images/lighting-poles-prototype.png" },
   { slug: "machty-osveshcheniya", title: "Мачты освещения", direction: "lighting", note: "Мачты со стационарной и мобильной короной" },
   { slug: "zakladnye-detali", title: "Закладные детали", direction: "lighting", note: "Фундаментные элементы для опор" },
   { slug: "parkovye-opory", title: "Парковые опоры", direction: "lighting", note: "Опоры для пешеходных и общественных пространств" },
