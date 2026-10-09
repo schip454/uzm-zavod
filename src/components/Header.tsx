@@ -26,7 +26,7 @@ export function Header() {
       </div>
       <div className="container main-header">
         <Link href="/" className="brand" aria-label="УЗМ Завод — на главную" onClick={() => setOpen(false)}>
-          <Image src={pathname === "/" ? "/images/logo.webp" : "/images/logo-color.webp"} alt="УЗМ Завод" width={130} height={77} priority />
+          <Image src="/images/logo-color.webp" alt="УЗМ Завод" width={130} height={77} priority />
           <span className="brand-caption">Уральский завод<br />металлоконструкций</span>
         </Link>
         <nav className={`main-nav ${open ? "is-open" : ""}`} aria-label="Основная навигация">
