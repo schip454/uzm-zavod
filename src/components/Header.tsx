@@ -17,7 +17,7 @@ export function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="site-header">
+    <header className={`site-header ${pathname === "/" ? "site-header-home" : ""}`}>
       <div className="utility-bar">
         <div className="container utility-inner">
           <span>Екатеринбург · Производство металлоконструкций</span>
@@ -26,7 +26,7 @@ export function Header() {
       </div>
       <div className="container main-header">
         <Link href="/" className="brand" aria-label="УЗМ Завод — на главную" onClick={() => setOpen(false)}>
-          <Image src="/images/logo-color.webp" alt="УЗМ Завод" width={130} height={77} priority />
+          <Image src={pathname === "/" ? "/images/logo.webp" : "/images/logo-color.webp"} alt="УЗМ Завод" width={130} height={77} priority />
           <span className="brand-caption">Уральский завод<br />металлоконструкций</span>
         </Link>
         <nav className={`main-nav ${open ? "is-open" : ""}`} aria-label="Основная навигация">
