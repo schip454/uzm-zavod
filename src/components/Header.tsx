@@ -20,7 +20,7 @@ export function Header() {
     <header className={`site-header ${pathname === "/" ? "site-header-home" : ""}`}>
       <div className="utility-bar">
         <div className="container utility-inner">
-          <span>Екатеринбург · Производство металлоконструкций</span>
+          <span>Производство металлоконструкций в Екатеринбурге</span>
           <a href="mailto:zavod@uzmzavod.ru">zavod@uzmzavod.ru</a>
         </div>
       </div>

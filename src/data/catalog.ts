@@ -18,7 +18,7 @@ export type Product = {
 };
 
 export const categories: Category[] = [
-  { slug: "metallokonstruktsii", title: "Металлоконструкции", direction: "metal", note: "Каркасы, фермы, колонны и изделия по чертежам", image: "/images/construction.webp" },
+  { slug: "metallokonstruktsii", title: "Металлоконструкции", direction: "metal", note: "Каркасы, фермы, колонны и изделия по чертежам", image: "/images/uzm-site-frame.png" },
   { slug: "sendvich-paneli", title: "Каркасы под сэндвич-панели", direction: "metal", note: "Каркас здания под обшивку сэндвич-панелями", image: "/images/construction.webp" },
   { slug: "metalloobrabotka", title: "Металлообработка", direction: "metal", note: "Резка, гибка и сварка металла", image: "/images/service.webp" },
   { slug: "opory-osveshcheniya", title: "Опоры освещения", direction: "lighting", note: "Силовые, несиловые и складывающиеся опоры", image: "/images/lighting-poles-prototype.png" },

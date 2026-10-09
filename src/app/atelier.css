@@ -129,14 +129,14 @@
 
 /* Refined type, controls and section labels */
 .site-header-home .brand img{mix-blend-mode:multiply}
-.atelier-kicker{font-size:11px;letter-spacing:.045em;text-transform:none;font-weight:750;border-top:1px solid var(--a-orange);padding-top:10px;width:max-content;justify-self:start}
+.atelier-kicker{font-size:11px;letter-spacing:.045em;text-transform:none;font-weight:750;border:0;padding:0;width:max-content;justify-self:start}
 .atelier-kicker i{display:none}
-.atelier-section-heading .atelier-kicker,.atelier-object-head .atelier-kicker{padding-top:10px}
+.atelier-section-heading .atelier-kicker,.atelier-object-head .atelier-kicker{padding-top:0}
 .atelier-hero-title h1{font-size:clamp(76px,9.2vw,134px);font-weight:720;line-height:.9;letter-spacing:-.07em}
 .atelier-mini-index{font-size:14px;letter-spacing:0;text-transform:none;font-weight:700;color:#756b64}
 .atelier-primary-link,.site-header-home .header-request{border-radius:999px;padding-inline:25px}
 .atelier-primary-link{min-height:60px}
-.atelier-running-line{height:58px}
+.atelier-running-line{height:58px;margin-top:-1px;position:relative;z-index:1}
 .atelier-running-line>.atelier-running-track{display:flex;width:max-content;animation:atelier-ticker-seamless 31s linear infinite}
 .atelier-running-set{display:flex;align-items:center;flex:none;white-space:nowrap}
 .atelier-running-set span{display:inline-flex;align-items:center;gap:42px;margin-right:42px;font-family:"Commissioner Variable",sans-serif;font-size:20px;font-weight:650;letter-spacing:-.02em}
