@@ -6,9 +6,9 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const navigation = [
-  { href: "/catalog", label: "Каталог" },
   { href: "/catalog/metallokonstruktsii", label: "Металлоконструкции" },
   { href: "/catalog/opory-osveshcheniya", label: "Опоры освещения" },
+  { href: "/catalog", label: "Каталог" },
   { href: "/#production", label: "Производство" }
 ];
 
