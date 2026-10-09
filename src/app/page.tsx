@@ -19,7 +19,7 @@ export default function Home() {
         <div className="container showcase-statement-grid">
           <span className="showcase-section-index">01 / ПРОИЗВОДСТВО</span>
           <div>
-            <h2>Металл становится<br /><em>основой</em> вашего объекта.</h2>
+            <h2>Каркас по чертежу.<br /><em>Опора</em> по каталогу.</h2>
             <div className="showcase-statement-foot">
               <p>Два направления — один завод. Изготавливаем конструкции по проекту и выпускаем изделия для освещения и инфраструктуры.</p>
               <Link href="/request" className="showcase-text-link">Обсудить задачу <span aria-hidden="true">↗</span></Link>
@@ -43,13 +43,13 @@ export default function Home() {
 
       <section className="showcase-gallery" id="production">
         <div className="container showcase-gallery-heading">
-          <div><span className="showcase-section-index">02 / В МАТЕРИАЛЕ</span><h2>Видеть работу.<br /><em>Чувствовать масштаб.</em></h2></div>
-          <p>Каркасы, фермы, обработка металла. Скоро здесь появятся новые фотографии объектов завода.</p>
+          <div><span className="showcase-section-index">02 / В МАТЕРИАЛЕ</span><h2>Сталь в цехе.<br /><em>Сталь на объекте.</em></h2></div>
+          <p>Каркасы зданий, готовые фермы и обработка листового металла.</p>
         </div>
         <div className="container showcase-gallery-grid">
           <figure className="showcase-shot showcase-shot-large"><div className="showcase-shot-image showcase-shot-frame" /><figcaption><span>01</span><strong>Каркас здания</strong><span>Металлоконструкции</span></figcaption></figure>
           <figure className="showcase-shot showcase-shot-offset"><div className="showcase-shot-image showcase-shot-truss" /><figcaption><span>02</span><strong>Стальные фермы</strong><span>Изделия</span></figcaption></figure>
-          <div className="showcase-gallery-quote"><span>УЗМ / ЕКАТЕРИНБУРГ</span><p>Большой объект начинается с точного элемента<span>.</span></p></div>
+          <div className="showcase-gallery-quote"><span>УЗМ / ЕКАТЕРИНБУРГ</span><p>Отдельная ферма. Целый каркас<span>.</span></p></div>
           <figure className="showcase-shot showcase-shot-process"><div className="showcase-shot-image showcase-shot-forming" /><figcaption><span>03</span><strong>Работа с металлом</strong><span>Производство</span></figcaption></figure>
         </div>
       </section>
