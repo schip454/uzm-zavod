@@ -1,3 +1,4 @@
+import { ArrowIcon } from "@/components/ArrowIcon";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -30,12 +31,12 @@ export default async function CategoryPage({ params }: Props) {
         <div className="category-hero-main">
           <span className="category-hero-label">{isMetal ? "Металлоконструкции" : "Опоры и освещение"}</span>
           <h1>{category.slug === "metallokonstruktsii" ? <>Металло<wbr />конструкции</> : category.title}</h1>
-          <div className="category-hero-bottom"><p>{category.note}. Если готовой серии нет в списке, отправьте чертёж или параметры.</p><Link href={`/request?product=${encodeURIComponent(category.title)}`} className="button button-primary">Запросить расчёт <span aria-hidden>↗</span></Link></div>
+          <div className="category-hero-bottom"><p>{category.note}. Если готовой серии нет в списке, отправьте чертёж или параметры.</p><Link href={`/request?product=${encodeURIComponent(category.title)}`} className="button button-primary">Запросить расчёт <ArrowIcon /></Link></div>
         </div>
       </div>
     </section>
     <div className="container category-content">
-      {items.length ? <><div className="section-heading"><div><span className="eyebrow">СЕРИИ И МОДЕЛИ</span><h2>Найдите нужное обозначение</h2></div><p>Выберите серию в списке или найдите её по обозначению.</p></div><ModelExplorer items={items} /></> : <><div className="section-heading"><div><span className="eyebrow">ПОДБОР ПОД ПРОЕКТ</span><h2>Расскажите о задаче</h2></div><p>Укажите изделие и параметры для расчёта.</p></div><div className="category-placeholder"><ProductVisual variant={isMetal ? "structure" : "pole"} /><div><strong>Нужного изделия пока нет в каталоге?</strong><p>Укажите изделие, количество и регион поставки. Если есть чертёж или спецификация, приложите их к запросу.</p><Link href={`/request?product=${encodeURIComponent(category.title)}`} className="button button-dark">Отправить запрос <span aria-hidden>↗</span></Link></div></div></>}
+      {items.length ? <><div className="section-heading"><div><span className="eyebrow">СЕРИИ И МОДЕЛИ</span><h2>Найдите нужное обозначение</h2></div><p>Выберите серию в списке или найдите её по обозначению.</p></div><ModelExplorer items={items} /></> : <><div className="section-heading"><div><span className="eyebrow">ПОДБОР ПОД ПРОЕКТ</span><h2>Расскажите о задаче</h2></div><p>Укажите изделие и параметры для расчёта.</p></div><div className="category-placeholder"><ProductVisual variant={isMetal ? "structure" : "pole"} /><div><strong>Нужного изделия пока нет в каталоге?</strong><p>Укажите изделие, количество и регион поставки. Если есть чертёж или спецификация, приложите их к запросу.</p><Link href={`/request?product=${encodeURIComponent(category.title)}`} className="button button-dark">Отправить запрос <ArrowIcon /></Link></div></div></>}
     </div>
   </>;
 }

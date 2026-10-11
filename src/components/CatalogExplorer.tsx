@@ -1,5 +1,7 @@
 "use client";
 
+import { ArrowIcon } from "@/components/ArrowIcon";
+
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { categories, type Direction } from "@/data/catalog";
@@ -19,7 +21,7 @@ export function CatalogExplorer() {
         </div>
         <label className="catalog-search"><span aria-hidden>⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Найти группу продукции" aria-label="Поиск по группам каталога" /></label>
       </div>
-      {visible.length ? <div className="catalog-list">{visible.map((category, index) => <Link href={`/catalog/${category.slug}`} className="catalog-list-item" key={category.slug}><span className="catalog-list-number">{String(index + 1).padStart(2, "0")}</span><span><strong>{category.title}</strong><small>{category.note}</small></span><span className="catalog-list-arrow" aria-hidden>↗</span></Link>)}</div> : <div className="empty-state">По этому запросу групп не найдено. Попробуйте другое название или <Link href="/request">отправьте задачу</Link>.</div>}
+      {visible.length ? <div className="catalog-list">{visible.map((category, index) => <Link href={`/catalog/${category.slug}`} className="catalog-list-item" key={category.slug}><span className="catalog-list-number">{String(index + 1).padStart(2, "0")}</span><span><strong>{category.title}</strong><small>{category.note}</small></span><ArrowIcon className="catalog-list-arrow" /></Link>)}</div> : <div className="empty-state">По этому запросу групп не найдено. Попробуйте другое название или <Link href="/request">отправьте задачу</Link>.</div>}
     </>
   );
 }

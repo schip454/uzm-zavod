@@ -24,8 +24,10 @@
 .atelier-primary-link{background:var(--a-orange);color:#fff;min-height:62px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;font-size:14px;font-weight:800;transition:background .2s}
 .atelier-primary-link:hover{background:#b9360a}
 .atelier-primary-link span{font-size:24px;font-weight:400}
+.atelier-primary-link .arrow-icon{width:22px;height:22px}
 .atelier-simple-link{font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #8e8580;padding:0 0 10px}
 .atelier-simple-link span{font-size:21px;font-weight:400}
+.atelier-simple-link .arrow-icon{width:21px;height:21px}
 .atelier-simple-link:hover{color:var(--a-orange)}
 .atelier-hero-photo{height:clamp(560px,72svh,920px);position:relative;background:#867d73;overflow:hidden}
 .atelier-hero-photo>img{object-fit:cover;object-position:center 45%;filter:contrast(1.13) saturate(.78);animation:atelier-photo-pan 18s ease-in-out infinite alternate}
@@ -36,6 +38,7 @@
 .atelier-photo-monogram{font-family:"Commissioner Variable",sans-serif;font-size:clamp(170px,26vw,425px);font-weight:900;letter-spacing:-.095em;line-height:.64;color:transparent;-webkit-text-stroke:2px #fff;opacity:.95;white-space:nowrap;margin-right:auto}
 .atelier-photo-caption{font-size:13px;font-weight:800;line-height:1.5;letter-spacing:.01em;white-space:nowrap}
 .atelier-photo-down{width:58px;height:58px;border:1px solid #fff;border-radius:50%;display:grid;place-items:center;font-size:25px;flex:none;transition:background .2s,color .2s}
+.atelier-photo-down .arrow-icon{width:23px;height:23px}
 .atelier-photo-down:hover{background:#fff;color:var(--a-ink)}
 .atelier-running-line{height:62px;background:var(--a-orange);color:#fff;overflow:hidden;display:flex;align-items:center;white-space:nowrap}
 .atelier-running-line>div{font-family:"Commissioner Variable",sans-serif;font-size:23px;font-weight:700;letter-spacing:.07em;word-spacing:.1em;min-width:max-content;animation:atelier-ticker 26s linear infinite}
@@ -56,6 +59,7 @@
 .atelier-direction-main strong{display:block;font-family:"Commissioner Variable",sans-serif;font-size:clamp(42px,4.2vw,65px);line-height:.96;font-weight:650;letter-spacing:-.045em}
 .atelier-direction-main small{display:block;font-size:13px;line-height:1.45;margin-top:22px;max-width:340px;color:#69605a}
 .atelier-direction-arrow{font-size:28px;font-weight:400;align-self:start;padding-top:38px}
+.atelier-direction-list>a>.atelier-direction-arrow{width:25px;height:25px;align-self:start;margin-top:38px;padding:0}
 .atelier-direction-footer{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:32px 0;margin-top:auto;font-size:11px;font-weight:700;color:#716861}
 .atelier-direction-footer a{display:flex;gap:23px;color:var(--a-ink);border-bottom:1px solid currentColor;padding-bottom:6px;white-space:nowrap}
 .atelier-direction-footer a:hover{color:var(--a-orange)}
@@ -69,6 +73,7 @@
 .atelier-direction-visual-top{top:28px;font-size:10px;font-weight:800;letter-spacing:.16em}
 .atelier-direction-visual-bottom{bottom:28px;border-top:1px solid #ffffff99;padding-top:17px;font-family:"Commissioner Variable",sans-serif;font-size:34px;font-weight:700;letter-spacing:-.02em}
 .atelier-direction-visual-bottom b{font-family:"Manrope Variable",sans-serif;font-size:26px;font-weight:400}
+.atelier-direction-visual-bottom .arrow-icon{width:27px;height:27px}
 .atelier-object{background:#ded8cf;padding-top:105px}
 .atelier-object-head{display:grid;grid-template-columns:1fr 2fr 1fr;align-items:end;gap:30px;padding-bottom:55px}
 .atelier-object-head .atelier-kicker{align-self:start;padding-top:12px}
@@ -88,6 +93,7 @@
 .atelier-process-copy p{font-size:16px;line-height:1.55;color:#e0d5cf;max-width:360px;margin-bottom:32px}
 .atelier-white-link{font-size:14px;font-weight:800;display:flex;align-items:center;gap:60px;border-bottom:1px solid #fff;padding-bottom:11px}
 .atelier-white-link span{font-size:24px;font-weight:400}
+.atelier-white-link .arrow-icon{width:23px;height:23px}
 .atelier-white-link:hover{color:#ff7241}
 .atelier-process-small{font-size:10px;font-weight:800;letter-spacing:.16em;color:#a59992;margin-top:auto}
 .atelier-catalog{padding:130px 0 145px;background:#f5f2ec}
@@ -102,6 +108,7 @@
 .atelier-catalog-list strong{font-family:"Commissioner Variable",sans-serif;font-size:clamp(32px,3.4vw,53px);font-weight:650;letter-spacing:-.035em}
 .atelier-catalog-list small{font-size:12px;line-height:1.4;color:#766d67}
 .atelier-catalog-list b{font-size:25px;font-weight:400}
+.atelier-catalog-list .arrow-icon{width:25px;height:25px}
 .atelier-catalog-foot{display:flex;justify-content:space-between;padding-top:25px;font-size:12px;font-weight:800}
 .atelier-catalog-foot a{display:flex;gap:25px;border-bottom:1px solid currentColor;padding-bottom:6px}
 .atelier-catalog-foot a:hover{color:var(--a-orange)}

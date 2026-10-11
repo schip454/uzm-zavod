@@ -1,5 +1,7 @@
 "use client";
 
+import { ArrowIcon } from "@/components/ArrowIcon";
+
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -35,10 +37,10 @@ export function DirectionStage() {
             onFocus={() => setActive(index)}
           >
             <span className="atelier-direction-main"><strong>{index === 0 ? <>Металло<wbr />конструкции</> : item.title}</strong><small>{item.note}</small></span>
-            <span className="atelier-direction-arrow" aria-hidden="true">↗</span>
+            <ArrowIcon className="atelier-direction-arrow" />
           </Link>
         ))}
-        <div className="atelier-direction-footer"><span>По чертежам заказчика и типовым сериям</span><Link href="/catalog">Весь каталог <span aria-hidden="true">↗</span></Link></div>
+        <div className="atelier-direction-footer"><span>По чертежам заказчика и типовым сериям</span><Link href="/catalog">Весь каталог <ArrowIcon /></Link></div>
       </div>
       <div className={`atelier-direction-visual ${active === 1 ? "is-lighting" : ""}`}>
         {active === 0 ? (
@@ -47,7 +49,7 @@ export function DirectionStage() {
           <Image src="/images/lighting-poles-prototype.png" alt="Опоры освещения у промышленного объекта" fill sizes="(max-width: 900px) 100vw, 50vw" />
         )}
         <div className="atelier-direction-visual-top"><span>{selected.tag}</span></div>
-        <Link href={selected.href} className="atelier-direction-visual-bottom"><span>{selected.title}</span><b aria-hidden="true">↗</b></Link>
+        <Link href={selected.href} className="atelier-direction-visual-bottom"><span>{selected.title}</span><ArrowIcon /></Link>
       </div>
     </div>
   );

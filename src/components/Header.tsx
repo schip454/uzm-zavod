@@ -1,5 +1,7 @@
 "use client";
 
+import { ArrowIcon } from "@/components/ArrowIcon";
+
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -35,9 +37,9 @@ export function Header() {
               {item.label}
             </Link>
           ))}
-          <Link href="/request" className="button button-primary mobile-request" onClick={() => setOpen(false)}>Получить расчёт <span aria-hidden>↗</span></Link>
+          <Link href="/request" className="button button-primary mobile-request" onClick={() => setOpen(false)}>Получить расчёт <ArrowIcon /></Link>
         </nav>
-        <Link href="/request" className="button button-primary header-request">Получить расчёт <span aria-hidden>↗</span></Link>
+        <Link href="/request" className="button button-primary header-request">Получить расчёт <ArrowIcon /></Link>
         <button className={`menu-toggle ${open ? "is-open" : ""}`} type="button" aria-label={open ? "Закрыть меню" : "Открыть меню"} aria-expanded={open} onClick={() => setOpen(!open)}>
           <span /><span /><span />
         </button>

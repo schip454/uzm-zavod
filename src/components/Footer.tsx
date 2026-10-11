@@ -1,3 +1,4 @@
+import { ArrowIcon } from "@/components/ArrowIcon";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -24,7 +25,7 @@ export function Footer() {
         <div className="footer-action">
           <div className="footer-label">Есть чертёж или спецификация?</div>
           <p>Отправьте задачу. Разберёмся в составе изделия и подготовим расчёт.</p>
-          <Link href="/request" className="button button-outline-light">Отправить запрос <span aria-hidden>↗</span></Link>
+          <Link href="/request" className="button button-outline-light">Отправить запрос <ArrowIcon /></Link>
         </div>
       </div>
       <div className="container footer-bottom">

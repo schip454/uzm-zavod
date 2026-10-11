@@ -1,5 +1,7 @@
 "use client";
 
+import { ArrowIcon } from "@/components/ArrowIcon";
+
 import { FormEvent, useState } from "react";
 
 export function QuoteForm({ initialProduct = "" }: { initialProduct?: string }) {
@@ -35,7 +37,7 @@ export function QuoteForm({ initialProduct = "" }: { initialProduct?: string }) 
       <label><span>Комментарий <b>*</b></span><textarea name="comment" rows={4} placeholder="Размеры, сроки, особенности проекта" required /></label>
       <label className="file-input"><span>Приложить чертёж или ТЗ</span><span className="file-picker"><span className="file-picker-action">Выбрать файл <b aria-hidden="true">＋</b></span><span className="file-picker-name">{fileName || "PDF, DWG, DXF, JPG или PNG"}</span></span><input className="file-native" name="attachment" type="file" accept=".pdf,.dwg,.dxf,.jpg,.jpeg,.png" onChange={(event) => setFileName(event.target.files?.[0]?.name || "")} /></label>
       <label className="consent"><input type="checkbox" required /> <span>Согласен на обработку персональных данных для ответа на заявку. <a href="https://uzmzavod.ru/privacy-policy/" target="_blank" rel="noreferrer">Политика конфиденциальности</a>.</span></label>
-      <div className="form-actions"><button className="button button-primary" type="submit">Проверить данные <span aria-hidden>↗</span></button></div>
+      <div className="form-actions"><button className="button button-primary" type="submit">Проверить данные <ArrowIcon /></button></div>
     </form>
   );
 }

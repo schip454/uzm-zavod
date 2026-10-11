@@ -1,3 +1,4 @@
+import { ArrowIcon } from "@/components/ArrowIcon";
 import Image from "next/image";
 import Link from "next/link";
 import { DirectionStage } from "@/components/DirectionStage";
@@ -24,8 +25,8 @@ export default function Home() {
             <span className="atelier-mini-index">Металл для промышленных объектов</span>
             <p>Изготавливаем каркасы, фермы и детали по чертежам. Выпускаем опоры освещения и комплектующие.</p>
             <div className="atelier-hero-actions">
-              <Link href="#request" className="atelier-primary-link">Отправить чертёж <span aria-hidden="true">↗</span></Link>
-              <Link href="/catalog" className="atelier-simple-link">Перейти в каталог <span aria-hidden="true">↗</span></Link>
+              <Link href="#request" className="atelier-primary-link">Отправить чертёж <ArrowIcon /></Link>
+              <Link href="/catalog" className="atelier-simple-link">Перейти в каталог <ArrowIcon /></Link>
             </div>
           </div>
         </div>
@@ -34,7 +35,7 @@ export default function Home() {
           <div className="atelier-hero-photo-grain" aria-hidden="true" />
           <div className="container atelier-hero-photo-inner">
             <div className="atelier-photo-top"><span>МЕТАЛЛОКОНСТРУКЦИИ</span><span>ФЕРМЫ, КОЛОННЫ, БАЛКИ</span></div>
-            <div className="atelier-photo-bottom"><span className="atelier-photo-monogram" aria-hidden="true">УЗМ</span><span className="atelier-photo-caption">Каркас здания<br />Фото из архива УЗМ</span><Link href="#directions" aria-label="Смотреть направления" className="atelier-photo-down">↓</Link></div>
+            <div className="atelier-photo-bottom"><span className="atelier-photo-monogram" aria-hidden="true">УЗМ</span><span className="atelier-photo-caption">Каркас здания<br />Фото из архива УЗМ</span><Link href="#directions" aria-label="Смотреть направления" className="atelier-photo-down"><ArrowIcon direction="down" /></Link></div>
           </div>
         </div>
       </section>
@@ -68,7 +69,7 @@ export default function Home() {
           <span className="atelier-kicker">Производство</span>
           <h2>Резка<br />Гибка<br /><em>Сварка</em></h2>
           <p>Работаем с металлом по чертежам заказчика. Для расчёта нужны изделие, количество и технические параметры.</p>
-          <Link href="#request" className="atelier-white-link">Запросить расчёт <span aria-hidden="true">↗</span></Link>
+          <Link href="#request" className="atelier-white-link">Запросить расчёт <ArrowIcon /></Link>
           <span className="atelier-process-small">УЗМ · ЕКАТЕРИНБУРГ</span>
         </div>
       </section>
@@ -80,10 +81,10 @@ export default function Home() {
         </div>
         <div className="container atelier-catalog-list">
           {catalogLinks.map(([title, detail, href]) => (
-            <Link href={href} key={href}><strong>{title}</strong><small>{detail}</small><b aria-hidden="true">↗</b></Link>
+            <Link href={href} key={href}><strong>{title}</strong><small>{detail}</small><ArrowIcon /></Link>
           ))}
         </div>
-        <div className="container atelier-catalog-foot"><span>Нужна другая позиция?</span><Link href="/catalog">Открыть весь каталог <span aria-hidden="true">↗</span></Link></div>
+        <div className="container atelier-catalog-foot"><span>Нужна другая позиция?</span><Link href="/catalog">Открыть весь каталог <ArrowIcon /></Link></div>
       </section>
 
       <section className="atelier-request" id="request">
