@@ -1,4 +1,10 @@
+import importedProducts from "./products.json";
+import dekartFullProducts from "./dekart-full.json";
+import { categoryContent, extraCategories } from "./catalog-content";
+import { generatedImages } from "./generated-images";
+
 export type Direction = "metal" | "lighting";
+export type VisualKind = "pole" | "mast" | "structure" | "bracket" | "foundation" | "pile" | "pipe" | "base" | "luminaire" | "frame";
 
 export type Category = {
   slug: string;
@@ -6,6 +12,11 @@ export type Category = {
   direction: Direction;
   note: string;
   image?: string;
+  parentSlug?: string;
+  description?: string;
+  application?: string;
+  selection?: string[];
+  visual?: VisualKind;
 };
 
 export type Product = {
@@ -15,13 +26,18 @@ export type Product = {
   family: string;
   form: string;
   purpose: string;
+  description?: string;
+  visual?: VisualKind;
+  image?: string;
+  sourceUrl?: string;
+  specifications?: { label: string; value: string }[];
 };
 
-export const categories: Category[] = [
+const originalCategories: Category[] = [
   { slug: "metallokonstruktsii", title: "Металлоконструкции", direction: "metal", note: "Каркасы, фермы, колонны и изделия по чертежам", image: "/images/uzm-site-frame.png" },
   { slug: "sendvich-paneli", title: "Каркасы под сэндвич-панели", direction: "metal", note: "Каркас здания под обшивку сэндвич-панелями", image: "/images/construction.webp" },
   { slug: "metalloobrabotka", title: "Металлообработка", direction: "metal", note: "Резка, гибка и сварка металла", image: "/images/service.webp" },
-  { slug: "opory-osveshcheniya", title: "Опоры освещения", direction: "lighting", note: "Силовые, несиловые и складывающиеся опоры", image: "/images/lighting-poles-prototype.png" },
+  { slug: "opory-osveshcheniya", title: "Опоры освещения", direction: "lighting", note: "Силовые, несиловые и складывающиеся опоры", image: "/images/lighting-poles-hero-v2.png" },
   { slug: "machty-osveshcheniya", title: "Мачты освещения", direction: "lighting", note: "Мачты со стационарной и мобильной короной" },
   { slug: "zakladnye-detali", title: "Закладные детали", direction: "lighting", note: "Фундаментные элементы для опор" },
   { slug: "parkovye-opory", title: "Парковые опоры", direction: "lighting", note: "Опоры для пешеходных и общественных пространств" },
@@ -41,7 +57,7 @@ export const categories: Category[] = [
 
 // Названия серий взяты из открытого каталога dekart.tech.
 // Технические параметры и доступность УЗМ подтверждает перед публикацией.
-export const products: Product[] = [
+const originalProducts: Product[] = [
   { slug: "ogk", name: "ОГК", categorySlug: "opory-osveshcheniya", family: "Несиловые гранёные", form: "Гранёная", purpose: "Несиловая" },
   { slug: "ogkf", name: "ОГКф", categorySlug: "opory-osveshcheniya", family: "Несиловые гранёные", form: "Гранёная", purpose: "Несиловая" },
   { slug: "nfg", name: "НФГ", categorySlug: "opory-osveshcheniya", family: "Несиловые гранёные", form: "Гранёная", purpose: "Несиловая" },
@@ -62,5 +78,17 @@ export const products: Product[] = [
   { slug: "ksg-f", name: "КСГ-Ф", categorySlug: "opory-kontaktnoy-seti", family: "Опоры контактной сети", form: "Гранёная", purpose: "Контактная сеть" }
 ];
 
+export const categories: Category[] = [...originalCategories, ...extraCategories].map((item) => ({ ...item, ...categoryContent[item.slug] }));
+// Keep previously shared product URLs; the new registry overrides their category and content.
+export const products: Product[] = ([...originalProducts.filter((item) => !importedProducts.some((product) => product.slug === item.slug)).map((item) => item.categorySlug === "opory-osveshcheniya" ? { ...item, categorySlug: item.purpose === "Силовая" ? "silovye-opory" : item.purpose === "Несиловая" ? "nesilovye-opory" : "skladyvayushchiesya-opory" } : item), ...importedProducts, ...dekartFullProducts] as Product[]).map((item) => ({ ...item, image: item.image || generatedImages[item.slug] }));
 export const getCategory = (slug: string) => categories.find((category) => category.slug === slug);
 export const getProduct = (slug: string) => products.find((product) => product.slug === slug);
+export const getChildren = (slug: string) => categories.filter((item) => item.parentSlug === slug);
+export function getCategoryProducts(slug: string): Product[] {
+  const slugs = new Set([slug, ...getChildren(slug).map((item) => item.slug)]);
+  return products.filter((item) => slugs.has(item.categorySlug));
+}
+export function getCategoryTrail(slug: string): Category[] {
+  const item = getCategory(slug);
+  return item ? [...(item.parentSlug ? getCategoryTrail(item.parentSlug) : []), item] : [];
+}

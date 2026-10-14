@@ -1,103 +1,62 @@
 import { ArrowIcon } from "@/components/ArrowIcon";
+import { QuoteForm } from "@/components/QuoteForm";
 import Image from "next/image";
 import Link from "next/link";
-import { DirectionStage } from "@/components/DirectionStage";
-import { QuoteForm } from "@/components/QuoteForm";
-import "./atelier.css";
+import "./revamp.css";
 
-const catalogLinks = [
-  ["Опоры освещения", "Силовые и несиловые", "/catalog/opory-osveshcheniya"],
-  ["Мачты освещения", "Для площадок и промышленных объектов", "/catalog/machty-osveshcheniya"],
-  ["Закладные детали", "Фундаменты для опор", "/catalog/zakladnye-detali"],
-  ["Кронштейны", "Крепления светильников", "/catalog/kronshteyny"],
+const directions = [
+  { title: "Металлоконструкции", description: "Каркасы зданий, фермы, колонны, балки и изделия по чертежам.", image: "/images/uzm-trusses.jpg", href: "/catalog/metallokonstruktsii" },
+  { title: "Опоры освещения", description: "Силовые и несиловые опоры, мачты, закладные детали и светильники.", image: "/images/lighting-poles-hero-v2.png", href: "/catalog/opory-osveshcheniya" },
+];
+
+const catalog = [
+  { title: "Силовые опоры", image: "/images/generated/ogs-v1.webp", href: "/catalog/silovye-opory" },
+  { title: "Несиловые опоры", image: "/images/generated/ogk-v1.webp", href: "/catalog/nesilovye-opory" },
+  { title: "Мачты освещения", image: "/images/generated/mgf-v1.webp", href: "/catalog/machty-osveshcheniya" },
+  { title: "Парковые светильники", image: "/images/categories/park-neutral-v1.webp", href: "/catalog/parkovye-svetilniki" },
 ];
 
 export default function Home() {
-  return (
-    <div className="atelier-page">
-      <section className="atelier-hero">
-        <div className="container atelier-hero-grid">
-          <div className="atelier-hero-title">
-            <span className="atelier-kicker">Производство в Екатеринбурге</span>
-            <h1>Металло<br /><em>конструкции</em></h1>
-          </div>
-          <div className="atelier-hero-side">
-            <span className="atelier-mini-index">Металл для промышленных объектов</span>
-            <p>Изготавливаем каркасы, фермы и детали по чертежам. Выпускаем опоры освещения и комплектующие.</p>
-            <div className="atelier-hero-actions">
-              <Link href="#request" className="atelier-primary-link">Отправить чертёж <ArrowIcon /></Link>
-              <Link href="/catalog" className="atelier-simple-link">Перейти в каталог <ArrowIcon /></Link>
-            </div>
+  return <div className="revamp-page">
+    <section className="revamp-hero" aria-labelledby="revamp-title">
+      <Image src="/images/uzm-site-frame.png" alt="Монтаж каркаса промышленного здания" fill priority sizes="100vw" className="revamp-hero-image" />
+      <div className="revamp-hero-overlay" />
+      <div className="container revamp-hero-content">
+        <div className="revamp-hero-copy">
+          <p className="revamp-overline">Уральский завод металлоконструкций</p>
+          <h1 id="revamp-title"><span>Металло<wbr />конструкции</span><span>для промышленного</span><span>строительства</span></h1>
+          <p className="revamp-hero-lead">Изготавливаем каркасы, фермы и детали по чертежам заказчика. Подбираем опоры освещения и комплектующие для инфраструктурных проектов.</p>
+          <div className="revamp-hero-actions">
+            <Link className="revamp-button revamp-button-primary" href="/request">Запросить расчёт <ArrowIcon /></Link>
+            <Link className="revamp-button revamp-button-outline" href="/catalog">Открыть каталог <ArrowIcon /></Link>
           </div>
         </div>
-        <div className="atelier-hero-photo">
-          <Image src="/images/uzm-frame.jpg" alt="Каркас здания из металлоконструкций" fill priority sizes="100vw" />
-          <div className="atelier-hero-photo-grain" aria-hidden="true" />
-          <div className="container atelier-hero-photo-inner">
-            <div className="atelier-photo-top"><span>МЕТАЛЛОКОНСТРУКЦИИ</span><span>ФЕРМЫ, КОЛОННЫ, БАЛКИ</span></div>
-            <div className="atelier-photo-bottom"><span className="atelier-photo-monogram" aria-hidden="true">УЗМ</span><span className="atelier-photo-caption">Каркас здания<br />Фото из архива УЗМ</span><Link href="#directions" aria-label="Смотреть направления" className="atelier-photo-down"><ArrowIcon direction="down" /></Link></div>
-          </div>
-        </div>
-      </section>
+        <div className="revamp-hero-bottom"><span>Екатеринбург · Работаем по проектной документации</span><a href="#directions" aria-label="Перейти к направлениям"><ArrowIcon direction="down" /></a></div>
+      </div>
+    </section>
 
-      <div className="atelier-running-line" aria-hidden="true"><div className="atelier-running-track">{[0, 1].map((copy) => <div className="atelier-running-set" key={copy}><span>Каркасы</span><span>Фермы</span><span>Колонны</span><span>Опоры освещения</span><span>Мачты</span><span>Изделия по чертежам</span></div>)}</div></div>
+    <section className="revamp-directions" id="directions">
+      <div className="container revamp-section-top"><p>Что производим</p><div><h2>Два направления.<br />Одна задача — ваш проект.</h2><span>Выберите изделие в каталоге или пришлите чертёж на расчёт.</span></div></div>
+      <div className="container revamp-direction-grid">
+        {directions.map((item) => <Link className="revamp-direction" href={item.href} key={item.href}>
+          <div className="revamp-direction-image"><Image src={item.image} alt="" fill sizes="(max-width: 760px) 100vw, 50vw" /></div>
+          <div className="revamp-direction-copy"><h3>{item.title}</h3><p>{item.description}</p><ArrowIcon /></div>
+        </Link>)}
+      </div>
+    </section>
 
-      <section className="atelier-directions" id="directions">
-        <div className="container atelier-section-heading">
-          <span className="atelier-kicker">Направления</span>
-          <h2>Что производим</h2>
-          <p>Начните с нужного раздела. В каталоге можно выбрать модель, а для нестандартной конструкции — отправить чертёж.</p>
-        </div>
-        <div className="container"><DirectionStage /></div>
-      </section>
+    <section className="revamp-work">
+      <div className="revamp-work-image"><Image src="/images/uzm-frame.jpg" alt="Каркас здания из стальных конструкций" fill sizes="(max-width: 900px) 100vw, 58vw" /></div>
+      <div className="revamp-work-copy"><p className="revamp-overline">Металл на объекте</p><h2>От чертежа<br />к конструкции</h2><p>Для расчёта достаточно проекта, объёма и требований к покрытию. Подготовим предложение на изготовление и согласуем состав заказа.</p><Link href="/catalog/metallokonstruktsii" className="revamp-text-link">Смотреть металлоконструкции <ArrowIcon /></Link></div>
+    </section>
 
-      <section className="atelier-object" id="objects">
-        <div className="container atelier-object-head">
-          <span className="atelier-kicker">На объекте</span>
-          <h2>Сталь<br /><em>в работе.</em></h2>
-          <p>Каркас здания на строительной площадке. Здесь видны фермы, колонны и масштаб всей конструкции.</p>
-        </div>
-        <div className="atelier-object-photo">
-          <Image src="/images/uzm-site-frame.png" alt="Монтаж металлокаркаса на строительной площадке" fill sizes="100vw" />
-          <div className="container atelier-object-photo-caption"><span>КАРКАС ЗДАНИЯ</span><span>МЕТАЛЛОКОНСТРУКЦИИ</span></div>
-        </div>
-      </section>
+    <section className="revamp-catalog" id="catalog">
+      <div className="container revamp-catalog-head"><div><p className="revamp-overline">Каталог</p><h2>Найдите нужную серию</h2></div><Link href="/catalog" className="revamp-text-link">Весь каталог <ArrowIcon /></Link></div>
+      <div className="container revamp-catalog-grid">{catalog.map((item) => <Link href={item.href} className="revamp-catalog-card" key={item.href}><div className="revamp-catalog-image"><Image src={item.image} alt="" fill sizes="(max-width: 680px) 50vw, 25vw" /></div><span>{item.title}<ArrowIcon /></span></Link>)}</div>
+    </section>
 
-      <section className="atelier-process" id="production">
-        <div className="atelier-process-image"><Image src="/images/uzm-forming.jpg" alt="Гибка листового металла" fill sizes="(max-width: 900px) 100vw, 60vw" /></div>
-        <div className="atelier-process-copy">
-          <span className="atelier-kicker">Производство</span>
-          <h2>Резка<br />Гибка<br /><em>Сварка</em></h2>
-          <p>Работаем с металлом по чертежам заказчика. Для расчёта нужны изделие, количество и технические параметры.</p>
-          <Link href="#request" className="atelier-white-link">Запросить расчёт <ArrowIcon /></Link>
-          <span className="atelier-process-small">УЗМ · ЕКАТЕРИНБУРГ</span>
-        </div>
-      </section>
+    <section className="revamp-production"><div className="revamp-production-image"><Image src="/images/uzm-forming.jpg" alt="Гибка металлической детали" fill sizes="(max-width: 900px) 100vw, 55vw" /></div><div className="revamp-production-copy"><p className="revamp-overline">Производство</p><h2>Детали решают</h2><p>Резка, гибка и сварка по рабочей документации. На странице производства собрали направления и путь изделия от запроса до поставки.</p><Link href="/production" className="revamp-text-link">О производстве <ArrowIcon /></Link></div></section>
 
-      <section className="atelier-catalog">
-        <div className="container atelier-catalog-head">
-          <span className="atelier-kicker">Номенклатура</span>
-          <div><h2>Опоры<br />Мачты<br />Детали</h2><p>Откройте группу, найдите серию и отправьте выбранную модель на расчёт.</p></div>
-        </div>
-        <div className="container atelier-catalog-list">
-          {catalogLinks.map(([title, detail, href]) => (
-            <Link href={href} key={href}><strong>{title}</strong><small>{detail}</small><ArrowIcon /></Link>
-          ))}
-        </div>
-        <div className="container atelier-catalog-foot"><span>Нужна другая позиция?</span><Link href="/catalog">Открыть весь каталог <ArrowIcon /></Link></div>
-      </section>
-
-      <section className="atelier-request" id="request">
-        <div className="container atelier-request-grid">
-          <div className="atelier-request-intro">
-            <span className="atelier-kicker">Заявка</span>
-            <h2>Пришлите<br /><em>чертёж</em></h2>
-            <p>Укажите изделие, количество и регион. Файл можно приложить к форме.</p>
-            <div className="atelier-request-detail"><span>Телефон отдела продаж</span><a href="tel:+79000454656">+7 900 045-46-56</a></div>
-          </div>
-          <div className="atelier-request-panel"><div className="atelier-request-panel-top"><span>Расчёт изготовления</span></div><QuoteForm /></div>
-        </div>
-      </section>
-    </div>
-  );
+    <section className="revamp-request" id="request"><div className="container revamp-request-grid"><div><p className="revamp-overline">Расчёт проекта</p><h2>Есть чертёж?<br />Начнём с него.</h2><p>Укажите изделие, количество и регион. Если есть проект или спецификация, приложите файл.</p><a href="tel:+79000454656">+7 900 045-46-56</a></div><div className="revamp-request-form"><QuoteForm /></div></div></section>
+  </div>;
 }

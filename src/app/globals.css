@@ -12,7 +12,7 @@ svg{display:block}
 .container{width:min(calc(100% - 80px),var(--max));margin-inline:auto}
 .eyebrow{display:inline-block;color:var(--orange);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
 .eyebrow.light{color:#ff8958}
-.button{display:inline-flex;align-items:center;justify-content:space-between;gap:36px;min-height:52px;padding:0 23px;border:1px solid transparent;border-radius:999px;font-size:13px;font-weight:800;letter-spacing:.01em;white-space:nowrap;transition:background .2s,color .2s,border-color .2s,transform .2s}
+.button{display:inline-flex;align-items:center;justify-content:space-between;gap:36px;min-height:52px;padding:0 23px;border:1px solid transparent;border-radius:12px;font-size:13px;font-weight:800;letter-spacing:.01em;white-space:nowrap;transition:background .2s,color .2s,border-color .2s,transform .2s}
 .button:hover{transform:translateY(-2px)}
 .button span,.text-link b{font-size:19px;font-weight:400;line-height:1}
 .button-primary{background:var(--orange);color:#fff}
@@ -105,6 +105,7 @@ svg{display:block}
 .site-footer{background:#211d1a;color:#fff;padding:64px 0 24px}
 .footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:38px}
 .footer-brand img{object-fit:contain}
+.footer-light-mark{display:block;width:126px;height:74px}
 .footer-brand p{color:#b6ada5;font-size:13px;line-height:1.45;max-width:170px;margin:15px 0}
 .footer-label{font-size:11px;text-transform:uppercase;letter-spacing:.13em;font-weight:800;color:#a69a90;margin:3px 0 20px}
 .footer-grid>div:not(:first-child)>a:not(.button),.footer-grid>div>span{display:block;font-size:13px;line-height:1.55;margin-bottom:11px}
@@ -121,9 +122,9 @@ svg{display:block}
 .page-title-row p{max-width:435px;color:var(--muted);font-size:16px;line-height:1.6;margin:0 0 3px}
 .catalog-controls,.model-controls{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:22px}
 .segmented,.chip-row{display:flex;gap:6px;flex-wrap:wrap}
-.segmented button,.chip-row button{border:1px solid var(--line);border-radius:999px;background:#fff;padding:12px 17px;font-size:12px;font-weight:800;color:#615b56;white-space:nowrap}
+.segmented button,.chip-row button{border:1px solid var(--line);border-radius:10px;background:#fff;padding:12px 17px;font-size:12px;font-weight:800;color:#615b56;white-space:nowrap}
 .segmented button.selected,.chip-row button.active{background:var(--ink);color:#fff;border-color:var(--ink)}
-.catalog-search{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:0 17px;min-width:270px;height:45px;color:var(--orange)}
+.catalog-search{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:0 17px;min-width:270px;height:45px;color:var(--orange)}
 .catalog-search span{font-size:26px;line-height:1}
 .catalog-search input{border:0;outline:0;width:100%;font-size:12px;color:var(--ink)}
 .catalog-list{border-top:1px solid var(--line)}
@@ -165,7 +166,6 @@ svg{display:block}
 .category-placeholder p{line-height:1.6;color:var(--muted);font-size:14px;max-width:360px}
 .product-layout{display:grid;grid-template-columns:1.03fr 1fr;gap:7vw;align-items:start}
 .product-art{height:620px;background:#e7e1d9;display:flex;align-items:center;justify-content:center;position:relative}
-.product-art>span{position:absolute;top:21px;left:23px;font-size:10px;letter-spacing:.13em;font-weight:800;color:#82776d}
 .product-art svg{width:82%;height:82%;color:#938476}
 .product-info{padding-top:16px}
 .product-info h1{font-size:clamp(70px,8vw,128px);margin:13px 0 22px}
@@ -195,7 +195,7 @@ svg{display:block}
 .quote-form textarea{resize:vertical}
 .quote-form .file-input{padding:16px;border:1px solid #d0c8bf;border-radius:14px;background:#faf9f7;gap:12px;position:relative;cursor:pointer}
 .quote-form .file-picker{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-.quote-form .file-picker-action{display:inline-flex;align-items:center;justify-content:space-between;gap:22px;border:1px solid #9f9186;border-radius:999px;padding:10px 16px;font-size:12px;font-weight:800;transition:background .2s,color .2s}
+.quote-form .file-picker-action{display:inline-flex;align-items:center;justify-content:space-between;gap:22px;border:1px solid #9f9186;border-radius:10px;padding:10px 16px;font-size:12px;font-weight:800;transition:background .2s,color .2s}
 .quote-form .file-picker-action b{font-size:16px;font-weight:500;line-height:1}
 .quote-form .file-input:hover .file-picker-action,.quote-form .file-input:focus-within .file-picker-action{background:var(--ink);color:#fff}
 .quote-form .file-picker-name{font-size:11px;font-weight:500;color:var(--muted);overflow-wrap:anywhere}

@@ -4,12 +4,12 @@ import { ArrowIcon } from "@/components/ArrowIcon";
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { categories, type Direction } from "@/data/catalog";
+import { categories, getCategoryProducts, getChildren, type Direction } from "@/data/catalog";
 
 export function CatalogExplorer() {
   const [direction, setDirection] = useState<Direction | "all">("all");
   const [query, setQuery] = useState("");
-  const visible = useMemo(() => categories.filter((category) => (direction === "all" || category.direction === direction) && `${category.title} ${category.note}`.toLowerCase().includes(query.trim().toLowerCase())), [direction, query]);
+  const visible = useMemo(() => categories.filter((category) => (query.trim() || !category.parentSlug) && (direction === "all" || category.direction === direction) && `${category.title} ${category.note}`.toLocaleLowerCase("ru").replaceAll("ё", "е").includes(query.trim().toLocaleLowerCase("ru").replaceAll("ё", "е"))), [direction, query]);
 
   return (
     <>
@@ -19,9 +19,9 @@ export function CatalogExplorer() {
           <button className={direction === "metal" ? "selected" : ""} onClick={() => setDirection("metal")}>Металлоконструкции</button>
           <button className={direction === "lighting" ? "selected" : ""} onClick={() => setDirection("lighting")}>Опоры освещения</button>
         </div>
-        <label className="catalog-search"><span aria-hidden>⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Найти группу продукции" aria-label="Поиск по группам каталога" /></label>
+        <label className="catalog-search"><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Найти группу продукции" aria-label="Поиск по группам каталога" /></label>
       </div>
-      {visible.length ? <div className="catalog-list">{visible.map((category, index) => <Link href={`/catalog/${category.slug}`} className="catalog-list-item" key={category.slug}><span className="catalog-list-number">{String(index + 1).padStart(2, "0")}</span><span><strong>{category.title}</strong><small>{category.note}</small></span><ArrowIcon className="catalog-list-arrow" /></Link>)}</div> : <div className="empty-state">По этому запросу групп не найдено. Попробуйте другое название или <Link href="/request">отправьте задачу</Link>.</div>}
+      {visible.length ? <div className="catalog-tree">{["metal", "lighting"].filter((group) => visible.some((item) => item.direction === group)).map((group) => <section key={group}><h2>{group === "metal" ? "Металлоконструкции и изделия" : "Опоры и освещение"}</h2><div className="catalog-list">{visible.filter((item) => item.direction === group).map((category) => <div className="catalog-tree-item" key={category.slug}><Link href={`/catalog/${category.slug}`} className="catalog-list-item"><span><strong>{category.title}</strong><small>{category.note}</small></span><ArrowIcon className="catalog-list-arrow" /></Link>{getChildren(category.slug).length > 0 && !query.trim() && <div className="catalog-tree-children">{getChildren(category.slug).map((child) => <Link key={child.slug} href={`/catalog/${child.slug}`}>{child.title}<span>{getCategoryProducts(child.slug).length}</span></Link>)}</div>}</div>)}</div></section>)}</div> : <div className="empty-state">По этому запросу групп не найдено. Попробуйте другое название или <Link href="/request">отправьте задачу</Link>.</div>}
     </>
   );
 }

@@ -1,5 +1,5 @@
 import { ArrowIcon } from "@/components/ArrowIcon";
-import Image from "next/image";
+import { LightLogo } from "@/components/LightLogo";
 import Link from "next/link";
 
 export function Footer() {
@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div className="footer-brand">
-          <Image src="/images/logo.webp" alt="УЗМ Завод" width={126} height={74} />
+          <LightLogo className="footer-light-mark" id="footer-light-logo-alpha" />
           <p>Уральский завод металлоконструкций</p>
         </div>
         <div>
@@ -15,6 +15,8 @@ export function Footer() {
           <Link href="/catalog">Каталог продукции</Link>
           <Link href="/catalog/metallokonstruktsii">Металлоконструкции</Link>
           <Link href="/catalog/opory-osveshcheniya">Опоры освещения</Link>
+          <Link href="/production">Производство</Link>
+          <Link href="/contacts">Контакты</Link>
         </div>
         <div>
           <div className="footer-label">Контакты</div>

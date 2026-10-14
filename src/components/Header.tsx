@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowIcon } from "@/components/ArrowIcon";
+import { LightLogo } from "@/components/LightLogo";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -11,7 +12,8 @@ const navigation = [
   { href: "/catalog/metallokonstruktsii", label: "Металлоконструкции" },
   { href: "/catalog/opory-osveshcheniya", label: "Опоры освещения" },
   { href: "/catalog", label: "Каталог" },
-  { href: "/#production", label: "Производство" }
+  { href: "/production", label: "Производство" },
+  { href: "/contacts", label: "Контакты" }
 ];
 
 export function Header() {
@@ -28,7 +30,7 @@ export function Header() {
       </div>
       <div className="container main-header">
         <Link href="/" className="brand" aria-label="УЗМ Завод — на главную" onClick={() => setOpen(false)}>
-          <Image src="/images/logo-color.webp" alt="УЗМ Завод" width={130} height={77} priority />
+          {pathname === "/" ? <LightLogo className="brand-light-mark" id="header-light-logo-alpha" /> : <Image src="/images/logo-color.webp" alt="УЗМ Завод" width={130} height={77} priority />}
           <span className="brand-caption">Уральский завод<br />металлоконструкций</span>
         </Link>
         <nav className={`main-nav ${open ? "is-open" : ""}`} aria-label="Основная навигация">

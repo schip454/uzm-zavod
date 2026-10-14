@@ -5,10 +5,11 @@ import "@fontsource-variable/manrope";
 import "@fontsource-variable/commissioner";
 import "./globals.css";
 import "./internal-refresh.css";
+import "./catalog-refinement.css";
 
 export const metadata: Metadata = {
   title: { default: "УЗМ Завод — металлоконструкции и опоры освещения", template: "%s | УЗМ Завод" },
-  description: "Металлоконструкции по чертежам и каталог опор освещения. Прототип нового сайта УЗМ."
+  description: "Уральский завод металлоконструкций. Каркасы зданий и технологические конструкции, опоры освещения, мачты, сваи и изделия по чертежам. Расчёт по спецификации проекта."
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

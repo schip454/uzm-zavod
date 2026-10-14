@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { categories, getCategory, products } from "@/data/catalog";
+import { categories, getCategory, getCategoryProducts, getCategoryTrail, getChildren } from "@/data/catalog";
+import { CategoryGroups } from "@/components/CategoryGroups";
 import { ModelExplorer } from "@/components/ModelExplorer";
 import { ProductVisual } from "@/components/ProductVisual";
 
@@ -13,30 +14,34 @@ export function generateStaticParams() { return categories.map((category) => ({ 
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = getCategory((await params).slug);
-  return { title: category?.title ?? "Каталог" };
+  return { title: category?.title ?? "Каталог", description: category?.description ?? category?.note };
 }
 
 export default async function CategoryPage({ params }: Props) {
   const category = getCategory((await params).slug);
   if (!category) notFound();
-  const items = products.filter((product) => product.categorySlug === category.slug);
+  const children = getChildren(category.slug);
+  const items = getCategoryProducts(category.slug);
   const isMetal = category.direction === "metal";
 
   return <>
     <section className={`category-hero category-hero-immersive ${category.image ? "has-photo" : "has-graphic"}`}>
-      {category.image ? <Image className="category-hero-background" src={category.image} alt="" fill priority sizes="100vw" /> : <div className="category-hero-graphic" aria-hidden="true"><ProductVisual variant={isMetal ? "structure" : category.slug.includes("mach") ? "mast" : "pole"} /></div>}
+      {category.image ? <Image className="category-hero-background" src={category.image} alt="" fill priority sizes="100vw" /> : <div className="category-hero-graphic" aria-hidden="true"><ProductVisual variant={category.visual ?? (isMetal ? "structure" : "pole")} /></div>}
       <div className="category-hero-shade" aria-hidden="true" />
       <div className="container category-hero-inner">
-        <div className="breadcrumbs"><Link href="/">Главная</Link><span>/</span><Link href="/catalog">Каталог</Link><span>/</span><span>{category.title}</span></div>
+        <div className="breadcrumbs"><Link href="/">Главная</Link><span>/</span><Link href="/catalog">Каталог</Link>{getCategoryTrail(category.slug).map((item) => <span className="breadcrumb-part" key={item.slug}><span>/</span>{item.slug === category.slug ? <span>{item.title}</span> : <Link href={`/catalog/${item.slug}`}>{item.title}</Link>}</span>)}</div>
         <div className="category-hero-main">
           <span className="category-hero-label">{isMetal ? "Металлоконструкции" : "Опоры и освещение"}</span>
           <h1>{category.slug === "metallokonstruktsii" ? <>Металло<wbr />конструкции</> : category.title}</h1>
-          <div className="category-hero-bottom"><p>{category.note}. Если готовой серии нет в списке, отправьте чертёж или параметры.</p><Link href={`/request?product=${encodeURIComponent(category.title)}`} className="button button-primary">Запросить расчёт <ArrowIcon /></Link></div>
+          <div className="category-hero-bottom"><p>{category.note}. Подберём исполнение по вашему проекту.</p><Link href={`/request?product=${encodeURIComponent(category.title)}`} className="button button-primary">Запросить расчёт <ArrowIcon /></Link></div>
         </div>
       </div>
     </section>
     <div className="container category-content">
-      {items.length ? <><div className="section-heading"><div><span className="eyebrow">СЕРИИ И МОДЕЛИ</span><h2>Найдите нужное обозначение</h2></div><p>Выберите серию в списке или найдите её по обозначению.</p></div><ModelExplorer items={items} /></> : <><div className="section-heading"><div><span className="eyebrow">ПОДБОР ПОД ПРОЕКТ</span><h2>Расскажите о задаче</h2></div><p>Укажите изделие и параметры для расчёта.</p></div><div className="category-placeholder"><ProductVisual variant={isMetal ? "structure" : "pole"} /><div><strong>Нужного изделия пока нет в каталоге?</strong><p>Укажите изделие, количество и регион поставки. Если есть чертёж или спецификация, приложите их к запросу.</p><Link href={`/request?product=${encodeURIComponent(category.title)}`} className="button button-dark">Отправить запрос <ArrowIcon /></Link></div></div></>}
+      {category.description && <div className="category-introduction"><h2>{category.title}</h2><div><p>{category.description}</p>{category.application && <p className="category-application">{category.application}</p>}</div></div>}
+      {children.length > 0 && <section className="category-subgroups"><h2>Выберите группу</h2><CategoryGroups items={children} /></section>}
+      {items.length > 0 && category.slug !== "opory-osveshcheniya" && <><div className="section-heading"><div><h2>{isMetal ? "Изделия" : "Серии и модели"}</h2></div><p>Найдите название или выберите группу изделий.</p></div><ModelExplorer key={category.slug} items={items} /></>}
+      <section className="category-selection"><div><h2>Что нужно для расчёта</h2><p>Пришлите спецификацию или заполните заявку. Если проект ещё готовится, укажите известные параметры.</p><Link href={`/request?product=${encodeURIComponent(category.title)}`} className="button button-primary">Получить расчёт <ArrowIcon /></Link></div><ul>{(category.selection ?? ["Название изделия", "Основные размеры", "Количество", "Регион поставки", "Чертёж или техническое задание"]).map((item) => <li key={item}>{item}</li>)}</ul></section>
     </div>
   </>;
 }

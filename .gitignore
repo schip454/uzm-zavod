@@ -6,3 +6,6 @@ out
 *.tsbuildinfo
 .DS_Store
 research/dekart-shop.html
+research/source-cache/
+research/omk-source.html
+deploy/*.zip
