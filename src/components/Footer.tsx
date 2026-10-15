@@ -8,7 +8,7 @@ export function Footer() {
       <div className="container footer-grid">
         <div className="footer-brand">
           <LightLogo className="footer-light-mark" id="footer-light-logo-alpha" />
-          <p>Уральский завод металлоконструкций</p>
+          <p>Уральский завод металлоизделий</p>
         </div>
         <div>
           <div className="footer-label">Навигация</div>
@@ -31,7 +31,7 @@ export function Footer() {
         </div>
       </div>
       <div className="container footer-bottom">
-        <span>© {new Date().getFullYear()} УЗМ Завод</span>
+        <span>© {new Date().getFullYear()} УЗМ Завод · ООО «Уральский завод металлоконструкций»</span>
         <span>Информация на сайте не является публичной офертой.</span>
       </div>
     </footer>

@@ -1,7 +1,6 @@
 import importedProducts from "./products.json";
 import dekartFullProducts from "./dekart-full.json";
 import { categoryContent, extraCategories } from "./catalog-content";
-import { generatedImages } from "./generated-images";
 
 export type Direction = "metal" | "lighting";
 export type VisualKind = "pole" | "mast" | "structure" | "bracket" | "foundation" | "pile" | "pipe" | "base" | "luminaire" | "frame";
@@ -34,10 +33,10 @@ export type Product = {
 };
 
 const originalCategories: Category[] = [
-  { slug: "metallokonstruktsii", title: "Металлоконструкции", direction: "metal", note: "Каркасы, фермы, колонны и изделия по чертежам", image: "/images/uzm-site-frame.png" },
+  { slug: "metallokonstruktsii", title: "Металлоконструкции", direction: "metal", note: "Каркасы, фермы, колонны и изделия по чертежам", image: "/images/uzm-frame.jpg" },
   { slug: "sendvich-paneli", title: "Каркасы под сэндвич-панели", direction: "metal", note: "Каркас здания под обшивку сэндвич-панелями", image: "/images/construction.webp" },
   { slug: "metalloobrabotka", title: "Металлообработка", direction: "metal", note: "Резка, гибка и сварка металла", image: "/images/service.webp" },
-  { slug: "opory-osveshcheniya", title: "Опоры освещения", direction: "lighting", note: "Силовые, несиловые и складывающиеся опоры", image: "/images/lighting-poles-hero-v2.png" },
+  { slug: "opory-osveshcheniya", title: "Опоры освещения", direction: "lighting", note: "Силовые, несиловые и складывающиеся опоры", image: "/images/sources/dekart-opora-installation.jpg" },
   { slug: "machty-osveshcheniya", title: "Мачты освещения", direction: "lighting", note: "Мачты со стационарной и мобильной короной" },
   { slug: "zakladnye-detali", title: "Закладные детали", direction: "lighting", note: "Фундаментные элементы для опор" },
   { slug: "parkovye-opory", title: "Парковые опоры", direction: "lighting", note: "Опоры для пешеходных и общественных пространств" },
@@ -58,7 +57,7 @@ const originalCategories: Category[] = [
 // Названия серий взяты из открытого каталога dekart.tech.
 // Технические параметры и доступность УЗМ подтверждает перед публикацией.
 const originalProducts: Product[] = [
-  { slug: "ogk", name: "ОГК", categorySlug: "opory-osveshcheniya", family: "Несиловые гранёные", form: "Гранёная", purpose: "Несиловая" },
+  { slug: "ogk", name: "ОГК", categorySlug: "opory-osveshcheniya", family: "Несиловые гранёные", form: "Гранёная", purpose: "Несиловая", image: "/images/sources/dekart-ogk.webp" },
   { slug: "ogkf", name: "ОГКф", categorySlug: "opory-osveshcheniya", family: "Несиловые гранёные", form: "Гранёная", purpose: "Несиловая" },
   { slug: "nfg", name: "НФГ", categorySlug: "opory-osveshcheniya", family: "Несиловые гранёные", form: "Гранёная", purpose: "Несиловая" },
   { slug: "npg", name: "НПГ", categorySlug: "opory-osveshcheniya", family: "Несиловые гранёные", form: "Гранёная", purpose: "Несиловая" },
@@ -75,12 +74,16 @@ const originalProducts: Product[] = [
   { slug: "ms-s", name: "МС-С", categorySlug: "machty-osveshcheniya", family: "Со стационарной короной", form: "Мачта", purpose: "Освещение" },
   { slug: "mgf", name: "МГФ", categorySlug: "machty-osveshcheniya", family: "С мобильной короной", form: "Мачта", purpose: "Освещение" },
   { slug: "ogsg", name: "ОГСГ", categorySlug: "svetofornye-opory", family: "Светофорные опоры", form: "Гранёная", purpose: "Дорожная инфраструктура" },
-  { slug: "ksg-f", name: "КСГ-Ф", categorySlug: "opory-kontaktnoy-seti", family: "Опоры контактной сети", form: "Гранёная", purpose: "Контактная сеть" }
+  { slug: "ksg-f", name: "КСГ-Ф", categorySlug: "opory-kontaktnoy-seti", family: "Опоры контактной сети", form: "Гранёная", purpose: "Контактная сеть" },
+  { slug: "ukrytie-antidron", name: "Укрытие АНТиДРОН", categorySlug: "antidronovaya-zashchita", family: "Антидроновая защита", form: "Защитная конструкция", purpose: "Защита объекта", image: "/images/sources/batissur-antidron.png", sourceUrl: "https://batissur.ru/catalog/ant-dron/ant-dron-1/", description: "Защитная конструкция для объекта. Состав и исполнение определяются проектом." }
 ];
 
-export const categories: Category[] = [...originalCategories, ...extraCategories].map((item) => ({ ...item, ...categoryContent[item.slug] }));
+export const categories: Category[] = [...originalCategories, ...extraCategories].map((item) => {
+  const merged = { ...item, ...categoryContent[item.slug] };
+  return { ...merged, image: merged.image?.includes("/images/categories/") || merged.image?.includes("lighting-poles-hero") || merged.image?.includes("uzm-site-frame") ? undefined : merged.image };
+});
 // Keep previously shared product URLs; the new registry overrides their category and content.
-export const products: Product[] = ([...originalProducts.filter((item) => !importedProducts.some((product) => product.slug === item.slug)).map((item) => item.categorySlug === "opory-osveshcheniya" ? { ...item, categorySlug: item.purpose === "Силовая" ? "silovye-opory" : item.purpose === "Несиловая" ? "nesilovye-opory" : "skladyvayushchiesya-opory" } : item), ...importedProducts, ...dekartFullProducts] as Product[]).map((item) => ({ ...item, image: item.image || generatedImages[item.slug] }));
+export const products: Product[] = ([...originalProducts.filter((item) => !importedProducts.some((product) => product.slug === item.slug)).map((item) => item.categorySlug === "opory-osveshcheniya" ? { ...item, categorySlug: item.purpose === "Силовая" ? "silovye-opory" : item.purpose === "Несиловая" ? "nesilovye-opory" : "skladyvayushchiesya-opory" } : item), ...importedProducts, ...dekartFullProducts] as Product[]).map((item) => ({ ...item, image: item.slug === "ogk" ? "/images/sources/dekart-ogk.webp" : item.image?.startsWith("/images/generated/") ? undefined : item.image }));
 export const getCategory = (slug: string) => categories.find((category) => category.slug === slug);
 export const getProduct = (slug: string) => products.find((product) => product.slug === slug);
 export const getChildren = (slug: string) => categories.filter((item) => item.parentSlug === slug);

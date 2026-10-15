@@ -6,7 +6,6 @@ import { notFound } from "next/navigation";
 import { categories, getCategory, getCategoryProducts, getCategoryTrail, getChildren } from "@/data/catalog";
 import { CategoryGroups } from "@/components/CategoryGroups";
 import { ModelExplorer } from "@/components/ModelExplorer";
-import { ProductVisual } from "@/components/ProductVisual";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -26,7 +25,7 @@ export default async function CategoryPage({ params }: Props) {
 
   return <>
     <section className={`category-hero category-hero-immersive ${category.image ? "has-photo" : "has-graphic"}`}>
-      {category.image ? <Image className="category-hero-background" src={category.image} alt="" fill priority sizes="100vw" /> : <div className="category-hero-graphic" aria-hidden="true"><ProductVisual variant={category.visual ?? (isMetal ? "structure" : "pole")} /></div>}
+      {category.image && <Image className="category-hero-background" src={category.image} alt="" fill priority sizes="100vw" />}
       <div className="category-hero-shade" aria-hidden="true" />
       <div className="container category-hero-inner">
         <div className="breadcrumbs"><Link href="/">Главная</Link><span>/</span><Link href="/catalog">Каталог</Link>{getCategoryTrail(category.slug).map((item) => <span className="breadcrumb-part" key={item.slug}><span>/</span>{item.slug === category.slug ? <span>{item.title}</span> : <Link href={`/catalog/${item.slug}`}>{item.title}</Link>}</span>)}</div>

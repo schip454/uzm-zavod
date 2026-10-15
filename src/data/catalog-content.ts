@@ -4,7 +4,7 @@ const steelSelection = ["Чертежи КМ или КМД", "Размеры и 
 const poleSelection = ["Серия и высота", "Способ установки", "Ветровой район и нагрузка", "Тип светильника", "Покрытие и количество"];
 
 export const extraCategories: Category[] = [
-  { slug: "silovye-opory", title: "Силовые опоры освещения", direction: "lighting", note: "Гранёные, круглоконические и трубчатые", parentSlug: "opory-osveshcheniya", image: "/images/lighting-poles-hero-v2.png" },
+  { slug: "silovye-opory", title: "Силовые опоры освещения", direction: "lighting", note: "Гранёные, круглоконические и трубчатые", parentSlug: "opory-osveshcheniya" },
   { slug: "nesilovye-opory", title: "Несиловые опоры освещения", direction: "lighting", note: "Гранёные, круглоконические и трубчатые", parentSlug: "opory-osveshcheniya", image: "/images/categories/park-neutral-v1.webp" },
   { slug: "skladyvayushchiesya-opory", title: "Складывающиеся опоры освещения", direction: "lighting", note: "Опоры с механизмом опускания верхней части", parentSlug: "opory-osveshcheniya", image: "/images/categories/folding-pole-v1.webp" },
   { slug: "parkovye-svetilniki", title: "Парковые светильники", direction: "lighting", note: "Лира, Легенда, Сфера и другие серии", parentSlug: "svetilniki", image: "/images/categories/park-neutral-v1.webp" },
@@ -13,9 +13,11 @@ export const extraCategories: Category[] = [
   { slug: "opory-truboprovodov", title: "Опоры трубопроводов", direction: "metal", note: "Неподвижные, подвижные, скользящие и направляющие", image: "/images/categories/pipe-support-v1.webp" },
   { slug: "truby-ppu", title: "Трубы и фасонные изделия в ППУ-изоляции", direction: "metal", note: "Трубы, отводы, тройники, переходы и элементы тепловых сетей", image: "/images/categories/ppu-v1.webp" },
   { slug: "zabivnye-svai", title: "Забивные сваи", direction: "metal", note: "Металлические сваи для погружения забивкой", image: "/images/categories/piles-v1.webp" },
+  { slug: "antidronovaya-zashchita", title: "Антидроновая защита", direction: "metal", note: "Защитные конструкции для промышленных объектов", image: "/images/sources/batissur-antidron.png" },
 ];
 
 export const categoryContent: Record<string, Partial<Category>> = {
+  "antidronovaya-zashchita": { description: "Защитные конструкции для объектов и оборудования. Конструктив, размеры и состав подбираются под конкретный объект по проектной документации.", application: "Промышленные объекты и инфраструктура.", selection: ["План объекта", "Габариты защищаемой зоны", "Требования к конструкции", "Регион установки"], visual: "structure" },
   "metallokonstruktsii": { description: "Изготавливаем каркасы зданий, фермы, колонны и балки. Для промышленных объектов — площадки обслуживания, лестницы, переходы и опорные конструкции под оборудование.", application: "Промышленные здания, склады, производственные площадки и инженерные сооружения.", selection: steelSelection, visual: "structure" },
   "tekhnologicheskie-metallokonstruktsii": { description: "Конструкции для размещения и обслуживания оборудования и коммуникаций. Состав, узлы соединений и габариты определяются проектом.", application: "Производственные цеха, энергетические объекты и трубопроводные системы.", selection: steelSelection, visual: "structure" },
   "sendvich-paneli": { parentSlug: "metallokonstruktsii", description: "Колонны, фермы, балки и прогоны для здания с обшивкой сэндвич-панелями. Комплект металлоконструкций рассчитывается по проекту здания.", application: "Склады, ангары и производственные здания.", selection: steelSelection, visual: "structure" },

@@ -5,25 +5,26 @@ import Link from "next/link";
 import "./revamp.css";
 
 const directions = [
-  { title: "Металлоконструкции", description: "Каркасы зданий, фермы, колонны, балки и изделия по чертежам.", image: "/images/uzm-trusses.jpg", href: "/catalog/metallokonstruktsii" },
-  { title: "Опоры освещения", description: "Силовые и несиловые опоры, мачты, закладные детали и светильники.", image: "/images/lighting-poles-hero-v2.png", href: "/catalog/opory-osveshcheniya" },
+  { title: "Металлоконструкции", description: "Каркасы, фермы и детали по чертежам", image: "/images/uzm-frame.jpg", href: "/catalog/metallokonstruktsii" },
+  { title: "Опоры освещения", description: "Силовые, несиловые и складывающиеся", image: "/images/sources/dekart-opora-installation.jpg", href: "/catalog/opory-osveshcheniya" },
+  { title: "Антидроновая защита", description: "Конструкции для промышленных объектов", image: "/images/sources/batissur-antidron.png", href: "/catalog/antidronovaya-zashchita" },
 ];
 
 const catalog = [
-  { title: "Силовые опоры", image: "/images/generated/ogs-v1.webp", href: "/catalog/silovye-opory" },
-  { title: "Несиловые опоры", image: "/images/generated/ogk-v1.webp", href: "/catalog/nesilovye-opory" },
-  { title: "Мачты освещения", image: "/images/generated/mgf-v1.webp", href: "/catalog/machty-osveshcheniya" },
-  { title: "Парковые светильники", image: "/images/categories/park-neutral-v1.webp", href: "/catalog/parkovye-svetilniki" },
+  { title: "Каркасы и фермы", image: "/images/uzm-trusses.jpg", href: "/catalog/metallokonstruktsii" },
+  { title: "Опоры ОГК", image: "/images/sources/dekart-ogk.webp", href: "/catalog/nesilovye-opory" },
+  { title: "Парковые светильники", image: "/images/catalog/ea9be57998382135.png", href: "/catalog/parkovye-svetilniki" },
+  { title: "Антидроновая защита", image: "/images/sources/batissur-antidron.png", href: "/catalog/antidronovaya-zashchita" },
 ];
 
 export default function Home() {
   return <div className="revamp-page">
     <section className="revamp-hero" aria-labelledby="revamp-title">
-      <Image src="/images/uzm-site-frame.png" alt="Монтаж каркаса промышленного здания" fill priority sizes="100vw" className="revamp-hero-image" />
+      <Image src="/images/uzm-frame.jpg" alt="Каркас промышленного здания" fill priority sizes="100vw" className="revamp-hero-image" />
       <div className="revamp-hero-overlay" />
       <div className="container revamp-hero-content">
         <div className="revamp-hero-copy">
-          <p className="revamp-overline">Уральский завод металлоконструкций</p>
+          <p className="revamp-overline">Производство в Екатеринбурге</p>
           <h1 id="revamp-title"><span>Металло<wbr />конструкции</span><span>для промышленного</span><span>строительства</span></h1>
           <p className="revamp-hero-lead">Изготавливаем каркасы, фермы и детали по чертежам заказчика. Подбираем опоры освещения и комплектующие для инфраструктурных проектов.</p>
           <div className="revamp-hero-actions">
@@ -36,8 +37,8 @@ export default function Home() {
     </section>
 
     <section className="revamp-directions" id="directions">
-      <div className="container revamp-section-top"><p>Что производим</p><div><h2>Два направления.<br />Одна задача — ваш проект.</h2><span>Выберите изделие в каталоге или пришлите чертёж на расчёт.</span></div></div>
-      <div className="container revamp-direction-grid">
+      <div className="container revamp-section-top"><p>Что производим</p><div><h2>Изделия для строительства и инфраструктуры</h2><span>Выберите группу изделий или пришлите чертёж на расчёт.</span></div></div>
+      <div className="revamp-direction-grid">
         {directions.map((item) => <Link className="revamp-direction" href={item.href} key={item.href}>
           <div className="revamp-direction-image"><Image src={item.image} alt="" fill sizes="(max-width: 760px) 100vw, 50vw" /></div>
           <div className="revamp-direction-copy"><h3>{item.title}</h3><p>{item.description}</p><ArrowIcon /></div>

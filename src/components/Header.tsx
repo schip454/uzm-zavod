@@ -31,7 +31,7 @@ export function Header() {
       <div className="container main-header">
         <Link href="/" className="brand" aria-label="УЗМ Завод — на главную" onClick={() => setOpen(false)}>
           {pathname === "/" ? <LightLogo className="brand-light-mark" id="header-light-logo-alpha" /> : <Image src="/images/logo-color.webp" alt="УЗМ Завод" width={130} height={77} priority />}
-          <span className="brand-caption">Уральский завод<br />металлоконструкций</span>
+          <span className="brand-caption">Уральский завод<br />металлоизделий</span>
         </Link>
         <nav className={`main-nav ${open ? "is-open" : ""}`} aria-label="Основная навигация">
           {navigation.map((item) => (

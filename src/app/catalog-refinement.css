@@ -48,6 +48,10 @@
 .product-art.has-product-photo{background:#fff}
 .product-art .product-image{object-fit:contain;padding:60px 42px 36px;mix-blend-mode:multiply}
 .model-card-visual .product-image.is-generated,.product-art .product-image.is-generated{object-fit:cover;padding:0;mix-blend-mode:normal}
+.product-photo-pending{position:absolute;inset:0;display:flex;align-items:flex-end;padding:28px;background:linear-gradient(145deg,#edeae4,#dcd7ce);color:#322a25}
+.product-photo-pending span{display:block;font-family:"Commissioner Variable",Arial,sans-serif;font-size:clamp(28px,4vw,52px);font-weight:650;line-height:1;letter-spacing:-.05em;overflow-wrap:anywhere}
+.model-card-visual .product-photo-pending{padding:22px}
+.model-card-visual .product-photo-pending span{font-size:clamp(25px,2.2vw,37px)}
 .product-info h1{font-size:clamp(42px,5.4vw,82px);line-height:1.02;overflow-wrap:anywhere}
 .product-info .eyebrow{letter-spacing:.04em;text-transform:none}
 .related-products{margin-top:65px}
