@@ -1,5 +1,6 @@
 import importedProducts from "./products.json";
 import dekartFullProducts from "./dekart-full.json";
+import verifiedProducts from "./verified-products.json";
 import { categoryContent, extraCategories } from "./catalog-content";
 
 export type Direction = "metal" | "lighting";
@@ -30,6 +31,8 @@ export type Product = {
   image?: string;
   sourceUrl?: string;
   specifications?: { label: string; value: string }[];
+  specificationTitle?: string;
+  variantTable?: { headers: string[]; rows: string[][] };
 };
 
 const originalCategories: Category[] = [
@@ -83,7 +86,11 @@ export const categories: Category[] = [...originalCategories, ...extraCategories
   return { ...merged, image: merged.image?.includes("/images/categories/") || merged.image?.includes("lighting-poles-hero") || merged.image?.includes("uzm-site-frame") ? undefined : merged.image };
 });
 // Keep previously shared product URLs; the new registry overrides their category and content.
-export const products: Product[] = ([...originalProducts.filter((item) => !importedProducts.some((product) => product.slug === item.slug)).map((item) => item.categorySlug === "opory-osveshcheniya" ? { ...item, categorySlug: item.purpose === "Силовая" ? "silovye-opory" : item.purpose === "Несиловая" ? "nesilovye-opory" : "skladyvayushchiesya-opory" } : item), ...importedProducts, ...dekartFullProducts] as Product[]).map((item) => ({ ...item, image: item.slug === "ogk" ? "/images/sources/dekart-ogk.webp" : item.image?.startsWith("/images/generated/") ? undefined : item.image }));
+const verifiedContent: Record<string, Partial<Product>> = verifiedProducts;
+export const products: Product[] = ([...originalProducts.filter((item) => !importedProducts.some((product) => product.slug === item.slug)).map((item) => item.categorySlug === "opory-osveshcheniya" ? { ...item, categorySlug: item.purpose === "Силовая" ? "silovye-opory" : item.purpose === "Несиловая" ? "nesilovye-opory" : "skladyvayushchiesya-opory" } : item), ...importedProducts, ...dekartFullProducts] as Product[]).map((item) => {
+  const merged = { ...item, ...verifiedContent[item.slug] };
+  return { ...merged, image: merged.slug === "ogk" ? "/images/sources/dekart-ogk.webp" : merged.image?.startsWith("/images/generated/") ? undefined : merged.image };
+});
 export const getCategory = (slug: string) => categories.find((category) => category.slug === slug);
 export const getProduct = (slug: string) => products.find((product) => product.slug === slug);
 export const getChildren = (slug: string) => categories.filter((item) => item.parentSlug === slug);

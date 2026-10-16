@@ -1,278 +1,279 @@
-"Раздел","Модель","Источник","Фото","Характеристики","Статус фото"
-"Силовые опоры освещения","СФК","","/images/generated/sfk-v1.webp","0","Готово"
-"Складывающиеся опоры освещения","МО-С","","","0","Нужен снимок"
-"Опоры контактной сети","КСГ-Ф","","","0","Нужен снимок"
-"Силовые опоры освещения","ОГС","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/ogs/","/images/generated/ogs-v1.webp","0","Готово"
-"Силовые опоры освещения","СФГ","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/sfg/","/images/generated/sfg-v1.webp","0","Готово"
-"Силовые опоры освещения","ОГСф","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/ogsf/","/images/generated/ogsf-v1.webp","0","Готово"
-"Силовые опоры освещения","СПГ","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/spg/","/images/generated/spg-v1.webp","0","Готово"
-"Силовые опоры освещения","ОККС","https://dekart.tech/shop/opory-osvescheniya/silovye/kruglokonicheskie/okks/","/images/generated/okks-v1.webp","0","Готово"
-"Силовые опоры освещения","СФ","https://dekart.tech/shop/opory-osvescheniya/silovye/trubchatye/opory_osveshcheniya_sf/","/images/generated/sf-v1.webp","0","Готово"
-"Силовые опоры освещения","СП","","/images/generated/sp-v1.webp","0","Готово"
-"Силовые опоры освещения","ОС","","/images/generated/os-v1.webp","0","Готово"
-"Силовые опоры освещения","ОСф","","/images/generated/osf-v1.webp","0","Готово"
-"Несиловые опоры освещения","ОГК","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ogk/","/images/generated/ogk-v1.webp","0","Готово"
-"Несиловые опоры освещения","ОГКф","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ogkf/","/images/generated/ogkf-v1.webp","0","Готово"
-"Несиловые опоры освещения","НФГ","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/nfg/","/images/generated/nfg-v1.webp","0","Готово"
-"Несиловые опоры освещения","НПГ","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/npg/","/images/generated/npg-v1.webp","0","Готово"
-"Несиловые опоры освещения","ОНО","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ono/","/images/generated/ono-v1.webp","0","Готово"
-"Несиловые опоры освещения","НФК","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/nfk/","/images/generated/nfk-v1.webp","0","Готово"
-"Несиловые опоры освещения","ОКК","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/okk/","/images/generated/okk-v1.webp","0","Готово"
-"Несиловые опоры освещения","ОМК","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/omk/","","0","Нужен снимок"
-"Несиловые опоры освещения","НПК","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/npk/","","0","Нужен снимок"
-"Несиловые опоры освещения","ОТ","","","0","Нужен снимок"
-"Несиловые опоры освещения","ОТф","","","0","Нужен снимок"
-"Несиловые опоры освещения","ОП","","","0","Нужен снимок"
-"Несиловые опоры освещения","ОКС","","","0","Нужен снимок"
-"Несиловые опоры освещения","НП","","","0","Нужен снимок"
-"Несиловые опоры освещения","НФ","https://dekart.tech/shop/opory-osvescheniya/nesilovye/trubchatye/opory_osveshcheniya_nf/","","0","Нужен снимок"
-"Складывающиеся опоры освещения","ОГКС","https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/ogks/","/images/generated/ogks-v1.webp","0","Готово"
-"Складывающиеся опоры освещения","СООС","","/images/generated/soos-v1.webp","0","Готово"
-"Мачты освещения","МГФ","https://dekart.tech/shop/machty-osvescheniya/mgf/","/images/generated/mgf-v1.webp","0","Готово"
-"Мачты освещения","ВМО","https://dekart.tech/shop/machty-osvescheniya/vmo/","","0","Нужен снимок"
-"Мачты освещения","ВМОН","https://dekart.tech/shop/machty-osvescheniya/vmon/","","0","Нужен снимок"
-"Мачты освещения","МС-С","https://dekart.tech/shop/machty-osvescheniya/ms-s/","","0","Нужен снимок"
-"Прожекторные мачты","ПМС","https://toenergo.ru/catalog/machty-osveshcheniya-/prozhektornye-machty-pms/","/images/generated/pms-v1.webp","0","Готово"
-"Светофорные опоры","ОГСГ","https://dekart.tech/shop/svetofornye-opory/ogsg/","","0","Нужен снимок"
-"Светофорные опоры","ОКСГ","https://dekart.tech/shop/svetofornye-opory/oksg/","","0","Нужен снимок"
-"Светофорные опоры","ОСФГ","https://dekart.tech/shop/svetofornye-opory/osfg/","","0","Нужен снимок"
-"Светофорные опоры","СОДГ","https://dekart.tech/shop/svetofornye-opory/sodg/","","0","Нужен снимок"
-"Светофорные опоры","СС","https://dekart.tech/shop/svetofornye-opory/ss/","","0","Нужен снимок"
-"Рамные опоры дорожных знаков","РМГ","https://toenergo.ru/catalog/ramnye-opory-dorozhnye/g-obraznye-rmg/","","0","Нужен снимок"
-"Рамные опоры дорожных знаков","РМП","https://toenergo.ru/catalog/ramnye-opory-dorozhnye/p-obraznye-rmp/","","0","Нужен снимок"
-"Рамные опоры дорожных знаков","РМТ","https://toenergo.ru/catalog/ramnye-opory-dorozhnye/t-obraznye-rmt/","","0","Нужен снимок"
-"Молниеотводы","МОГК","https://dekart.tech/shop/molnieotvody/mogk/","","0","Нужен снимок"
-"Молниеотводы","СМ","","","0","Нужен снимок"
-"Опоры контактной сети","ТП","https://toenergo.ru/catalog/opory-osveshchenyia/opory-kontaktnoy-seti/opory-osveshcheniya-tp/","","0","Нужен снимок"
-"Опоры контактной сети","ТФ","https://toenergo.ru/catalog/opory-osveshchenyia/opory-kontaktnoy-seti/opory-osveshcheniya-tf/","","0","Нужен снимок"
-"Опоры контактной сети","ТФГ","https://dekart.tech/shop/opory-kontaktnoy-seti/tfg/","","0","Нужен снимок"
-"Парковые светильники","Лира","https://klassik-elektro.ru/svetilniki/parkovye/lira-ntu-10-rtu-10-zhtu-10-gtu-10/","/images/catalog/ea9be57998382135.png","0","Готово"
-"Парковые светильники","Легенда","https://klassik-elektro.ru/svetilniki/parkovye/legenda-ntu-10-rtu-10-zhtu-10-gtu-10/","/images/catalog/3fa49f102341bfe4.png","0","Готово"
-"Парковые светильники","Пушкинский Ретро","https://klassik-elektro.ru/svetilniki/parkovye/pushkinskij-retro/","/images/catalog/eddb52e900a7ccee.jpg","0","Готово"
-"Парковые светильники","Медуза","https://klassik-elektro.ru/svetilniki/parkovye/meduza/","/images/catalog/d0fc88d90b854a90.jpg","0","Готово"
-"Парковые светильники","Пешка","https://klassik-elektro.ru/svetilniki/parkovye/peshka/","/images/catalog/95592a6bd46667b3.jpg","0","Готово"
-"Парковые светильники","Ладья","https://klassik-elektro.ru/svetilniki/parkovye/ladya/","/images/catalog/34f7ad94658f2b86.jpg","0","Готово"
-"Парковые светильники","Кристалл","https://klassik-elektro.ru/svetilniki/parkovye/kristall/","/images/catalog/419c801b1ade2f77.jpg","0","Готово"
-"Парковые светильники","Ферзь","https://klassik-elektro.ru/svetilniki/parkovye/ferz/","/images/catalog/4a769c00bed88ce6.jpg","0","Готово"
-"Парковые светильники","Сфера","https://klassik-elektro.ru/svetilniki/parkovye/sfera/","/images/catalog/de706779677f627b.jpg","0","Готово"
-"Парковые светильники","Пушкинский 05","https://klassik-elektro.ru/svetilniki/parkovye/pushkinskij-05/","/images/catalog/b8ba48f94ebbd105.jpg","0","Готово"
-"Парковые светильники","Прогресс","https://klassik-elektro.ru/svetilniki/parkovye/progress/","/images/catalog/0257e9d465de42b2.jpg","0","Готово"
-"Парковые светильники","Конус","https://klassik-elektro.ru/svetilniki/parkovye/konus/","/images/catalog/28a7a4acbe51615b.jpg","0","Готово"
-"Парковые светильники","Сатурн","https://klassik-elektro.ru/svetilniki/parkovye/saturn/","/images/catalog/2bedd9400d3df04f.jpg","0","Готово"
-"Парковые опоры освещения","Боллард","https://dekart.tech/shop/dekorativnye-opory/bollard/","","0","Нужен снимок"
-"Парковые опоры освещения","Квадро","https://dekart.tech/shop/dekorativnye-opory/kvadro/","","0","Нужен снимок"
-"Парковые опоры освещения","Кольт","https://dekart.tech/shop/dekorativnye-opory/kolt/","","0","Нужен снимок"
-"Парковые опоры освещения","Тверь Мини","https://dekart.tech/shop/dekorativnye-opory/tver-mini/","","0","Нужен снимок"
-"Парковые опоры освещения","Тверь","https://dekart.tech/shop/dekorativnye-opory/tver-tv401/","","0","Нужен снимок"
-"Парковые опоры освещения","Тверь Гала","https://dekart.tech/shop/dekorativnye-opory/tver-tv402/","","0","Нужен снимок"
-"Парковые опоры освещения","Спарта Альтер","https://dekart.tech/shop/dekorativnye-opory/tver-tv501/","","0","Нужен снимок"
-"Парковые опоры освещения","Тверь Арагон","https://dekart.tech/shop/dekorativnye-opory/tver-aragon-atv-401/","","0","Нужен снимок"
-"Парковые опоры освещения","Тверь Гала 1.0","https://dekart.tech/shop/dekorativnye-opory/tver-aragon-atv-402/","","0","Нужен снимок"
-"Парковые опоры освещения","Тверь Арагон 2.0","https://dekart.tech/shop/dekorativnye-opory/tver-aragon-atv-501/","","0","Нужен снимок"
-"Парковые опоры освещения","Стик","https://dekart.tech/shop/dekorativnye-opory/tver-aragon-atv-502/","","0","Нужен снимок"
-"Парковые опоры освещения","Сабонис","https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-401/","","0","Нужен снимок"
-"Парковые опоры освещения","Аллея","https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-501/","","0","Нужен снимок"
-"Парковые опоры освещения","ТАНС","https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-601/","","0","Нужен снимок"
-"Парковые опоры освещения","Бульвар","https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-402/","","0","Нужен снимок"
-"Парковые опоры освещения","Вишня","https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-502/","","0","Нужен снимок"
-"Парковые опоры освещения","Зенит","https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-602/","","0","Нужен снимок"
-"Парковые опоры освещения","Рондо","https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-40m1/","","0","Нужен снимок"
-"Парковые опоры освещения","Сходня","https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-50m1/","","0","Нужен снимок"
-"Парковые опоры освещения","Маяк Мини","https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-60m1/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Угловая промежуточная опора УПс10-2","https://toenergo.ru/catalog/uglovaya-promezhutochnaya-opora-ups10-2/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Угловая промежуточная опора УПс10-1","https://toenergo.ru/catalog/uglovaya-promezhutochnaya-opora-ups10-1/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Угловая анкерная опора УАс10-2","https://toenergo.ru/catalog/uglovaya-ankernaya-opora-uas10-2/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Угловая анкерная опора УАс10-1","https://toenergo.ru/catalog/uglovaya-ankernaya-opora-uas10-1/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Переходная угловая промежуточная опора ПУПс10-1","https://toenergo.ru/catalog/perekhodnaya-uglovaya-promezhutochnaya-opora-pups10-1/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Переходная угловая анкерная опора ПУАс10-1","https://toenergo.ru/catalog/perekhodnaya-uglovaya-ankernaya-opora-puas10-1/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Промежуточная опора ПС10-2","https://toenergo.ru/catalog/promezhutochnaya-opora-ps10-2/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Промежуточная опора Пс10-1","https://toenergo.ru/catalog/promezhutochnaya-opora-ps10-1/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Переходная промежуточная опора ППс10-1","https://toenergo.ru/catalog/perekhodnaya-promezhutochnaya-opora-pps10-1/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Переходная анкерная опора ПАс10-1","https://toenergo.ru/catalog/perekhodnaya-ankernaya-opora-pas10-1/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Переходная анкерная ответвительная опора ПАОс10-1","https://toenergo.ru/catalog/perekhodnaya-ankernaya-otvetvitelnaya-opora-paos10-1/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Анкерная (концевая) опора Ас10-2","https://toenergo.ru/catalog/ankernaya-kontsevaya-opora-as10-2/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Анкерная (концевая) опора Ас10-1","https://toenergo.ru/catalog/ankernaya-kontsevaya-opora-as10-1/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Анкерная ответвительная опора АОс10-2","https://toenergo.ru/catalog/ankernaya-otvetvitelnaya-opora-aos10-2/","","0","Нужен снимок"
-"Металлические опоры ВЛ","Анкерная ответвительная опора АОс10-1","https://toenergo.ru/catalog/ankernaya-otvetvitelnaya-opora-aos10-1/","","0","Нужен снимок"
-"Винтовые сваи","СВС","https://svai-omk.ru/cat/vintovye-svai-svs/","/images/generated/pile-svs-v1.webp","0","Готово"
-"Винтовые сваи","СВСН","https://svai-omk.ru/cat/vintovye-svai-svsn/","","0","Нужен снимок"
-"Винтовые сваи","СВЛ","https://svai-omk.ru/cat/vintovye-svai-svl/","","0","Нужен снимок"
-"Винтовые сваи","СВЛМ","https://svai-omk.ru/cat/vintovye-svai-svlm/","","0","Нужен снимок"
-"Винтовые сваи","ВСЛ","https://svai-omk.ru/cat/vintovye-svai-vsl/","","0","Нужен снимок"
-"Винтовые сваи","ВСЛМ","https://svai-omk.ru/cat/vintovye-svai-vslm-svlm/","","0","Нужен снимок"
-"Винтовые сваи","СВМ (РЖД)","https://svai-omk.ru/cat/vintovye-svai-svm/","","0","Нужен снимок"
-"Винтовые сваи","СВТ (РЖД)","https://svai-omk.ru/cat/vintovye-svai-svt/","","0","Нужен снимок"
-"Забивные сваи","Металлические забивные сваи","https://svai-omk.ru/cat/svai/","","0","Нужен снимок"
-"Закладные детали фундамента","Анкерные закладные детали","https://toenergo.ru/catalog/zakladnie-detali-fundamenta/ankernye-zakladnye-detali/","/images/generated/foundation-ankernye-v1.webp","0","Готово"
-"Закладные детали фундамента","Трубчатые закладные детали","https://toenergo.ru/catalog/zakladnie-detali-fundamenta/zakladnye-detali-trubchatogo-tipa/","/images/generated/foundation-trubchatye-v1.webp","0","Готово"
-"Закладные детали фундамента","Выносные закладные детали","https://toenergo.ru/catalog/zakladnie-detali-fundamenta/","","0","Нужен снимок"
-"Закладные детали фундамента","Консольные закладные детали","https://toenergo.ru/catalog/zakladnie-detali-fundamenta/","","0","Нужен снимок"
-"Кронштейны","Консольные кронштейны","https://toenergo.ru/catalog/kronsteiny/konsolnye-kronshteyny/","/images/generated/bracket-konsolnye-v1.webp","0","Готово"
-"Кронштейны","Настенные кронштейны","https://toenergo.ru/catalog/kronsteiny/nastennye-kronshteyny/","","0","Нужен снимок"
-"Кронштейны","Подвесные кронштейны","https://toenergo.ru/catalog/kronsteiny/podvesnye-kronshteyny/","","0","Нужен снимок"
-"Кронштейны","Прожекторные кронштейны","https://toenergo.ru/catalog/kronsteiny/prozhektornye-kronshteyny/","","0","Нужен снимок"
-"Кронштейны","Торшерные кронштейны для парковых светильников","https://toenergo.ru/catalog/kronsteiny/torshernye-kronshteyny/","","0","Нужен снимок"
-"Опоры трубопроводов","Неподвижные опоры","https://krasznam.ru/catalog/opory-truboprovodov/","/images/generated/pipe-support-nepodvizhnye-v1.webp","0","Готово"
-"Опоры трубопроводов","Подвижные опоры","https://krasznam.ru/catalog/opory-truboprovodov/","","0","Нужен снимок"
-"Опоры трубопроводов","Скользящие опоры","https://krasznam.ru/catalog/opory-truboprovodov/","/images/generated/pipe-support-skolzyashchie-v1.webp","0","Готово"
-"Опоры трубопроводов","Направляющие опоры","https://krasznam.ru/catalog/opory-truboprovodov/","","0","Нужен снимок"
-"Опоры трубопроводов","Неподвижные опоры трубопроводов в ППУ-изоляции","https://krasznam.ru/catalog/opory-truboprovodov/","","0","Нужен снимок"
-"Опоры трубопроводов","Скользящие опоры трубопроводов в ППУ-изоляции","https://krasznam.ru/catalog/opory-truboprovodov/","","0","Нужен снимок"
-"Трубы и фасонные изделия в ППУ-изоляции","Трубы ППУ в ПЭ-оболочке","https://krasznam.ru/pipe","/images/generated/ppu-pe-v1.webp","0","Готово"
-"Трубы и фасонные изделия в ППУ-изоляции","Трубы ППУ в ОЦ-оболочке","https://krasznam.ru/pipe","","0","Нужен снимок"
-"Трубы и фасонные изделия в ППУ-изоляции","Отводы в ППУ-изоляции","https://krasznam.ru/pipe","/images/generated/ppu-otvody-v1.webp","0","Готово"
-"Трубы и фасонные изделия в ППУ-изоляции","Тройники в ППУ-изоляции","https://krasznam.ru/pipe","","0","Нужен снимок"
-"Трубы и фасонные изделия в ППУ-изоляции","Переходы в ППУ-изоляции","https://krasznam.ru/pipe","","0","Нужен снимок"
-"Опоры двойного назначения","ОДН","","","0","Нужен снимок"
-"Металлоконструкции","Каркасы зданий","https://uzmzavod.ru/","/images/generated/karkasy-v1.webp","0","Готово"
-"Металлоконструкции","Стальные фермы","https://uzmzavod.ru/","/images/uzm-trusses.jpg","0","Готово"
-"Металлоконструкции","Металлические колонны","https://uzmzavod.ru/","/images/generated/kolonny-v1.webp","0","Готово"
-"Металлоконструкции","Стальные балки","https://uzmzavod.ru/","/images/generated/balki-v1.webp","0","Готово"
-"Технологические металлоконструкции","Площадки обслуживания","","/images/generated/ploshchadki-v1.webp","0","Готово"
-"Технологические металлоконструкции","Технологические лестницы","","/images/generated/lestnitsy-v1.webp","0","Готово"
-"Технологические металлоконструкции","Переходные мостики","","/images/generated/mostiki-v1.webp","0","Готово"
-"Технологические металлоконструкции","Эстакады","","/images/generated/estakady-v1.webp","0","Готово"
-"Технологические металлоконструкции","Опорные конструкции под оборудование","","/images/generated/opornye-konstruktsii-v1.webp","0","Готово"
-"Цоколи для опор освещения","D-220×425 H-540","https://svetplast.ru/catalog/tsokolya/","/images/generated/base-d220-425-h540-v1.webp","0","Готово"
-"Цоколи для опор освещения","D-220 H-1500 (Ц5)","https://svetplast.ru/catalog/tsokolya/","","0","Нужен снимок"
-"Цоколи для опор освещения","D-220(276)×530 H-240","https://svetplast.ru/catalog/tsokolya/","","0","Нужен снимок"
-"Цоколи для опор освещения","D-220×440 H-500","https://svetplast.ru/catalog/tsokolya/","","0","Нужен снимок"
-"Цоколи для опор освещения","D-140×420 H-540","https://svetplast.ru/catalog/tsokolya/","","0","Нужен снимок"
-"Цоколи для опор освещения","D-276 H-1510","https://svetplast.ru/catalog/tsokolya/","","0","Нужен снимок"
-"Цоколи для опор освещения","D-276×425 H-540","https://svetplast.ru/catalog/tsokolya/","","0","Нужен снимок"
-"Цоколи для опор освещения","Восьмигранный H-560","https://svetplast.ru/catalog/tsokolya/","","0","Нужен снимок"
-"Цоколи для опор освещения","Калининград","https://svetplast.ru/catalog/tsokolya/","","0","Нужен снимок"
-"Цоколи для опор освещения","МОСТРАНС","https://svetplast.ru/catalog/tsokolya/","","0","Нужен снимок"
-"Силовые опоры освещения","МС","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/ms/","","0","Нужен снимок"
-"Силовые опоры освещения","МСО-ПГ","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/mso-pg/","","0","Нужен снимок"
-"Силовые опоры освещения","МСО-ФГ","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/mso-fg/","","0","Нужен снимок"
-"Силовые опоры освещения","ОГКСф","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/ogksf/","","0","Нужен снимок"
-"Силовые опоры освещения","ОГСп","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/ogsp/","","0","Нужен снимок"
-"Силовые опоры освещения","ОГУ","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/ogu/","","0","Нужен снимок"
-"Силовые опоры освещения","ОМОС","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/omos/","","0","Нужен снимок"
-"Силовые опоры освещения","ОСГК","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/osgk/","","0","Нужен снимок"
-"Силовые опоры освещения","ОСГКп","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/osgkp/","","0","Нужен снимок"
-"Силовые опоры освещения","ОСп","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/osp/","","0","Нужен снимок"
-"Силовые опоры освещения","СГ-П","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/sg-p/","","0","Нужен снимок"
-"Силовые опоры освещения","СГ-Ф","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/sg-f/","","0","Нужен снимок"
-"Силовые опоры освещения","СМО","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/smo/","","0","Нужен снимок"
-"Силовые опоры освещения","ТАНС (СПГ)","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/tans-spg/","","0","Нужен снимок"
-"Силовые опоры освещения","ТАНС (СФГ)","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/tans-sfg/","","0","Нужен снимок"
-"Силовые опоры освещения","Ясень","https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/yasen/","","0","Нужен снимок"
-"Силовые опоры освещения","ОКККВ","https://dekart.tech/shop/opory-osvescheniya/silovye/kruglokonicheskie/okkv/","","0","Нужен снимок"
-"Силовые опоры освещения","СФК","https://dekart.tech/shop/opory-osvescheniya/silovye/kruglokonicheskie/sfk/","","0","Нужен снимок"
-"Несиловые опоры освещения","ГФОО","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/gfoo/","","0","Нужен снимок"
-"Несиловые опоры освещения","Клен","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/klen/","","0","Нужен снимок"
-"Несиловые опоры освещения","МК-Г","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/mk_g/","","0","Нужен снимок"
-"Несиловые опоры освещения","МК-Ф","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/mk_f/","","0","Нужен снимок"
-"Несиловые опоры освещения","МНО-ПГ","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/mno-pg/","","0","Нужен снимок"
-"Несиловые опоры освещения","МНО-ФГ","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/mno_fg/","","0","Нужен снимок"
-"Несиловые опоры освещения","МО","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/mo/","","0","Нужен снимок"
-"Несиловые опоры освещения","МОп","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/mop/","","0","Нужен снимок"
-"Несиловые опоры освещения","НГ-П","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ng-p/","","0","Нужен снимок"
-"Несиловые опоры освещения","НГ-Ф","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ng_f/","","0","Нужен снимок"
-"Несиловые опоры освещения","НГП","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ngp/","","0","Нужен снимок"
-"Несиловые опоры освещения","ОГКл","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ogkl/","","0","Нужен снимок"
-"Несиловые опоры освещения","ОГКо","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ogko/","","0","Нужен снимок"
-"Несиловые опоры освещения","ОГКп","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ogkp/","","0","Нужен снимок"
-"Несиловые опоры освещения","ОГКу","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ogku/","","0","Нужен снимок"
-"Несиловые опоры освещения","ОМГ","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/omg/","","0","Нужен снимок"
-"Несиловые опоры освещения","ОПФГ","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/opfg/","","0","Нужен снимок"
-"Несиловые опоры освещения","ОСГК","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/osgk/","","0","Нужен снимок"
-"Несиловые опоры освещения","ОСГКп","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/osgkp/","","0","Нужен снимок"
-"Несиловые опоры освещения","СТВ","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/stv/","","0","Нужен снимок"
-"Несиловые опоры освещения","СТВп","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/stvp/","","0","Нужен снимок"
-"Несиловые опоры освещения","ТАНС (НПГ)","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/tans-npg/","","0","Нужен снимок"
-"Несиловые опоры освещения","ТАНС (НФГ)","https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/tans-nfg/","","0","Нужен снимок"
-"Несиловые опоры освещения","Бульвар","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/bulvar/","","0","Нужен снимок"
-"Несиловые опоры освещения","МНО-ПК","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/mnopk/","","0","Нужен снимок"
-"Несиловые опоры освещения","МНО-ФК","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/mno-fk/","","0","Нужен снимок"
-"Несиловые опоры освещения","НК-П","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/nk-p/","","0","Нужен снимок"
-"Несиловые опоры освещения","НК-Ф","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/nk-f/","","0","Нужен снимок"
-"Несиловые опоры освещения","ОККп","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/okkp/","","0","Нужен снимок"
-"Несиловые опоры освещения","ОККСф","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/okksf/","","0","Нужен снимок"
-"Несиловые опоры освещения","ОККф","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/okkf/","","0","Нужен снимок"
-"Несиловые опоры освещения","ТАНС (НПК)","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/tans-npk/","","0","Нужен снимок"
-"Несиловые опоры освещения","ТАНС (НФК)","https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/tans-nfk/","","0","Нужен снимок"
-"Складывающиеся опоры освещения","МО-С","https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/mo-s/","","0","Нужен снимок"
-"Складывающиеся опоры освещения","МТ-Ф","https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/mt-f/","","0","Нужен снимок"
-"Складывающиеся опоры освещения","ОГККЗН","https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/ogkkzn/","","0","Нужен снимок"
-"Складывающиеся опоры освещения","ОГСКЛ","https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/ogskl/","","0","Нужен снимок"
-"Складывающиеся опоры освещения","ОМКС","https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/omks/","","0","Нужен снимок"
-"Складывающиеся опоры освещения","ОМСК","https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/omsk/","","0","Нужен снимок"
-"Складывающиеся опоры освещения","СОФ","https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/sof/","","0","Нужен снимок"
-"Складывающиеся опоры освещения","ТАНС (П-ФГ)","https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/tans-p-fg/","","0","Нужен снимок"
-"Складывающиеся опоры освещения","ТГ","https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/tg/","","0","Нужен снимок"
-"Складывающиеся опоры освещения","ОККС","https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/kruglokonicheskie/okks/","","0","Нужен снимок"
-"Складывающиеся опоры освещения","ОСКК","https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/kruglokonicheskie/oskk/","","0","Нужен снимок"
-"Складывающиеся опоры освещения","ТАНС (П-ФК)","https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/kruglokonicheskie/tans-p-fk/","","0","Нужен снимок"
-"Мачты освещения","МС-Т","https://dekart.tech/shop/machty-osvescheniya/ms-t/","","0","Нужен снимок"
-"Мачты освещения","ОВМ","https://dekart.tech/shop/machty-osvescheniya/ovm/","","0","Нужен снимок"
-"Мачты освещения","МС-Р","https://dekart.tech/shop/machty-osvescheniya/ms-r/","","0","Нужен снимок"
-"Мачты освещения","МС-К","https://dekart.tech/shop/machty-osvescheniya/ms-k/","","0","Нужен снимок"
-"Мачты освещения","ВОУ-СР","https://dekart.tech/shop/machty-osvescheniya/vou-sr/","","0","Нужен снимок"
-"Мачты освещения","МГН","https://dekart.tech/shop/machty-osvescheniya/mgn/","","0","Нужен снимок"
-"Мачты освещения","ПММ","https://dekart.tech/shop/machty-osvescheniya/pmm/","","0","Нужен снимок"
-"Мачты освещения","СТПр","https://dekart.tech/shop/machty-osvescheniya/stpr/","","0","Нужен снимок"
-"Мачты освещения","ВМОНТ","https://dekart.tech/shop/machty-osvescheniya/vmont/","","0","Нужен снимок"
-"Мачты освещения","МССК ВКК","https://dekart.tech/shop/machty-osvescheniya/mssk-vkk/","","0","Нужен снимок"
-"Мачты освещения","ПМ","https://dekart.tech/shop/machty-osvescheniya/pm/","","0","Нужен снимок"
-"Мачты освещения","МГСК","https://dekart.tech/shop/machty-osvescheniya/mgsk/","","0","Нужен снимок"
-"Мачты освещения","ОВС","https://dekart.tech/shop/machty-osvescheniya/ovs/","","0","Нужен снимок"
-"Мачты освещения","МС","https://dekart.tech/shop/machty-osvescheniya/ms/","","0","Нужен снимок"
-"Мачты освещения","ВС","https://dekart.tech/shop/machty-osvescheniya/vs/","","0","Нужен снимок"
-"Мачты освещения","ВГН","https://dekart.tech/shop/machty-osvescheniya/vgn/","","0","Нужен снимок"
-"Мачты освещения","МГФ-СР","https://dekart.tech/shop/machty-osvescheniya/mgf-sr/","","0","Нужен снимок"
-"Мачты освещения","МГФ-С","https://dekart.tech/shop/machty-osvescheniya/mgf-s/","","0","Нужен снимок"
-"Мачты освещения","ММКПО","https://dekart.tech/shop/machty-osvescheniya/mmkpo/","","0","Нужен снимок"
-"Мачты освещения","ММК","https://dekart.tech/shop/machty-osvescheniya/mmk/","","0","Нужен снимок"
-"Мачты освещения","ВМК","https://dekart.tech/shop/machty-osvescheniya/vmk/","","0","Нужен снимок"
-"Мачты освещения","ВМ","https://dekart.tech/shop/machty-osvescheniya/vm/","","0","Нужен снимок"
-"Мачты освещения","ПМО","https://dekart.tech/shop/machty-osvescheniya/pmo/","","0","Нужен снимок"
-"Мачты освещения","ВОУ","https://dekart.tech/shop/machty-osvescheniya/vou/","","0","Нужен снимок"
-"Мачты освещения","МГФ-М","https://dekart.tech/shop/machty-osvescheniya/mgf-m/","","0","Нужен снимок"
-"Мачты освещения","ВГМ","https://dekart.tech/shop/machty-osvescheniya/vgm/","","0","Нужен снимок"
-"Мачты освещения","МГМ","https://dekart.tech/shop/machty-osvescheniya/mgm/","","0","Нужен снимок"
-"Мачты освещения","ММ","https://dekart.tech/shop/machty-osvescheniya/mm/","","0","Нужен снимок"
-"Мачты освещения","МПО","https://dekart.tech/shop/machty-osvescheniya/mpo/","","0","Нужен снимок"
-"Ж/Д опоры контактной сети","МГК","https://dekart.tech/shop/zhd-opory-kontaktnoy-seti/mgk/","","0","Нужен снимок"
-"Ж/Д опоры контактной сети","МГП","https://dekart.tech/shop/zhd-opory-kontaktnoy-seti/mgp/","","0","Нужен снимок"
-"Ж/Д опоры контактной сети","МГТГ","https://dekart.tech/shop/zhd-opory-kontaktnoy-seti/mgtg/","","0","Нужен снимок"
-"Ж/Д опоры контактной сети","МШК","https://dekart.tech/shop/zhd-opory-kontaktnoy-seti/mshk/","","0","Нужен снимок"
-"Ж/Д опоры контактной сети","МШП","https://dekart.tech/shop/zhd-opory-kontaktnoy-seti/mshp/","","0","Нужен снимок"
-"Ж/Д опоры контактной сети","МШТШ","https://dekart.tech/shop/zhd-opory-kontaktnoy-seti/mshtsh/","","0","Нужен снимок"
-"Мачты связи","МР","https://dekart.tech/shop/machty-sotovoy-svyazi/mr/","","0","Нужен снимок"
-"Мачты связи","ОДН","https://dekart.tech/shop/machty-sotovoy-svyazi/odn/","","0","Нужен снимок"
-"Мачты связи","ОСС","https://dekart.tech/shop/machty-sotovoy-svyazi/oss/","","0","Нужен снимок"
-"Мачты связи","РМГ","https://dekart.tech/shop/machty-sotovoy-svyazi/rmg/","","0","Нужен снимок"
-"Мачты связи","РРЛ","https://dekart.tech/shop/machty-sotovoy-svyazi/rrl/","","0","Нужен снимок"
-"Прожекторные мачты","МО","https://dekart.tech/shop/prozhektornye-machty/mo/","","0","Нужен снимок"
-"Прожекторные мачты","Н","https://dekart.tech/shop/prozhektornye-machty/n/","","0","Нужен снимок"
-"Молниеотводы","ММО","https://dekart.tech/shop/molnieotvody/mmo/","","0","Нужен снимок"
-"Молниеотводы","МО","https://dekart.tech/shop/molnieotvody/mo/","","0","Нужен снимок"
-"Молниеотводы","ОММ","https://dekart.tech/shop/molnieotvody/omm/","","0","Нужен снимок"
-"Кронштейны","Радиусные кронштейны","https://dekart.tech/shop/kronshteyny/radiusnye/","","0","Нужен снимок"
-"Кронштейны","Векторные кронштейны","https://dekart.tech/shop/kronshteyny/vektornye/","","0","Нужен снимок"
-"Кронштейны","Однорожковые кронштейны","https://dekart.tech/shop/kronshteyny/odnorozhkovye/","","0","Нужен снимок"
-"Кронштейны","Двухрожковые кронштейны","https://dekart.tech/shop/kronshteyny/dvukhrozhkovye/","","0","Нужен снимок"
-"Кронштейны","Трехрожковые кронштейны","https://dekart.tech/shop/kronshteyny/trekhrozhkovye/","","0","Нужен снимок"
-"Кронштейны","Четырехрожковые кронштейны","https://dekart.tech/shop/kronshteyny/chetyrekhrozhkovye/","","0","Нужен снимок"
-"Опоры контактной сети","КС-МСО-ФГ","https://dekart.tech/shop/opory-kontaktnoy-seti/ks-mso-fg/","","0","Нужен снимок"
-"Опоры контактной сети","КСГ-П","https://dekart.tech/shop/opory-kontaktnoy-seti/ksg-p/","","0","Нужен снимок"
-"Опоры контактной сети","КСГ-Ф","https://dekart.tech/shop/opory-kontaktnoy-seti/ksg-f/","","0","Нужен снимок"
-"Опоры контактной сети","МКС-П","https://dekart.tech/shop/opory-kontaktnoy-seti/mks-p/","","0","Нужен снимок"
-"Опоры контактной сети","МКСф","https://dekart.tech/shop/opory-kontaktnoy-seti/mksf/","","0","Нужен снимок"
-"Опоры контактной сети","ОГКС","https://dekart.tech/shop/opory-kontaktnoy-seti/ogks/","","0","Нужен снимок"
-"Опоры контактной сети","ОГСКС","https://dekart.tech/shop/opory-kontaktnoy-seti/ogsks/","","0","Нужен снимок"
-"Опоры контактной сети","ОКККС","https://dekart.tech/shop/opory-kontaktnoy-seti/okkks/","","0","Нужен снимок"
-"Опоры контактной сети","ОКСГф","https://dekart.tech/shop/opory-kontaktnoy-seti/oksgf/","","0","Нужен снимок"
-"Опоры контактной сети","ТАНС (ТФГ)","https://dekart.tech/shop/opory-kontaktnoy-seti/tans-tfg/","","0","Нужен снимок"
-"Винтовые сваи","Буроопускные сваи","https://dekart.tech/shop/svai/buroopusknaya_svaya/","","0","Нужен снимок"
-"Винтовые сваи","Винтовые сваи двухлопастные","https://dekart.tech/shop/svai/vintovaya_svaya_dvukhlopastnaya/","","0","Нужен снимок"
-"Винтовые сваи","Винтовые сваи для мерзлых грунтов","https://dekart.tech/shop/svai/vintovaya_svaya_dlya_merzlykh_gruntov/","","0","Нужен снимок"
-"Винтовые сваи","Винтовые сваи для опор ЛЭП","https://dekart.tech/shop/svai/vintovaya_svaya_dlya_opor_lep/","","0","Нужен снимок"
-"Винтовые сваи","Винтовые сваи-шурупы","https://dekart.tech/shop/svai/vintovaya_svaya_shurup/","","0","Нужен снимок"
-"Винтовые сваи","Лопастные винтовые сваи","https://dekart.tech/shop/svai/lopastnaya-vintovaya-svaya/","","0","Нужен снимок"
-"Винтовые сваи","Сваи с муфтовым соединением","https://dekart.tech/shop/svai/svaya-s-muftovym-soedineniem/","","0","Нужен снимок"
-"Винтовые сваи","Трехлопастные винтовые сваи","https://dekart.tech/shop/svai/trekhlopastnaya_vintovaya_svaya/","","0","Нужен снимок"
-"Винтовые сваи","Удлинители сваи","https://dekart.tech/shop/svai/udlinitel_svai/","","0","Нужен снимок"
+﻿Раздел,Модель,URL карточки,Источник,Характеристик,Исполнений в таблице,Фото,Статус фото,Следующее действие
+antidronovaya-zashchita,Укрытие АНТиДРОН,/product/ukrytie-antidron/,https://batissur.ru/catalog/ant-dron/ant-dron-1/,0,0,/images/sources/batissur-antidron.png,Сверено с источником,Проверить параметры по чертежу или каталогу
+kronshteyny,Векторные кронштейны,/product/dekart-kronshteyny-vektornye/,https://dekart.tech/shop/kronshteyny/vektornye/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+kronshteyny,Двухрожковые кронштейны,/product/dekart-kronshteyny-dvukhrozhkovye/,https://dekart.tech/shop/kronshteyny/dvukhrozhkovye/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+kronshteyny,Консольные кронштейны,/product/bracket-konsolnye-kronshteyny/,https://toenergo.ru/catalog/kronsteiny/konsolnye-kronshteyny/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+kronshteyny,Настенные кронштейны,/product/bracket-nastennye-kronshteyny/,https://toenergo.ru/catalog/kronsteiny/nastennye-kronshteyny/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+kronshteyny,Однорожковые кронштейны,/product/dekart-kronshteyny-odnorozhkovye/,https://dekart.tech/shop/kronshteyny/odnorozhkovye/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+kronshteyny,Подвесные кронштейны,/product/bracket-podvesnye-kronshteyny/,https://toenergo.ru/catalog/kronsteiny/podvesnye-kronshteyny/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+kronshteyny,Прожекторные кронштейны,/product/bracket-prozhektornye-kronshteyny/,https://toenergo.ru/catalog/kronsteiny/prozhektornye-kronshteyny/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+kronshteyny,Радиусные кронштейны,/product/dekart-kronshteyny-radiusnye/,https://dekart.tech/shop/kronshteyny/radiusnye/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+kronshteyny,Торшерные кронштейны для парковых светильников,/product/bracket-torshernye-kronshteyny/,https://toenergo.ru/catalog/kronsteiny/torshernye-kronshteyny/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+kronshteyny,Трехрожковые кронштейны,/product/dekart-kronshteyny-trekhrozhkovye/,https://dekart.tech/shop/kronshteyny/trekhrozhkovye/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+kronshteyny,Четырехрожковые кронштейны,/product/dekart-kronshteyny-chetyrekhrozhkovye/,https://dekart.tech/shop/kronshteyny/chetyrekhrozhkovye/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ВГМ,/product/dekart-machty-osveshcheniya-vgm/,https://dekart.tech/shop/machty-osvescheniya/vgm/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ВГН,/product/dekart-machty-osveshcheniya-vgn/,https://dekart.tech/shop/machty-osvescheniya/vgn/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ВМ,/product/dekart-machty-osveshcheniya-vm/,https://dekart.tech/shop/machty-osvescheniya/vm/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ВМК,/product/dekart-machty-osveshcheniya-vmk/,https://dekart.tech/shop/machty-osvescheniya/vmk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ВМО,/product/vmo/,https://dekart.tech/shop/machty-osvescheniya/vmo/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ВМОН,/product/vmon/,https://dekart.tech/shop/machty-osvescheniya/vmon/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ВМОНТ,/product/dekart-machty-osveshcheniya-vmont/,https://dekart.tech/shop/machty-osvescheniya/vmont/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ВОУ,/product/dekart-machty-osveshcheniya-vou/,https://dekart.tech/shop/machty-osvescheniya/vou/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ВОУ-СР,/product/dekart-machty-osveshcheniya-vou-sr/,https://dekart.tech/shop/machty-osvescheniya/vou-sr/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ВС,/product/dekart-machty-osveshcheniya-vs/,https://dekart.tech/shop/machty-osvescheniya/vs/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МГМ,/product/dekart-machty-osveshcheniya-mgm/,https://dekart.tech/shop/machty-osvescheniya/mgm/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МГН,/product/dekart-machty-osveshcheniya-mgn/,https://dekart.tech/shop/machty-osvescheniya/mgn/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МГСК,/product/dekart-machty-osveshcheniya-mgsk/,https://dekart.tech/shop/machty-osvescheniya/mgsk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МГФ,/product/mgf/,https://dekart.tech/shop/machty-osvescheniya/mgf/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МГФ-М,/product/dekart-machty-osveshcheniya-mgf-m/,https://dekart.tech/shop/machty-osvescheniya/mgf-m/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МГФ-С,/product/dekart-machty-osveshcheniya-mgf-s/,https://dekart.tech/shop/machty-osvescheniya/mgf-s/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МГФ-СР,/product/dekart-machty-osveshcheniya-mgf-sr/,https://dekart.tech/shop/machty-osvescheniya/mgf-sr/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ММ,/product/dekart-machty-osveshcheniya-mm/,https://dekart.tech/shop/machty-osvescheniya/mm/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ММК,/product/dekart-machty-osveshcheniya-mmk/,https://dekart.tech/shop/machty-osvescheniya/mmk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ММКПО,/product/dekart-machty-osveshcheniya-mmkpo/,https://dekart.tech/shop/machty-osvescheniya/mmkpo/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МПО,/product/dekart-machty-osveshcheniya-mpo/,https://dekart.tech/shop/machty-osvescheniya/mpo/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МС,/product/dekart-machty-osveshcheniya-ms/,https://dekart.tech/shop/machty-osvescheniya/ms/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МС-К,/product/dekart-machty-osveshcheniya-ms-k/,https://dekart.tech/shop/machty-osvescheniya/ms-k/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МС-Р,/product/dekart-machty-osveshcheniya-ms-r/,https://dekart.tech/shop/machty-osvescheniya/ms-r/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МС-С,/product/ms-s/,https://dekart.tech/shop/machty-osvescheniya/ms-s/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МС-Т,/product/dekart-machty-osveshcheniya-ms-t/,https://dekart.tech/shop/machty-osvescheniya/ms-t/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,МССК ВКК,/product/dekart-machty-osveshcheniya-mssk-vkk/,https://dekart.tech/shop/machty-osvescheniya/mssk-vkk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ОВМ,/product/dekart-machty-osveshcheniya-ovm/,https://dekart.tech/shop/machty-osvescheniya/ovm/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ОВС,/product/dekart-machty-osveshcheniya-ovs/,https://dekart.tech/shop/machty-osvescheniya/ovs/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ПМ,/product/dekart-machty-osveshcheniya-pm/,https://dekart.tech/shop/machty-osvescheniya/pm/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ПММ,/product/dekart-machty-osveshcheniya-pmm/,https://dekart.tech/shop/machty-osvescheniya/pmm/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,ПМО,/product/dekart-machty-osveshcheniya-pmo/,https://dekart.tech/shop/machty-osvescheniya/pmo/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-osveshcheniya,СТПр,/product/dekart-machty-osveshcheniya-stpr/,https://dekart.tech/shop/machty-osvescheniya/stpr/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-svyazi,МР,/product/dekart-machty-svyazi-mr/,https://dekart.tech/shop/machty-sotovoy-svyazi/mr/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-svyazi,ОДН,/product/dekart-machty-svyazi-odn/,https://dekart.tech/shop/machty-sotovoy-svyazi/odn/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-svyazi,ОСС,/product/dekart-machty-svyazi-oss/,https://dekart.tech/shop/machty-sotovoy-svyazi/oss/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-svyazi,РМГ,/product/dekart-machty-svyazi-rmg/,https://dekart.tech/shop/machty-sotovoy-svyazi/rmg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+machty-svyazi,РРЛ,/product/dekart-machty-svyazi-rrl/,https://dekart.tech/shop/machty-sotovoy-svyazi/rrl/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+metallokonstruktsii,Каркасы зданий,/product/karkasy/,https://uzmzavod.ru/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+metallokonstruktsii,Металлические колонны,/product/kolonny/,https://uzmzavod.ru/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+metallokonstruktsii,Стальные балки,/product/balki/,https://uzmzavod.ru/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+metallokonstruktsii,Стальные фермы,/product/fermy/,https://uzmzavod.ru/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+molnieotvody,ММО,/product/dekart-molnieotvody-mmo/,https://dekart.tech/shop/molnieotvody/mmo/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+molnieotvody,МО,/product/dekart-molnieotvody-mo/,https://dekart.tech/shop/molnieotvody/mo/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+molnieotvody,МОГК,/product/mogk/,https://dekart.tech/shop/molnieotvody/mogk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+molnieotvody,ОММ,/product/dekart-molnieotvody-omm/,https://dekart.tech/shop/molnieotvody/omm/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+molnieotvody,СМ,/product/molnieotvod-sm/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,Бульвар,/product/dekart-nesilovye-opory-bulvar/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/bulvar/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ГФОО,/product/dekart-nesilovye-opory-gfoo/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/gfoo/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,Клен,/product/dekart-nesilovye-opory-klen/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/klen/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,МК-Г,/product/dekart-nesilovye-opory-mk-g/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/mk_g/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,МК-Ф,/product/dekart-nesilovye-opory-mk-f/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/mk_f/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,МНО-ПГ,/product/dekart-nesilovye-opory-mno-pg/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/mno-pg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,МНО-ПК,/product/dekart-nesilovye-opory-mnopk/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/mnopk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,МНО-ФГ,/product/dekart-nesilovye-opory-mno-fg/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/mno_fg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,МНО-ФК,/product/dekart-nesilovye-opory-mno-fk/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/mno-fk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,МО,/product/dekart-nesilovye-opory-mo/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/mo/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,МОп,/product/dekart-nesilovye-opory-mop/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/mop/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,НГ-П,/product/dekart-nesilovye-opory-ng-p/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ng-p/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,НГ-Ф,/product/dekart-nesilovye-opory-ng-f/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ng_f/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,НГП,/product/dekart-nesilovye-opory-ngp/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ngp/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,НК-П,/product/dekart-nesilovye-opory-nk-p/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/nk-p/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,НК-Ф,/product/dekart-nesilovye-opory-nk-f/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/nk-f/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,НП,/product/np/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,НПГ,/product/npg/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/npg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,НПК,/product/npk/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/npk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,НФ,/product/nf/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/trubchatye/opory_osveshcheniya_nf/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,НФГ,/product/nfg/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/nfg/,5,0,,Нужен снимок изделия,Сопоставить фото с моделью
+nesilovye-opory,НФК,/product/nfk/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/nfk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОГК,/product/ogk/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ogk/,6,0,/images/sources/dekart-ogk.webp,Сверено с источником,
+nesilovye-opory,ОГКл,/product/dekart-nesilovye-opory-ogkl/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ogkl/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОГКо,/product/dekart-nesilovye-opory-ogko/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ogko/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОГКп,/product/dekart-nesilovye-opory-ogkp/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ogkp/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОГКу,/product/dekart-nesilovye-opory-ogku/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ogku/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОГКф,/product/ogkf/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ogkf/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОКК,/product/okk/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/okk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОККСф,/product/dekart-nesilovye-opory-okksf/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/okksf/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОККп,/product/dekart-nesilovye-opory-okkp/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/okkp/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОККф,/product/dekart-nesilovye-opory-okkf/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/okkf/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОКС,/product/oks/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОМГ,/product/dekart-nesilovye-opory-omg/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/omg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОМК,/product/omk/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/omk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОНО,/product/ono/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ono/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОП,/product/op/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОПФГ,/product/dekart-nesilovye-opory-opfg/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/opfg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОСГК,/product/dekart-nesilovye-opory-osgk/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/osgk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОСГКп,/product/dekart-nesilovye-opory-osgkp/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/osgkp/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОТ,/product/ot/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ОТф,/product/otf/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,СТВ,/product/dekart-nesilovye-opory-stv/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/stv/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,СТВп,/product/dekart-nesilovye-opory-stvp/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/stvp/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ТАНС (НПГ),/product/dekart-nesilovye-opory-tans-npg/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/tans-npg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ТАНС (НПК),/product/dekart-nesilovye-opory-tans-npk/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/tans-npk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ТАНС (НФГ),/product/dekart-nesilovye-opory-tans-nfg/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/tans-nfg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+nesilovye-opory,ТАНС (НФК),/product/dekart-nesilovye-opory-tans-nfk/,https://dekart.tech/shop/opory-osvescheniya/nesilovye/kruglokonicheskie/tans-nfk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-dvoynogo-naznacheniya,ОДН,/product/odn/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,КС-МСО-ФГ,/product/dekart-opory-kontaktnoy-seti-ks-mso-fg/,https://dekart.tech/shop/opory-kontaktnoy-seti/ks-mso-fg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,КСГ-П,/product/dekart-opory-kontaktnoy-seti-ksg-p/,https://dekart.tech/shop/opory-kontaktnoy-seti/ksg-p/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,КСГ-Ф,/product/ksg-f/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,КСГ-Ф,/product/dekart-opory-kontaktnoy-seti-ksg-f/,https://dekart.tech/shop/opory-kontaktnoy-seti/ksg-f/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,МКС-П,/product/dekart-opory-kontaktnoy-seti-mks-p/,https://dekart.tech/shop/opory-kontaktnoy-seti/mks-p/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,МКСф,/product/dekart-opory-kontaktnoy-seti-mksf/,https://dekart.tech/shop/opory-kontaktnoy-seti/mksf/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,ОГКС,/product/dekart-opory-kontaktnoy-seti-ogks/,https://dekart.tech/shop/opory-kontaktnoy-seti/ogks/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,ОГСКС,/product/dekart-opory-kontaktnoy-seti-ogsks/,https://dekart.tech/shop/opory-kontaktnoy-seti/ogsks/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,ОКККС,/product/dekart-opory-kontaktnoy-seti-okkks/,https://dekart.tech/shop/opory-kontaktnoy-seti/okkks/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,ОКСГф,/product/dekart-opory-kontaktnoy-seti-oksgf/,https://dekart.tech/shop/opory-kontaktnoy-seti/oksgf/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,ТАНС (ТФГ),/product/dekart-opory-kontaktnoy-seti-tans-tfg/,https://dekart.tech/shop/opory-kontaktnoy-seti/tans-tfg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,ТП,/product/tp/,https://toenergo.ru/catalog/opory-osveshchenyia/opory-kontaktnoy-seti/opory-osveshcheniya-tp/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,ТФ,/product/tf/,https://toenergo.ru/catalog/opory-osveshchenyia/opory-kontaktnoy-seti/opory-osveshcheniya-tf/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-kontaktnoy-seti,ТФГ,/product/tfg/,https://dekart.tech/shop/opory-kontaktnoy-seti/tfg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-lep,Анкерная (концевая) опора Ас10-1,/product/vl-ankernaya-kontsevaya-opora-as10-1/,https://toenergo.ru/catalog/ankernaya-kontsevaya-opora-as10-1/,15,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Анкерная (концевая) опора Ас10-2,/product/vl-ankernaya-kontsevaya-opora-as10-2/,https://toenergo.ru/catalog/ankernaya-kontsevaya-opora-as10-2/,14,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Анкерная ответвительная опора АОс10-1,/product/vl-ankernaya-otvetvitelnaya-opora-aos10-1/,https://toenergo.ru/catalog/ankernaya-otvetvitelnaya-opora-aos10-1/,15,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Анкерная ответвительная опора АОс10-2,/product/vl-ankernaya-otvetvitelnaya-opora-aos10-2/,https://toenergo.ru/catalog/ankernaya-otvetvitelnaya-opora-aos10-2/,15,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Переходная анкерная опора ПАс10-1,/product/vl-perekhodnaya-ankernaya-opora-pas10-1/,https://toenergo.ru/catalog/perekhodnaya-ankernaya-opora-pas10-1/,15,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Переходная анкерная ответвительная опора ПАОс10-1,/product/vl-perekhodnaya-ankernaya-otvetvitelnaya-opora-paos10-1/,https://toenergo.ru/catalog/perekhodnaya-ankernaya-otvetvitelnaya-opora-paos10-1/,15,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Переходная промежуточная опора ППс10-1,/product/vl-perekhodnaya-promezhutochnaya-opora-pps10-1/,https://toenergo.ru/catalog/perekhodnaya-promezhutochnaya-opora-pps10-1/,15,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Переходная угловая анкерная опора ПУАс10-1,/product/vl-perekhodnaya-uglovaya-ankernaya-opora-puas10-1/,https://toenergo.ru/catalog/perekhodnaya-uglovaya-ankernaya-opora-puas10-1/,15,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Переходная угловая промежуточная опора ПУПс10-1,/product/vl-perekhodnaya-uglovaya-promezhutochnaya-opora-pups10-1/,https://toenergo.ru/catalog/perekhodnaya-uglovaya-promezhutochnaya-opora-pups10-1/,16,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Промежуточная опора ПС10-2,/product/vl-promezhutochnaya-opora-ps10-2/,https://toenergo.ru/catalog/promezhutochnaya-opora-ps10-2/,15,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Промежуточная опора Пс10-1,/product/vl-promezhutochnaya-opora-ps10-1/,https://toenergo.ru/catalog/promezhutochnaya-opora-ps10-1/,15,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Угловая анкерная опора УАс10-1,/product/vl-uglovaya-ankernaya-opora-uas10-1/,https://toenergo.ru/catalog/uglovaya-ankernaya-opora-uas10-1/,16,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Угловая анкерная опора УАс10-2,/product/vl-uglovaya-ankernaya-opora-uas10-2/,https://toenergo.ru/catalog/uglovaya-ankernaya-opora-uas10-2/,16,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Угловая промежуточная опора УПс10-1,/product/vl-uglovaya-promezhutochnaya-opora-ups10-1/,https://toenergo.ru/catalog/uglovaya-promezhutochnaya-opora-ups10-1/,16,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-lep,Угловая промежуточная опора УПс10-2,/product/vl-uglovaya-promezhutochnaya-opora-ups10-2/,https://toenergo.ru/catalog/uglovaya-promezhutochnaya-opora-ups10-2/,16,0,,Нужен снимок изделия,Сопоставить фото с моделью
+opory-truboprovodov,Направляющие опоры,/product/pipe-support-napravlyayushchie/,https://krasznam.ru/catalog/opory-truboprovodov/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-truboprovodov,Неподвижные опоры,/product/pipe-support-nepodvizhnye/,https://krasznam.ru/catalog/opory-truboprovodov/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-truboprovodov,Неподвижные опоры трубопроводов в ППУ-изоляции,/product/pipe-support-ppu-nepodvizhnye/,https://krasznam.ru/catalog/opory-truboprovodov/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-truboprovodov,Подвижные опоры,/product/pipe-support-podvizhnye/,https://krasznam.ru/catalog/opory-truboprovodov/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-truboprovodov,Скользящие опоры,/product/pipe-support-skolzyashchie/,https://krasznam.ru/catalog/opory-truboprovodov/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+opory-truboprovodov,Скользящие опоры трубопроводов в ППУ-изоляции,/product/pipe-support-ppu-skolzyashchie/,https://krasznam.ru/catalog/opory-truboprovodov/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Аллея,/product/park-tver-gala-tvgal-501/,https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-501/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Боллард,/product/park-bollard/,https://dekart.tech/shop/dekorativnye-opory/bollard/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Бульвар,/product/park-tver-gala-tvgal-402/,https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-402/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Вишня,/product/park-tver-gala-tvgal-502/,https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-502/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Зенит,/product/park-tver-gala-tvgal-602/,https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-602/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Квадро,/product/park-kvadro/,https://dekart.tech/shop/dekorativnye-opory/kvadro/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Кольт,/product/park-kolt/,https://dekart.tech/shop/dekorativnye-opory/kolt/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Маяк Мини,/product/park-tver-gala-tvgal-60m1/,https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-60m1/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Рондо,/product/park-tver-gala-tvgal-40m1/,https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-40m1/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Сабонис,/product/park-tver-gala-tvgal-401/,https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-401/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Спарта Альтер,/product/park-tver-tv501/,https://dekart.tech/shop/dekorativnye-opory/tver-tv501/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Стик,/product/park-tver-aragon-atv-502/,https://dekart.tech/shop/dekorativnye-opory/tver-aragon-atv-502/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Сходня,/product/park-tver-gala-tvgal-50m1/,https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-50m1/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,ТАНС,/product/park-tver-gala-tvgal-601/,https://dekart.tech/shop/dekorativnye-opory/tver-gala-tvgal-601/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Тверь,/product/park-tver-tv401/,https://dekart.tech/shop/dekorativnye-opory/tver-tv401/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Тверь Арагон,/product/park-tver-aragon-atv-401/,https://dekart.tech/shop/dekorativnye-opory/tver-aragon-atv-401/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Тверь Арагон 2.0,/product/park-tver-aragon-atv-501/,https://dekart.tech/shop/dekorativnye-opory/tver-aragon-atv-501/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Тверь Гала,/product/park-tver-tv402/,https://dekart.tech/shop/dekorativnye-opory/tver-tv402/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Тверь Гала 1.0,/product/park-tver-aragon-atv-402/,https://dekart.tech/shop/dekorativnye-opory/tver-aragon-atv-402/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-opory,Тверь Мини,/product/park-tver-mini/,https://dekart.tech/shop/dekorativnye-opory/tver-mini/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+parkovye-svetilniki,Конус,/product/light-konus/,https://klassik-elektro.ru/svetilniki/parkovye/konus/,4,8,,Нужен снимок изделия,Сопоставить фото с моделью
+parkovye-svetilniki,Кристалл,/product/light-kristall/,https://klassik-elektro.ru/svetilniki/parkovye/kristall/,5,2,,Нужен снимок изделия,Сопоставить фото с моделью
+parkovye-svetilniki,Ладья,/product/light-ladya/,https://klassik-elektro.ru/svetilniki/parkovye/ladya/,5,2,,Нужен снимок изделия,Сопоставить фото с моделью
+parkovye-svetilniki,Легенда,/product/light-legenda-ntu-10-rtu-10-zhtu-10-gtu-10/,https://klassik-elektro.ru/svetilniki/parkovye/legenda-ntu-10-rtu-10-zhtu-10-gtu-10/,5,18,/images/catalog/3fa49f102341bfe4.png,Сверено с источником,
+parkovye-svetilniki,Лира,/product/light-lira-ntu-10-rtu-10-zhtu-10-gtu-10/,https://klassik-elektro.ru/svetilniki/parkovye/lira-ntu-10-rtu-10-zhtu-10-gtu-10/,4,18,/images/catalog/ea9be57998382135.png,Сверено с источником,
+parkovye-svetilniki,Медуза,/product/light-meduza/,https://klassik-elektro.ru/svetilniki/parkovye/meduza/,5,1,,Нужен снимок изделия,Сопоставить фото с моделью
+parkovye-svetilniki,Пешка,/product/light-peshka/,https://klassik-elektro.ru/svetilniki/parkovye/peshka/,5,2,,Нужен снимок изделия,Сопоставить фото с моделью
+parkovye-svetilniki,Прогресс,/product/light-progress/,https://klassik-elektro.ru/svetilniki/parkovye/progress/,4,10,,Нужен снимок изделия,Сопоставить фото с моделью
+parkovye-svetilniki,Пушкинский 05,/product/light-pushkinskij-05/,https://klassik-elektro.ru/svetilniki/parkovye/pushkinskij-05/,5,36,,Нужен снимок изделия,Сопоставить фото с моделью
+parkovye-svetilniki,Пушкинский Ретро,/product/light-pushkinskij-retro/,https://klassik-elektro.ru/svetilniki/parkovye/pushkinskij-retro/,5,8,,Нужен снимок изделия,Сопоставить фото с моделью
+parkovye-svetilniki,Сатурн,/product/light-saturn/,https://klassik-elektro.ru/svetilniki/parkovye/saturn/,4,8,,Нужен снимок изделия,Сопоставить фото с моделью
+parkovye-svetilniki,Сфера,/product/light-sfera/,https://klassik-elektro.ru/svetilniki/parkovye/sfera/,2,19,,Нужен снимок изделия,Сопоставить фото с моделью
+parkovye-svetilniki,Ферзь,/product/light-ferz/,https://klassik-elektro.ru/svetilniki/parkovye/ferz/,5,7,,Нужен снимок изделия,Сопоставить фото с моделью
+prozhektornye-machty,МО,/product/dekart-prozhektornye-machty-mo/,https://dekart.tech/shop/prozhektornye-machty/mo/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+prozhektornye-machty,Н,/product/dekart-prozhektornye-machty-n/,https://dekart.tech/shop/prozhektornye-machty/n/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+prozhektornye-machty,ПМС,/product/pms/,https://toenergo.ru/catalog/machty-osveshcheniya-/prozhektornye-machty-pms/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+ramnye-opory,РМГ,/product/rmg/,https://toenergo.ru/catalog/ramnye-opory-dorozhnye/g-obraznye-rmg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+ramnye-opory,РМП,/product/rmp/,https://toenergo.ru/catalog/ramnye-opory-dorozhnye/p-obraznye-rmp/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+ramnye-opory,РМТ,/product/rmt/,https://toenergo.ru/catalog/ramnye-opory-dorozhnye/t-obraznye-rmt/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,МС,/product/dekart-silovye-opory-ms/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/ms/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,МСО-ПГ,/product/dekart-silovye-opory-mso-pg/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/mso-pg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,МСО-ФГ,/product/dekart-silovye-opory-mso-fg/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/mso-fg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ОГКСф,/product/dekart-silovye-opory-ogksf/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/ogksf/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ОГС,/product/ogs/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/ogs/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ОГСп,/product/dekart-silovye-opory-ogsp/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/ogsp/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ОГСф,/product/ogsf/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/ogsf/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ОГУ,/product/dekart-silovye-opory-ogu/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/ogu/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ОКККВ,/product/dekart-silovye-opory-okkv/,https://dekart.tech/shop/opory-osvescheniya/silovye/kruglokonicheskie/okkv/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ОККС,/product/okks/,https://dekart.tech/shop/opory-osvescheniya/silovye/kruglokonicheskie/okks/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ОМОС,/product/dekart-silovye-opory-omos/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/omos/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ОС,/product/os/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ОСГК,/product/dekart-silovye-opory-osgk/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/osgk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ОСГКп,/product/dekart-silovye-opory-osgkp/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/osgkp/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ОСп,/product/dekart-silovye-opory-osp/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/osp/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ОСф,/product/osf/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,СГ-П,/product/dekart-silovye-opory-sg-p/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/sg-p/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,СГ-Ф,/product/dekart-silovye-opory-sg-f/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/sg-f/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,СМО,/product/dekart-silovye-opory-smo/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/smo/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,СП,/product/sp/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,СПГ,/product/spg/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/spg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,СФ,/product/sf/,https://dekart.tech/shop/opory-osvescheniya/silovye/trubchatye/opory_osveshcheniya_sf/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,СФГ,/product/sfg/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/sfg/,5,0,,Нужен снимок изделия,Сопоставить фото с моделью
+silovye-opory,СФК,/product/sfk/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,СФК,/product/dekart-silovye-opory-sfk/,https://dekart.tech/shop/opory-osvescheniya/silovye/kruglokonicheskie/sfk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ТАНС (СПГ),/product/dekart-silovye-opory-tans-spg/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/tans-spg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,ТАНС (СФГ),/product/dekart-silovye-opory-tans-sfg/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/tans-sfg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+silovye-opory,Ясень,/product/dekart-silovye-opory-yasen/,https://dekart.tech/shop/opory-osvescheniya/silovye/granenye/yasen/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,МО-С,/product/mos/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,МО-С,/product/dekart-skladyvayushchiesya-opory-mo-s/,https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/mo-s/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,МТ-Ф,/product/dekart-skladyvayushchiesya-opory-mt-f/,https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/mt-f/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,ОГККЗН,/product/dekart-skladyvayushchiesya-opory-ogkkzn/,https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/ogkkzn/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,ОГКС,/product/ogks/,https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/ogks/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,ОГСКЛ,/product/dekart-skladyvayushchiesya-opory-ogskl/,https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/ogskl/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,ОККС,/product/dekart-skladyvayushchiesya-opory-okks/,https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/kruglokonicheskie/okks/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,ОМКС,/product/dekart-skladyvayushchiesya-opory-omks/,https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/omks/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,ОМСК,/product/dekart-skladyvayushchiesya-opory-omsk/,https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/omsk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,ОСКК,/product/dekart-skladyvayushchiesya-opory-oskk/,https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/kruglokonicheskie/oskk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,СООС,/product/soos/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,СОФ,/product/dekart-skladyvayushchiesya-opory-sof/,https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/sof/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,ТАНС (П-ФГ),/product/dekart-skladyvayushchiesya-opory-tans-p-fg/,https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/tans-p-fg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,ТАНС (П-ФК),/product/dekart-skladyvayushchiesya-opory-tans-p-fk/,https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/kruglokonicheskie/tans-p-fk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+skladyvayushchiesya-opory,ТГ,/product/dekart-skladyvayushchiesya-opory-tg/,https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/tg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+svetofornye-opory,ОГСГ,/product/ogsg/,https://dekart.tech/shop/svetofornye-opory/ogsg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+svetofornye-opory,ОКСГ,/product/oksg/,https://dekart.tech/shop/svetofornye-opory/oksg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+svetofornye-opory,ОСФГ,/product/osfg/,https://dekart.tech/shop/svetofornye-opory/osfg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+svetofornye-opory,СОДГ,/product/sodg/,https://dekart.tech/shop/svetofornye-opory/sodg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+svetofornye-opory,СС,/product/ss/,https://dekart.tech/shop/svetofornye-opory/ss/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tekhnologicheskie-metallokonstruktsii,Опорные конструкции под оборудование,/product/opornye-konstruktsii/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tekhnologicheskie-metallokonstruktsii,Переходные мостики,/product/mostiki/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tekhnologicheskie-metallokonstruktsii,Площадки обслуживания,/product/ploshchadki/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tekhnologicheskie-metallokonstruktsii,Технологические лестницы,/product/lestnitsy/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tekhnologicheskie-metallokonstruktsii,Эстакады,/product/estakady/,,0,0,,Нужен снимок изделия,Уточнить источник и наличие у УЗМ; Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+truby-ppu,Отводы в ППУ-изоляции,/product/ppu-otvody/,https://krasznam.ru/pipe,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+truby-ppu,Переходы в ППУ-изоляции,/product/ppu-perekhody/,https://krasznam.ru/pipe,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+truby-ppu,Тройники в ППУ-изоляции,/product/ppu-troyniki/,https://krasznam.ru/pipe,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+truby-ppu,Трубы ППУ в ОЦ-оболочке,/product/ppu-oc/,https://krasznam.ru/pipe,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+truby-ppu,Трубы ППУ в ПЭ-оболочке,/product/ppu-pe/,https://krasznam.ru/pipe,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tsokoli,D-140×420 H-540,/product/base-d140-420-h540/,https://svetplast.ru/catalog/tsokolya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tsokoli,D-220 H-1500 (Ц5),/product/base-d220-h1500/,https://svetplast.ru/catalog/tsokolya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tsokoli,D-220(276)×530 H-240,/product/base-d220-276-530-h240/,https://svetplast.ru/catalog/tsokolya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tsokoli,D-220×425 H-540,/product/base-d220-425-h540/,https://svetplast.ru/catalog/tsokolya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tsokoli,D-220×440 H-500,/product/base-d220-440-h500/,https://svetplast.ru/catalog/tsokolya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tsokoli,D-276 H-1510,/product/base-d276-h1510/,https://svetplast.ru/catalog/tsokolya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tsokoli,D-276×425 H-540,/product/base-d276-425-h540/,https://svetplast.ru/catalog/tsokolya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tsokoli,Восьмигранный H-560,/product/base-8gr-h560/,https://svetplast.ru/catalog/tsokolya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tsokoli,Калининград,/product/base-kaliningrad/,https://svetplast.ru/catalog/tsokolya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+tsokoli,МОСТРАНС,/product/base-mostrans/,https://svetplast.ru/catalog/tsokolya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+vintovye-svai,Буроопускные сваи,/product/dekart-vintovye-svai-buroopusknaya-svaya/,https://dekart.tech/shop/svai/buroopusknaya_svaya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+vintovye-svai,ВСЛ,/product/pile-vintovye-svai-vsl/,https://svai-omk.ru/cat/vintovye-svai-vsl/,0,50,/images/sources/pile-vintovye-svai-vsl.png,Сверено с источником,
+vintovye-svai,ВСЛМ,/product/pile-vintovye-svai-vslm-svlm/,https://svai-omk.ru/cat/vintovye-svai-vslm-svlm/,0,18,/images/sources/pile-vintovye-svai-vslm-svlm.png,Сверено с источником,
+vintovye-svai,Винтовые сваи двухлопастные,/product/dekart-vintovye-svai-vintovaya-svaya-dvukhlopastnaya/,https://dekart.tech/shop/svai/vintovaya_svaya_dvukhlopastnaya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+vintovye-svai,Винтовые сваи для мерзлых грунтов,/product/dekart-vintovye-svai-vintovaya-svaya-dlya-merzlykh-gruntov/,https://dekart.tech/shop/svai/vintovaya_svaya_dlya_merzlykh_gruntov/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+vintovye-svai,Винтовые сваи для опор ЛЭП,/product/dekart-vintovye-svai-vintovaya-svaya-dlya-opor-lep/,https://dekart.tech/shop/svai/vintovaya_svaya_dlya_opor_lep/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+vintovye-svai,Винтовые сваи-шурупы,/product/dekart-vintovye-svai-vintovaya-svaya-shurup/,https://dekart.tech/shop/svai/vintovaya_svaya_shurup/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+vintovye-svai,Лопастные винтовые сваи,/product/dekart-vintovye-svai-lopastnaya-vintovaya-svaya/,https://dekart.tech/shop/svai/lopastnaya-vintovaya-svaya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+vintovye-svai,СВЛ,/product/pile-vintovye-svai-svl/,https://svai-omk.ru/cat/vintovye-svai-svl/,0,77,/images/sources/pile-vintovye-svai-svl.png,Сверено с источником,
+vintovye-svai,СВЛМ,/product/pile-vintovye-svai-svlm/,https://svai-omk.ru/cat/vintovye-svai-svlm/,0,48,/images/sources/pile-vintovye-svai-svlm.png,Сверено с источником,
+vintovye-svai,СВМ (РЖД),/product/pile-vintovye-svai-svm/,https://svai-omk.ru/cat/vintovye-svai-svm/,0,34,/images/sources/pile-vintovye-svai-svm.png,Сверено с источником,
+vintovye-svai,СВС,/product/pile-vintovye-svai-svs/,https://svai-omk.ru/cat/vintovye-svai-svs/,0,28,/images/sources/pile-vintovye-svai-svs.png,Сверено с источником,
+vintovye-svai,СВСН,/product/pile-vintovye-svai-svsn/,https://svai-omk.ru/cat/vintovye-svai-svsn/,0,41,/images/sources/pile-vintovye-svai-svsn.png,Сверено с источником,
+vintovye-svai,СВТ (РЖД),/product/pile-vintovye-svai-svt/,https://svai-omk.ru/cat/vintovye-svai-svt/,0,34,/images/sources/pile-vintovye-svai-svt.png,Сверено с источником,
+vintovye-svai,Сваи с муфтовым соединением,/product/dekart-vintovye-svai-svaya-s-muftovym-soedineniem/,https://dekart.tech/shop/svai/svaya-s-muftovym-soedineniem/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+vintovye-svai,Трехлопастные винтовые сваи,/product/dekart-vintovye-svai-trekhlopastnaya-vintovaya-svaya/,https://dekart.tech/shop/svai/trekhlopastnaya_vintovaya_svaya/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+vintovye-svai,Удлинители сваи,/product/dekart-vintovye-svai-udlinitel-svai/,https://dekart.tech/shop/svai/udlinitel_svai/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+zabivnye-svai,Металлические забивные сваи,/product/zabivnaya-svaya/,https://svai-omk.ru/cat/svai/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+zakladnye-detali,Анкерные закладные детали,/product/foundation-ankernye/,https://toenergo.ru/catalog/zakladnie-detali-fundamenta/ankernye-zakladnye-detali/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+zakladnye-detali,Выносные закладные детали,/product/foundation-vynosnye/,https://toenergo.ru/catalog/zakladnie-detali-fundamenta/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+zakladnye-detali,Консольные закладные детали,/product/foundation-konsolnye/,https://toenergo.ru/catalog/zakladnie-detali-fundamenta/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+zakladnye-detali,Трубчатые закладные детали,/product/foundation-trubchatye/,https://toenergo.ru/catalog/zakladnie-detali-fundamenta/zakladnye-detali-trubchatogo-tipa/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+zhd-opory,МГК,/product/dekart-zhd-opory-mgk/,https://dekart.tech/shop/zhd-opory-kontaktnoy-seti/mgk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+zhd-opory,МГП,/product/dekart-zhd-opory-mgp/,https://dekart.tech/shop/zhd-opory-kontaktnoy-seti/mgp/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+zhd-opory,МГТГ,/product/dekart-zhd-opory-mgtg/,https://dekart.tech/shop/zhd-opory-kontaktnoy-seti/mgtg/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+zhd-opory,МШК,/product/dekart-zhd-opory-mshk/,https://dekart.tech/shop/zhd-opory-kontaktnoy-seti/mshk/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+zhd-opory,МШП,/product/dekart-zhd-opory-mshp/,https://dekart.tech/shop/zhd-opory-kontaktnoy-seti/mshp/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью
+zhd-opory,МШТШ,/product/dekart-zhd-opory-mshtsh/,https://dekart.tech/shop/zhd-opory-kontaktnoy-seti/mshtsh/,0,0,,Нужен снимок изделия,Проверить параметры по чертежу или каталогу; Сопоставить фото с моделью

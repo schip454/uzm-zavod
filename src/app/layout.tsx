@@ -6,6 +6,8 @@ import "@fontsource-variable/commissioner";
 import "./globals.css";
 import "./internal-refresh.css";
 import "./catalog-refinement.css";
+import "./revamp.css";
+import "./stage-design.css";
 
 export const metadata: Metadata = {
   title: { default: "Уральский завод металлоизделий — металлоконструкции и опоры освещения", template: "%s | Уральский завод металлоизделий" },

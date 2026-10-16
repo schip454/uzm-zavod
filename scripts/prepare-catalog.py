@@ -116,6 +116,10 @@ def enrich(row):
         # The model drawings and product renders have a large Toenergo watermark.
         return row
     if 'klassik' in row['sourceUrl']:
+        if row['name'] not in ['Лира', 'Легенда']:
+            # Visual review 2026-10-16: other listing images have watermarks
+            # or text overlays. Wait for clean originals before publishing.
+            return row
         listing = collect('https://klassik-elektro.ru/svetilniki/parkovye/')
         linked = [i for i in listing.get('images', []) if i.get('linkedTo') and i['linkedTo'].rstrip('/').split('/')[-1] == row['sourceUrl'].rstrip('/').split('/')[-1]]
         candidates = [i for i in images if i.get('afterHeading') and '/wp-content/uploads/' in i.get('src','') and not any(s in i['src'] for s in ['logo','favicon']) and 'mc.yandex' not in i['src']]

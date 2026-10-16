@@ -7,7 +7,9 @@ import { useMemo, useState } from "react";
 import type { Product } from "@/data/catalog";
 import { ProductImage } from "@/components/ProductImage";
 
-export function ModelExplorer({ items }: { items: Product[] }) {
+export type ModelSummary = Pick<Product, "slug" | "name" | "family" | "form" | "image">;
+
+export function ModelExplorer({ items }: { items: ModelSummary[] }) {
   const [query, setQuery] = useState("");
   const [family, setFamily] = useState("Все");
   const options = ["Все", ...new Set(items.map((item) => item.family))];

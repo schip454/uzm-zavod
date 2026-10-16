@@ -19,9 +19,10 @@ const navigation = [
 export function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
+  const immersive = pathname === "/" || pathname.startsWith("/catalog/");
 
   return (
-    <header className={`site-header ${pathname === "/" ? "site-header-home" : ""}`}>
+    <header className={`site-header ${immersive ? "site-header-home" : ""}`}>
       <div className="utility-bar">
         <div className="container utility-inner">
           <span>Производство металлоконструкций в Екатеринбурге</span>
@@ -30,7 +31,7 @@ export function Header() {
       </div>
       <div className="container main-header">
         <Link href="/" className="brand" aria-label="УЗМ Завод — на главную" onClick={() => setOpen(false)}>
-          {pathname === "/" ? <LightLogo className="brand-light-mark" id="header-light-logo-alpha" /> : <Image src="/images/logo-color.webp" alt="УЗМ Завод" width={130} height={77} priority />}
+          {immersive ? <LightLogo className="brand-light-mark" id="header-light-logo-alpha" /> : <Image src="/images/logo-color.webp" alt="УЗМ Завод" width={130} height={77} priority />}
           <span className="brand-caption">Уральский завод<br />металлоизделий</span>
         </Link>
         <nav className={`main-nav ${open ? "is-open" : ""}`} aria-label="Основная навигация">

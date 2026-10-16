@@ -32,14 +32,14 @@ export default async function CategoryPage({ params }: Props) {
         <div className="category-hero-main">
           <span className="category-hero-label">{isMetal ? "Металлоконструкции" : "Опоры и освещение"}</span>
           <h1>{category.slug === "metallokonstruktsii" ? <>Металло<wbr />конструкции</> : category.title}</h1>
-          <div className="category-hero-bottom"><p>{category.note}. Подберём исполнение по вашему проекту.</p><Link href={`/request?product=${encodeURIComponent(category.title)}`} className="button button-primary">Запросить расчёт <ArrowIcon /></Link></div>
+          <div className="category-hero-bottom"><p>{category.note.replace(/[.\s]+$/, "")}. Подберём исполнение по вашему проекту.</p><Link href={`/request?product=${encodeURIComponent(category.title)}`} className="button button-primary">Запросить расчёт <ArrowIcon /></Link></div>
         </div>
       </div>
     </section>
     <div className="container category-content">
       {category.description && <div className="category-introduction"><h2>{category.title}</h2><div><p>{category.description}</p>{category.application && <p className="category-application">{category.application}</p>}</div></div>}
       {children.length > 0 && <section className="category-subgroups"><h2>Выберите группу</h2><CategoryGroups items={children} /></section>}
-      {items.length > 0 && category.slug !== "opory-osveshcheniya" && <><div className="section-heading"><div><h2>{isMetal ? "Изделия" : "Серии и модели"}</h2></div><p>Найдите название или выберите группу изделий.</p></div><ModelExplorer key={category.slug} items={items} /></>}
+      {items.length > 0 && category.slug !== "opory-osveshcheniya" && <><div className="section-heading"><div><h2>{isMetal ? "Изделия" : "Серии и модели"}</h2></div><p>Найдите название или выберите группу изделий.</p></div><ModelExplorer key={category.slug} items={items.map(({ slug, name, family, form, image }) => ({ slug, name, family, form, image }))} /></>}
       <section className="category-selection"><div><h2>Что нужно для расчёта</h2><p>Пришлите спецификацию или заполните заявку. Если проект ещё готовится, укажите известные параметры.</p><Link href={`/request?product=${encodeURIComponent(category.title)}`} className="button button-primary">Получить расчёт <ArrowIcon /></Link></div><ul>{(category.selection ?? ["Название изделия", "Основные размеры", "Количество", "Регион поставки", "Чертёж или техническое задание"]).map((item) => <li key={item}>{item}</li>)}</ul></section>
     </div>
   </>;
