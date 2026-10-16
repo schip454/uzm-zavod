@@ -18,7 +18,7 @@ const navigation = [
 
 export function Header() {
   const [open, setOpen] = useState(false);
-  const pathname = usePathname();
+  const pathname = usePathname().replace(/\/+$/, "") || "/";
   const immersive = pathname === "/" || pathname.startsWith("/catalog/");
 
   return (

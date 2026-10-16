@@ -1,0 +1,30 @@
+[
+  {
+    "file": "/images/uzm-frame.jpg",
+    "sourcePage": "https://uzmzavod.ru/",
+    "sourceImage": "https://uzmzavod.ru/wp-content/uploads/2023/01/metallokonstruktsii.jpg",
+    "verification": "SHA-256 исходника совпадает с локальным файлом",
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "file": "/images/uzm-trusses.jpg",
+    "sourcePage": "https://uzmzavod.ru/",
+    "sourceImage": "https://uzmzavod.ru/wp-content/uploads/2023/01/2-27-scaled-3.jpg",
+    "verification": "SHA-256 исходника совпадает с локальным файлом",
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "file": "/images/sources/dekart-opora-installation.jpg",
+    "sourcePage": "https://dekart.tech/shop/opory-osvescheniya/nesilovye/granenye/ogk/",
+    "sourceImage": "https://dekart.tech/upload/medialibrary/c05/s2wy06gk0w25ogn95ds83zdwqvx9c2u8.jpg",
+    "verification": "Материал поставщика; принадлежность объекта УЗМ не подтверждена",
+    "reviewedAt": "2026-10-16"
+  },
+  {
+    "file": "/images/sources/batissur-antidron.png",
+    "sourcePage": "https://batissur.ru/catalog/ant-dron/ant-dron-1/",
+    "sourceImage": "https://batissur.ru/wp-content/uploads/2026/10/image_2026-10-14_14-38-57.png",
+    "verification": "Материал поставщика; реальная съёмка или визуализация источником не установлено",
+    "reviewedAt": "2026-10-16"
+  }
+]

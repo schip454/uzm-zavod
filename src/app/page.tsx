@@ -23,7 +23,7 @@ export default function Home() {
 
     <section className="stage-intro container" aria-label="О заводе">
       <p className="stage-section-label">Уральский завод металлоизделий</p>
-      <div><h2>Производство<br />по рабочим чертежам</h2><p>Изготавливаем металлоконструкции и подбираем изделия для освещения и инфраструктуры. Работаем с проектной документацией: от одной позиции до комплекта для объекта.</p></div>
+      <div><h2>Производство по рабочим чертежам</h2><div className="stage-intro-details"><p>Изготавливаем металлоконструкции и подбираем изделия для освещения и инфраструктуры. Работаем с проектной документацией: от одной позиции до комплекта для объекта.</p><Link href="/request" className="revamp-text-link">Отправить спецификацию <ArrowIcon /></Link></div></div>
     </section>
 
     <section className="revamp-directions" id="directions">
