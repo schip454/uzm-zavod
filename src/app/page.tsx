@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const directions = [
   { title: "Металлоконструкции", description: "Каркасы, фермы и детали по чертежам", image: "/images/uzm-frame.jpg", href: "/catalog/metallokonstruktsii" },
-  { title: "Опоры освещения", description: "Силовые, несиловые и складывающиеся", image: "/images/sources/dekart-opora-installation.jpg", href: "/catalog/opory-osveshcheniya" },
+  { title: "Опоры освещения", description: "Силовые, несиловые и складывающиеся", image: "/images/products/4f823d9c824e8d88584a.webp", href: "/catalog/opory-osveshcheniya" },
   { title: "Антидроновая защита", description: "Конструкции для промышленных объектов", image: "/images/sources/batissur-antidron.png", href: "/catalog/antidronovaya-zashchita" },
 ];
 

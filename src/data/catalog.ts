@@ -1,6 +1,12 @@
 import importedProducts from "./products.json";
 import dekartFullProducts from "./dekart-full.json";
 import verifiedProducts from "./verified-products.json";
+import supplierProducts from "./supplier-products.json";
+import supplierContent from "./supplier-content.json";
+import additionalSupplierProducts from "./additional-supplier-products.json";
+import krasznamProducts from "./krasznam-products.json";
+import projectContent from "./project-content.json";
+import krasznamContent from "./krasznam-content.json";
 import { categoryContent, extraCategories } from "./catalog-content";
 
 export type Direction = "metal" | "lighting";
@@ -29,17 +35,20 @@ export type Product = {
   description?: string;
   visual?: VisualKind;
   image?: string;
+  gallery?: { src: string; alt: string }[];
+  descriptionBlocks?: string[];
+  seriesSlug?: string;
   sourceUrl?: string;
   specifications?: { label: string; value: string }[];
   specificationTitle?: string;
-  variantTable?: { headers: string[]; rows: string[][] };
+  variantTable?: { headers: string[]; rows: string[][]; urls?: string[] };
 };
 
 const originalCategories: Category[] = [
   { slug: "metallokonstruktsii", title: "Металлоконструкции", direction: "metal", note: "Каркасы, фермы, колонны и изделия по чертежам", image: "/images/uzm-frame.jpg" },
   { slug: "sendvich-paneli", title: "Каркасы под сэндвич-панели", direction: "metal", note: "Каркас здания под обшивку сэндвич-панелями", image: "/images/construction.webp" },
   { slug: "metalloobrabotka", title: "Металлообработка", direction: "metal", note: "Резка, гибка и сварка металла", image: "/images/service.webp" },
-  { slug: "opory-osveshcheniya", title: "Опоры освещения", direction: "lighting", note: "Силовые, несиловые и складывающиеся опоры", image: "/images/sources/dekart-opora-installation.jpg" },
+  { slug: "opory-osveshcheniya", title: "Опоры освещения", direction: "lighting", note: "Силовые, несиловые и складывающиеся опоры", image: "/images/products/4f823d9c824e8d88584a.webp" },
   { slug: "machty-osveshcheniya", title: "Мачты освещения", direction: "lighting", note: "Мачты со стационарной и мобильной короной" },
   { slug: "zakladnye-detali", title: "Закладные детали", direction: "lighting", note: "Фундаментные элементы для опор" },
   { slug: "parkovye-opory", title: "Парковые опоры", direction: "lighting", note: "Опоры для пешеходных и общественных пространств" },
@@ -87,9 +96,20 @@ export const categories: Category[] = [...originalCategories, ...extraCategories
 });
 // Keep previously shared product URLs; the new registry overrides their category and content.
 const verifiedContent: Record<string, Partial<Product>> = verifiedProducts;
-export const products: Product[] = ([...originalProducts.filter((item) => !importedProducts.some((product) => product.slug === item.slug)).map((item) => item.categorySlug === "opory-osveshcheniya" ? { ...item, categorySlug: item.purpose === "Силовая" ? "silovye-opory" : item.purpose === "Несиловая" ? "nesilovye-opory" : "skladyvayushchiesya-opory" } : item), ...importedProducts, ...dekartFullProducts] as Product[]).map((item) => {
-  const merged = { ...item, ...verifiedContent[item.slug] };
-  return { ...merged, image: merged.slug === "ogk" ? "/images/sources/dekart-ogk.webp" : merged.image?.startsWith("/images/generated/") ? undefined : merged.image };
+const sourceContent: Record<string, Partial<Product>> = supplierContent;
+const projectOverrides: Record<string, Partial<Product>> = projectContent;
+const pipeContent: Record<string, Partial<Product>> = krasznamContent;
+export const products: Product[] = ([...originalProducts.filter((item) => !importedProducts.some((product) => product.slug === item.slug)).map((item) => item.categorySlug === "opory-osveshcheniya" ? { ...item, categorySlug: item.purpose === "Силовая" ? "silovye-opory" : item.purpose === "Несиловая" ? "nesilovye-opory" : "skladyvayushchiesya-opory" } : item), ...importedProducts, ...dekartFullProducts, ...supplierProducts, ...additionalSupplierProducts, ...krasznamProducts] as Product[]).map((item) => {
+  const merged = { ...item, ...verifiedContent[item.slug], ...sourceContent[item.slug], ...pipeContent[item.slug], ...projectOverrides[item.slug] };
+  const familyAliases: Record<string, string> = {
+    "Несиловая — гранёная": "Несиловые гранёные", "Несиловые граненые опоры": "Несиловые гранёные",
+    "Несиловая — круглоконическая": "Несиловые круглоконические", "Силовая — гранёная": "Силовые гранёные",
+    "Граненые силовые опоры": "Силовые гранёные", "Силовая — круглоконическая": "Силовые круглоконические",
+    "Складывающаяся — гранёная": "Складывающиеся гранёные", "Складывающиеся граненые опоры": "Складывающиеся гранёные",
+    "Складывающаяся — круглоконическая": "Складывающиеся круглоконические",
+  };
+  const facts = Object.fromEntries((merged.specifications ?? []).map((fact) => [fact.label, fact.value]));
+  return { ...merged, family: familyAliases[merged.family] ?? merged.family, form: facts["Сечение"] ?? merged.form, purpose: facts["Назначение"] ?? merged.purpose, image: merged.slug === "ogk" ? "/images/sources/dekart-ogk.webp" : merged.image?.startsWith("/images/generated/") ? undefined : merged.image };
 });
 export const getCategory = (slug: string) => categories.find((category) => category.slug === slug);
 export const getProduct = (slug: string) => products.find((product) => product.slug === slug);

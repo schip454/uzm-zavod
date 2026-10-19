@@ -1341,7 +1341,7 @@
     "purpose": "Освещение и связь",
     "description": "Опора для совместного размещения осветительного и телекоммуникационного оборудования. Высота, нагрузки и размещение оборудования определяются проектом.",
     "visual": "pole",
-    "sourceUrl": ""
+    "sourceUrl": "https://dekart.tech/shop/machty-sotovoy-svyazi/odn/"
   },
   {
     "slug": "karkasy",
@@ -1551,5 +1551,43 @@
     "description": "Стеклопластиковый цоколь для оформления основания опоры и защиты монтажного узла. Совместимость проверяется по диаметру ствола и размерам фланца.",
     "visual": "base",
     "sourceUrl": "https://svetplast.ru/catalog/tsokolya/"
+  },
+  {
+    "slug": "sfk",
+    "name": "СФК",
+    "categorySlug": "silovye-opory",
+    "family": "Силовые круглоконические",
+    "form": "Круглоконическая",
+    "purpose": "Силовая",
+    "sourceUrl": "https://dekart.tech/shop/opory-osvescheniya/silovye/kruglokonicheskie/sfk/"
+  },
+  {
+    "slug": "mos",
+    "name": "МО-С",
+    "categorySlug": "skladyvayushchiesya-opory",
+    "family": "Складывающиеся гранёные",
+    "form": "Гранёная",
+    "purpose": "Складывающаяся",
+    "sourceUrl": "https://dekart.tech/shop/opory-osvescheniya/skladyvayuschiesya/granenye/mo-s/"
+  },
+  {
+    "slug": "ksg-f",
+    "name": "КСГ-Ф",
+    "categorySlug": "opory-kontaktnoy-seti",
+    "family": "Опоры контактной сети",
+    "form": "Гранёная",
+    "purpose": "Контактная сеть",
+    "sourceUrl": "https://dekart.tech/shop/opory-kontaktnoy-seti/ksg-f/"
+  },
+  {
+    "slug": "ukrytie-antidron",
+    "name": "Укрытие АНТиДРОН",
+    "categorySlug": "antidronovaya-zashchita",
+    "family": "Антидроновая защита",
+    "form": "Защитная конструкция",
+    "purpose": "Защита объекта",
+    "image": "/images/sources/batissur-antidron.png",
+    "sourceUrl": "https://batissur.ru/catalog/ant-dron/ant-dron-1/",
+    "description": "Защитная конструкция для объекта. Состав и исполнение определяются проектом."
   }
 ]

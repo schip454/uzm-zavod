@@ -10,3 +10,6 @@ research/source-cache/
 research/qa/
 research/omk-source.html
 deploy/*.zip
+
+scripts/__pycache__/
+research/svetplast-browser-images.json

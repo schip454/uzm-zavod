@@ -38,6 +38,9 @@ imported_slugs = {item["slug"] for item in imported}
 rows = [item for item in original_products() if item["slug"] not in imported_slugs]
 rows.extend(imported)
 rows.extend(dekart)
+for filename in ['supplier-products.json','additional-supplier-products.json','krasznam-products.json']:
+    path=DATA/filename
+    if path.exists():rows.extend(json.loads(path.read_text(encoding='utf-8')))
 
 unique = {}
 for item in rows:
@@ -47,11 +50,22 @@ verified = json.loads((DATA / "verified-products.json").read_text(encoding="utf-
 for slug, content in verified.items():
     if slug in unique:
         unique[slug] = {**unique[slug], **content}
+for filename in ['supplier-content.json','krasznam-content.json','project-content.json']:
+    path=DATA/filename
+    if path.exists():
+        for slug,content in json.loads(path.read_text(encoding='utf-8')).items():
+            if slug in unique:unique[slug]={**unique[slug],**content}
 
 approved_images = {"ogk", "ukrytie-antidron", "light-lira-ntu-10-rtu-10-zhtu-10-gtu-10", "light-legenda-ntu-10-rtu-10-zhtu-10-gtu-10"}
 image_ledger = ROOT / "research/pile-image-sources.json"
 if image_ledger.exists():
     approved_images.update(item["slug"] for item in json.loads(image_ledger.read_text(encoding="utf-8")))
+ledger=ROOT/'research/published-product-images.json'
+if ledger.exists():
+    published=json.loads(ledger.read_text(encoding='utf-8'))
+    approved_images.update(x['productSlug'] for x in published)
+    approved_paths={x['file'] for x in published}
+    approved_images.update(slug for slug,item in unique.items() if item.get('image') in approved_paths)
 
 output = ROOT / "research" / "catalog-audit.csv"
 output.parent.mkdir(parents=True, exist_ok=True)
