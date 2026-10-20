@@ -65,6 +65,8 @@ def build():
         'tubular-direct':generated/'exec-08906400-bcdd-4a1c-95cd-d3b7556ace05.png',
         'fm-vynosnaya':temp/'codex-clipboard-0f41692d-f87b-45d5-aa2a-7dfd8581d0bf.png',
         'fm-konsolnaya':temp/'codex-clipboard-a322757f-c74b-4d67-84ee-50717332ee8d.png',
+        'bracket-3':temp/'codex-clipboard-f9a9cad2-ce9d-4224-b79b-654944497187.png',
+        'bracket-4':temp/'codex-clipboard-7ecabcba-67f1-427c-92c6-0b8e28d9d3fb.png',
         'bracket-1':temp/'codex-clipboard-3405093d-48ec-49a4-ba7b-49406d2f6748.png',
         'bracket-2-180':temp/'codex-clipboard-60c6d2ef-74f2-4bec-a9df-d0133ff91b3c.png',
         'bracket-2-90':temp/'codex-clipboard-1b32912a-5600-4586-a555-95a8b4fd44d1.png',
@@ -164,7 +166,7 @@ def build():
     overrides['ogks']=dict(image=img('ogks'),gallery=gallery('ogks','ОГКС — складывающаяся опора'),description='ОГКС — складывающаяся гранёная коническая опора освещения. Поворотная верхняя секция позволяет опустить оборудование для обслуживания.',descriptionBlocks=['При подборе учитывают высоту, массу светильников и геометрию механизма складывания. Исполнение выбирают по проектной спецификации.'])
     overrides['foundation-vynosnye']=dict(name='Выносная ФМ',image=img('fm-vynosnaya'),gallery=gallery('fm-vynosnaya','Выносная ФМ'))
     overrides['foundation-konsolnye']=dict(name='Консольная ФМ',image=img('fm-konsolnaya'),gallery=gallery('fm-konsolnaya','Консольная ФМ'))
-    for slug,name,picture,count,angle in [('bracket-1','Кронштейн однорожковый','bracket-1','1',None),('bracket-2-180','Кронштейн двухрожковый 180°','bracket-2-180','2','180°'),('bracket-2-90','Кронштейн двухрожковый 90°','bracket-2-90','2','90°')]:
+    for slug,name,picture,count,angle in [('bracket-1','Кронштейн однорожковый','bracket-1','1',None),('bracket-2-180','Кронштейн двухрожковый 180°','bracket-2-180','2','180°'),('bracket-2-90','Кронштейн двухрожковый 90°','bracket-2-90','2','90°'),('bracket-3','Кронштейн трёхрожковый','bracket-3','3',None),('bracket-4','Кронштейн четырёхрожковый','bracket-4','4',None)]:
         facts=specs(**{'Количество рожков':count})
         if angle:facts+=specs(**{'Угол между рожками':angle})
         new.append(dict(slug=slug,name=name,categorySlug='kronshteyny',family='Кронштейны для уличных светильников',form='Трубчатый',purpose='Крепление светильников',visual='bracket',image=img(picture),gallery=gallery(picture,name),specifications=facts,description=f'{name} для установки уличных светильников на опоре. Высоту, вылет и присоединительный размер выбирают по проекту.'))

@@ -60,3 +60,5 @@
 @media(prefers-reduced-motion:reduce){.pipe-support-list a{transition:none}}
 
 .detailed-models .model-card-body strong { font-size:clamp(17px,1.5vw,23px);line-height:1.4; }
+
+.product-info h1.product-title-compact { font-size:clamp(32px,4vw,68px); }

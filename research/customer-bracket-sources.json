@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-20",
+  "photos": [
+    {
+      "slug": "bracket-3",
+      "name": "Кронштейн трёхрожковый",
+      "arms": "3",
+      "attachment": "codex-clipboard-f9a9cad2-ce9d-4224-b79b-654944497187.png"
+    },
+    {
+      "slug": "bracket-4",
+      "name": "Кронштейн четырёхрожковый",
+      "arms": "4",
+      "attachment": "codex-clipboard-7ecabcba-67f1-427c-92c6-0b8e28d9d3fb.png"
+    }
+  ],
+  "dimensions": "Not supplied; no heights, diameters or angles inferred"
+}

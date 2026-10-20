@@ -1,8 +1,8 @@
 {
   "archive": "deploy\\uzm-site-2026-10-20-metalwork.zip",
-  "bytes": 101203428,
-  "files": 19740,
-  "sha256": "b521dbcb47d12f80d5c569f00d9443b1a04321e9586c840ada8adc4fb46de9ed",
-  "staticPages": 3811,
+  "bytes": 109259100,
+  "files": 19752,
+  "sha256": "1707e0722ab8cc6f5308d0306d6b01b4866583394906d5e15a6384e77ad9514b",
+  "staticPages": 3813,
   "published": false
 }
