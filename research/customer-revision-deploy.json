@@ -4,5 +4,29 @@
   "files": 19752,
   "sha256": "1707e0722ab8cc6f5308d0306d6b01b4866583394906d5e15a6384e77ad9514b",
   "staticPages": 3813,
-  "published": false
+  "published": true,
+  "publishedDate": "2026-10-20",
+  "destination": "https://uzm.spectrise.ru/",
+  "verification": {
+    "method": "REG.RU extraction followed by public browser checks",
+    "pages": [
+      "product/ogk-10/",
+      "product/nfk/",
+      "product/bracket-3/",
+      "product/bracket-4/",
+      "product/karkasy/",
+      "product/kolonny/",
+      "product/fermy/",
+      "product/lestnitsy/",
+      "product/opornye-konstruktsii/",
+      "catalog/nesilovye-opory/",
+      "catalog/opory-truboprovodov/",
+      "catalog/parkovye-svetilniki/"
+    ],
+    "ogk10": "65/165 mm; holes 24 mm; no dimension annotations in image",
+    "parkLightsTotal": 365,
+    "remainingNewPhotoRequests": 7,
+    "remainingTechnicalGroups": 5,
+    "screenshot": "research/qa/live-ogk-2026-10-20.png"
+  }
 }
