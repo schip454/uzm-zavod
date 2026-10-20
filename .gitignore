@@ -13,3 +13,5 @@ deploy/*.zip
 
 scripts/__pycache__/
 research/svetplast-browser-images.json
+
+research/active-catalog.json

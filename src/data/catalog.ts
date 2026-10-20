@@ -7,6 +7,8 @@ import additionalSupplierProducts from "./additional-supplier-products.json";
 import krasznamProducts from "./krasznam-products.json";
 import projectContent from "./project-content.json";
 import krasznamContent from "./krasznam-content.json";
+import customerProducts from "./customer-products.json";
+import customerRevision from "./customer-revision.json";
 import { categoryContent, extraCategories } from "./catalog-content";
 
 export type Direction = "metal" | "lighting";
@@ -99,7 +101,7 @@ const verifiedContent: Record<string, Partial<Product>> = verifiedProducts;
 const sourceContent: Record<string, Partial<Product>> = supplierContent;
 const projectOverrides: Record<string, Partial<Product>> = projectContent;
 const pipeContent: Record<string, Partial<Product>> = krasznamContent;
-export const products: Product[] = ([...originalProducts.filter((item) => !importedProducts.some((product) => product.slug === item.slug)).map((item) => item.categorySlug === "opory-osveshcheniya" ? { ...item, categorySlug: item.purpose === "Силовая" ? "silovye-opory" : item.purpose === "Несиловая" ? "nesilovye-opory" : "skladyvayushchiesya-opory" } : item), ...importedProducts, ...dekartFullProducts, ...supplierProducts, ...additionalSupplierProducts, ...krasznamProducts] as Product[]).map((item) => {
+const previousProducts: Product[] = ([...originalProducts.filter((item) => !importedProducts.some((product) => product.slug === item.slug)).map((item) => item.categorySlug === "opory-osveshcheniya" ? { ...item, categorySlug: item.purpose === "Силовая" ? "silovye-opory" : item.purpose === "Несиловая" ? "nesilovye-opory" : "skladyvayushchiesya-opory" } : item), ...importedProducts, ...dekartFullProducts, ...supplierProducts, ...additionalSupplierProducts, ...krasznamProducts] as Product[]).map((item) => {
   const merged = { ...item, ...verifiedContent[item.slug], ...sourceContent[item.slug], ...pipeContent[item.slug], ...projectOverrides[item.slug] };
   const familyAliases: Record<string, string> = {
     "Несиловая — гранёная": "Несиловые гранёные", "Несиловые граненые опоры": "Несиловые гранёные",
@@ -110,6 +112,25 @@ export const products: Product[] = ([...originalProducts.filter((item) => !impor
   };
   const facts = Object.fromEntries((merged.specifications ?? []).map((fact) => [fact.label, fact.value]));
   return { ...merged, family: familyAliases[merged.family] ?? merged.family, form: facts["Сечение"] ?? merged.form, purpose: facts["Назначение"] ?? merged.purpose, image: merged.slug === "ogk" ? "/images/sources/dekart-ogk.webp" : merged.image?.startsWith("/images/generated/") ? undefined : merged.image };
+});
+const approvedSlugs = new Set(customerRevision.keepSlugs);
+const managedCategories = new Set(customerRevision.managedCategories);
+const customerOverrides = Object.fromEntries(Object.entries(customerRevision.overrides).map(([slug, values]) => [slug, Object.fromEntries(Object.entries(values).map(([key, value]) => [key, value === null ? undefined : value]))])) as Record<string, Partial<Product>>;
+const newSlugs = new Set(customerProducts.map((item) => item.slug));
+const activePrevious = previousProducts.filter((item) => !newSlugs.has(item.slug) && (!managedCategories.has(item.categorySlug) || approvedSlugs.has(item.slug)));
+const activeProducts = [...activePrevious, ...customerProducts as Product[]].map((item) => ({ ...item, ...customerOverrides[item.slug] }));
+const activeSlugs = new Set(activeProducts.map((item) => item.slug));
+export const retiredProducts = previousProducts.filter((item) => !activeSlugs.has(item.slug));
+export const getRetiredProduct = (slug: string) => retiredProducts.find((item) => item.slug === slug);
+export const products: Product[] = activeProducts.map((item) => {
+  const table = item.variantTable;
+  if (!table?.urls) return item;
+  const entries = table.rows.map((row, i) => ({ row, url: table.urls?.[i] ?? "" })).filter(({ url }) => activeSlugs.has(url.split("/").filter(Boolean).pop() ?? ""));
+  return { ...item, variantTable: { ...table, rows: entries.map((e) => e.row), urls: entries.map((e) => e.url) } };
+}).sort((a, b) => {
+  // The customer explicitly requested the eleven OGK sizes before the alias series.
+  const order = (p: Product) => /^ogk-\d+$/.test(p.slug) ? Number(p.slug.slice(4)) : p.slug === "ogks" ? -1 : p.seriesSlug ? 1000 : 100;
+  return order(a) - order(b);
 });
 export const getCategory = (slug: string) => categories.find((category) => category.slug === slug);
 export const getProduct = (slug: string) => products.find((product) => product.slug === slug);

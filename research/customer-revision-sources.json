@@ -1,0 +1,36 @@
+{
+  "customerDate": "2026-10-20",
+  "ogkRows": 11,
+  "powerSourceRows": 69,
+  "parkLights": 352,
+  "torsherBrackets": 8,
+  "notes": [
+    {
+      "source": "СФ и СП.pdf",
+      "series": "sf",
+      "rows": 37
+    },
+    {
+      "source": "СФ и СП.pdf",
+      "series": "sp",
+      "rows": 27
+    },
+    {
+      "source": "https://aldeks.ru/opory-osveshcheniya/kronshteynyi/torshernyie/odnorojkovyie/k36-06-06-12-5",
+      "issue": "Вылет/высота в карточке не соответствуют маркировке. Не публиковать до уточнения."
+    }
+  ],
+  "media": {
+    "ogk": "C:\\Users\\user\\.codex\\generated_images\\01a0d243-3ac8-77f0-858c-0e8c01330556\\exec-aafb58db-82f2-43bc-9319-45715d88ac6d.png",
+    "okk": "C:\\Users\\user\\.codex\\generated_images\\01a0d243-3ac8-77f0-858c-0e8c01330556\\exec-1837045a-dbd0-4ab6-b767-fe7b5e526d05.png",
+    "npg": "C:\\Users\\user\\.codex\\generated_images\\01a0d243-3ac8-77f0-858c-0e8c01330556\\exec-55b8259d-4cef-4256-849b-b9bdf9be5756.png",
+    "ogks": "C:\\Users\\user\\.codex\\generated_images\\01a0d243-3ac8-77f0-858c-0e8c01330556\\exec-83448556-9983-452d-9724-6a81bfcc3518.png",
+    "tubular-flange": "C:\\Users\\user\\AppData\\Local\\Temp\\codex-clipboard-c5c476a8-51c5-4258-af6e-93e8f6a87965.png",
+    "tubular-direct": "C:\\Users\\user\\.codex\\generated_images\\01a0d243-3ac8-77f0-858c-0e8c01330556\\exec-08906400-bcdd-4a1c-95cd-d3b7556ace05.png",
+    "fm-vynosnaya": "C:\\Users\\user\\AppData\\Local\\Temp\\codex-clipboard-0f41692d-f87b-45d5-aa2a-7dfd8581d0bf.png",
+    "fm-konsolnaya": "C:\\Users\\user\\AppData\\Local\\Temp\\codex-clipboard-a322757f-c74b-4d67-84ee-50717332ee8d.png",
+    "bracket-1": "C:\\Users\\user\\AppData\\Local\\Temp\\codex-clipboard-3405093d-48ec-49a4-ba7b-49406d2f6748.png",
+    "bracket-2-180": "C:\\Users\\user\\AppData\\Local\\Temp\\codex-clipboard-60c6d2ef-74f2-4bec-a9df-d0133ff91b3c.png",
+    "bracket-2-90": "C:\\Users\\user\\AppData\\Local\\Temp\\codex-clipboard-1b32912a-5600-4586-a555-95a8b4fd44d1.png"
+  }
+}

@@ -2,7 +2,7 @@ import { ArrowIcon } from "@/components/ArrowIcon";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getCategory, getCategoryTrail, getCategoryProducts, getProduct, products } from "@/data/catalog";
+import { getCategory, getCategoryTrail, getCategoryProducts, getProduct, getRetiredProduct, products, retiredProducts } from "@/data/catalog";
 import { ProductImage } from "@/components/ProductImage";
 import { VariantTable } from "@/components/VariantTable";
 import { ProductGallery } from "@/components/ProductGallery";
@@ -10,7 +10,7 @@ import { ProductDetails } from "@/components/ProductDetails";
 
 type Props = { params: Promise<{ slug: string }> };
 
-export function generateStaticParams() { return products.map((product) => ({ slug: product.slug })); }
+export function generateStaticParams() { return [...products, ...retiredProducts].map((product) => ({ slug: product.slug })); }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProduct((await params).slug);
@@ -18,7 +18,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function ProductPage({ params }: Props) {
-  const product = getProduct((await params).slug);
+  const slug = (await params).slug;
+  const product = getProduct(slug);
+  const retired = getRetiredProduct(slug);
+  if (!product && retired) {
+    const target = `/catalog/${retired.categorySlug}/`;
+    return <div className="container retired-product"><meta httpEquiv="refresh" content={`0;url=${target}`} /><h1>Каталог обновлён</h1><p>Перейдите к согласованным сериям и моделям.</p><Link className="button button-primary" href={target}>Открыть раздел <ArrowIcon /></Link></div>;
+  }
   if (!product) notFound();
   const category = getCategory(product.categorySlug);
   const series = product.seriesSlug ? getProduct(product.seriesSlug) : undefined;

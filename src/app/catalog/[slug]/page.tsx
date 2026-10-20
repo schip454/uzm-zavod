@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { categories, getCategory, getCategoryProducts, getCategoryTrail, getChildren } from "@/data/catalog";
 import { CategoryGroups } from "@/components/CategoryGroups";
 import { ModelExplorer } from "@/components/ModelExplorer";
+import { PipeSupportList } from "@/components/PipeSupportList";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -39,7 +40,7 @@ export default async function CategoryPage({ params }: Props) {
     <div className="container category-content">
       {category.description && <div className="category-introduction"><h2>{category.title}</h2><div><p>{category.description}</p>{category.application && <p className="category-application">{category.application}</p>}</div></div>}
       {children.length > 0 && <section className="category-subgroups"><h2>Выберите группу</h2><CategoryGroups items={children} /></section>}
-      {items.length > 0 && category.slug !== "opory-osveshcheniya" && <><div className="section-heading"><div><h2>{isMetal ? "Изделия" : "Серии и модели"}</h2></div><p>Найдите название или выберите группу изделий.</p></div><ModelExplorer key={category.slug} items={items.map(({ slug, name, family, form, image }) => ({ slug, name, family, form, image }))} /></>}
+      {items.length > 0 && category.slug !== "opory-osveshcheniya" && <>{category.slug === "opory-truboprovodov" ? <PipeSupportList items={items} /> : <><div className="section-heading"><div><h2>{isMetal ? "Изделия" : "Серии и модели"}</h2></div><p>Найдите название или выберите группу изделий.</p></div><ModelExplorer compactNames={["svetilniki", "parkovye-svetilniki"].includes(category.slug)} compactPoles={["nesilovye-opory", "silovye-opory", "skladyvayushchiesya-opory"].includes(category.slug)} key={category.slug} items={items.map(({ slug, name, family, form, image }) => ({ slug, name, family, form, image }))} /></>}</>}
       <section className="category-selection"><div><h2>Что нужно для расчёта</h2><p>Пришлите спецификацию или заполните заявку. Если проект ещё готовится, укажите известные параметры.</p><Link href={`/request?product=${encodeURIComponent(category.title)}`} className="button button-primary">Получить расчёт <ArrowIcon /></Link></div><ul>{(category.selection ?? ["Название изделия", "Основные размеры", "Количество", "Регион поставки", "Чертёж или техническое задание"]).map((item) => <li key={item}>{item}</li>)}</ul></section>
     </div>
   </>;

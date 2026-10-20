@@ -42,3 +42,21 @@
 @media(prefers-reduced-motion:reduce){.reveal-pending{opacity:1;transform:none;transition:none}.product-gallery-open>img{animation:none}.model-card,.product-gallery-thumbs button,.product-detail-tabs button{transition:none}.model-card:hover{transform:none}}
 
 .variant-model-link{text-decoration:underline;text-underline-offset:4px;text-decoration-color:#b8ada1}.variant-model-link:hover{color:#c74715;text-decoration-color:currentColor}
+
+/* Customer catalogue revision, 20 October 2026. */
+.compact-poles .model-card-visual { height:210px; }
+.compact-poles .model-card-visual .product-image { padding:22px; }
+.pipe-support-list { display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:70px;margin:55px 0 80px; }
+.pipe-support-list h2 { font-size:clamp(25px,3vw,38px);margin:0 0 25px; }
+.pipe-support-list ul { list-style:none;padding:0;margin:0; }
+.pipe-support-list li { border-bottom:1px solid #d6cec3; }
+.pipe-support-list li:first-child { border-top:1px solid #d6cec3; }
+.pipe-support-list a { display:flex;justify-content:space-between;align-items:center;gap:24px;padding:20px 4px;color:inherit;text-decoration:none;transition:color .2s,padding .2s; }
+.pipe-support-list a:hover { color:#ce4618;padding-left:10px; }
+.pipe-support-list a svg { width:18px;flex-shrink:0; }
+.pipe-support-list section>p { color:#80766c;line-height:1.7; }
+.retired-product { padding-top:120px;padding-bottom:120px; }
+@media(max-width:800px){.pipe-support-list{grid-template-columns:1fr;gap:45px}.compact-poles .model-card-visual{height:155px}}
+@media(prefers-reduced-motion:reduce){.pipe-support-list a{transition:none}}
+
+.detailed-models .model-card-body strong { font-size:clamp(17px,1.5vw,23px);line-height:1.4; }
