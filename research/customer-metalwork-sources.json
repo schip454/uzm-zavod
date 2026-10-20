@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-20",
+  "photos": [
+    {
+      "slug": "karkasy",
+      "attachment": "codex-clipboard-81658188-4faa-4d4b-9cac-8a0101c0d210.png"
+    },
+    {
+      "slug": "kolonny",
+      "attachment": "codex-clipboard-cdacf398-bbd9-49a3-af9f-9e96159204d8.png"
+    },
+    {
+      "slug": "fermy",
+      "attachment": "codex-clipboard-bbe961d8-b69c-4588-a4d1-1672754386ad.png"
+    },
+    {
+      "slug": "lestnitsy",
+      "attachment": "codex-clipboard-0b3b23aa-6a1a-4cb5-ad96-78758b705930.png"
+    },
+    {
+      "slug": "opornye-konstruktsii",
+      "attachment": "codex-clipboard-b5e09efe-a577-4cb0-b94a-405981b1425f.png"
+    }
+  ],
+  "descriptions": {
+    "karkasy": "https://uzmzavod.ru/constructions_category/tehnologicheskie/",
+    "kolonny": "https://uzmzavod.ru/constructions/kolonny/",
+    "fermy": "https://uzmzavod.ru/constructions/fermy/",
+    "lestnitsy": "https://uzmzavod.ru/constructions_category/tehnologicheskie/",
+    "opornye-konstruktsii": "https://uzmzavod.ru/constructions_category/tehnologicheskie/"
+  }
+}

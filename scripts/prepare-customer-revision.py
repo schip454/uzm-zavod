@@ -210,6 +210,10 @@ def build():
         if p.get('seriesSlug') in ['okk','nfk']:overrides.setdefault(slug,{}).update(image=img('okk'),gallery=gallery('okk',p['name']))
         if p.get('seriesSlug')=='ogks':overrides.setdefault(slug,{}).update(image=img('ogks'),gallery=gallery('ogks',p['name']))
     write(DATA/'customer-products.json',new)
+    # Preserve the subsequent customer metalwork photos and source descriptions.
+    existing=read(DATA/'customer-revision.json') if (DATA/'customer-revision.json').exists() else {}
+    for slug in ['karkasy','kolonny','fermy','lestnitsy','opornye-konstruktsii']:
+        if slug in existing.get('overrides',{}):overrides[slug]=existing['overrides'][slug]
     write(DATA/'customer-revision.json',{'date':'2026-10-20','managedCategories':['nesilovye-opory','silovye-opory','skladyvayushchiesya-opory'],'keepSlugs':sorted(keep),'overrides':overrides})
     write(ROOT/'research/customer-revision-sources.json',{'customerDate':'2026-10-20','ogkRows':len(table['rows']),'powerSourceRows':len(power),'parkLights':352,'torsherBrackets':8,'notes':notes,'media':{k:str(v) for k,v in sources.items()}})
     print('New products',len(new),'overrides',len(overrides),'OGK rows',len(table['rows']),notes[:2])

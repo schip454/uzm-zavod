@@ -1,9 +1,8 @@
 {
-  "archive": "deploy\\uzm-site-2026-10-20-customer-revision-final.zip",
-  "bytes": 92075804,
-  "files": 19735,
-  "sha256": "e0b59826d094211eede8eebea71ff95516caff67db62fe63ca284f57f2ad57db",
+  "archive": "deploy\\uzm-site-2026-10-20-metalwork.zip",
+  "bytes": 101203428,
+  "files": 19740,
+  "sha256": "b521dbcb47d12f80d5c569f00d9443b1a04321e9586c840ada8adc4fb46de9ed",
   "staticPages": 3811,
-  "published": false,
-  "entries": 31171
+  "published": false
 }
